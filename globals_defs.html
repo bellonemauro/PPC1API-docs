@@ -78,7 +78,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow3" class="tabs2">
     <ul class="tablist">
       <li><a href="globals.html"><span>All</span></a></li>
+      <li><a href="globals_func.html"><span>Functions</span></a></li>
+      <li><a href="globals_vars.html"><span>Variables</span></a></li>
+      <li><a href="globals_enum.html"><span>Enumerations</span></a></li>
+      <li><a href="globals_eval.html"><span>Enumerator</span></a></li>
       <li class="current"><a href="globals_defs.html"><span>Macros</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow4" class="tabs3">
+    <ul class="tablist">
+      <li><a href="#index_a"><span>a</span></a></li>
+      <li><a href="#index_c"><span>c</span></a></li>
+      <li><a href="#index_d"><span>d</span></a></li>
+      <li><a href="#index_h"><span>h</span></a></li>
+      <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_q"><span>q</span></a></li>
+      <li class="current"><a href="#index_s"><span>s</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -101,7 +117,7 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -111,7 +127,29 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 </div>
 
 <div class="contents">
-&#160;<ul>
+&#160;
+
+<h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
+<li>ARCHITECTURE_ID
+: <a class="el" href="_c_make_c_compiler_id_8c.html#aba35d0d200deaeb06aee95ca297acb28">CMakeCCompilerId.c</a>
+, <a class="el" href="_c_make_c_x_x_compiler_id_8cpp.html#aba35d0d200deaeb06aee95ca297acb28">CMakeCXXCompilerId.cpp</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>COMPILER_ID
+: <a class="el" href="_c_make_c_compiler_id_8c.html#a81dee0709ded976b2e0319239f72d174">CMakeCCompilerId.c</a>
+, <a class="el" href="_c_make_c_x_x_compiler_id_8cpp.html#a81dee0709ded976b2e0319239f72d174">CMakeCXXCompilerId.cpp</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>DEC
+: <a class="el" href="_c_make_c_compiler_id_8c.html#ad1280362da42492bbc11aa78cbf776ad">CMakeCCompilerId.c</a>
+, <a class="el" href="_c_make_c_x_x_compiler_id_8cpp.html#ad1280362da42492bbc11aa78cbf776ad">CMakeCXXCompilerId.cpp</a>
+</li>
 <li>DEFAULT_POFF
 : <a class="el" href="ppc1api_8h.html#a0ea8a28417971fb5398a7b9903974f75">ppc1api.h</a>
 </li>
@@ -121,6 +159,18 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 <li>DEFAULT_VACUUM
 : <a class="el" href="ppc1api_8h.html#ae7b93ccf3efde9769e3cd1271bce0c73">ppc1api.h</a>
 </li>
+</ul>
+
+
+<h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
+<li>HEX
+: <a class="el" href="_c_make_c_compiler_id_8c.html#a46d5d95daa1bef867bd0179594310ed5">CMakeCCompilerId.c</a>
+, <a class="el" href="_c_make_c_x_x_compiler_id_8cpp.html#a46d5d95daa1bef867bd0179594310ed5">CMakeCXXCompilerId.cpp</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>MAX_CHAN_A
 : <a class="el" href="ppc1api_8h.html#a9e680752e265045a2939c9498710778c">ppc1api.h</a>
 </li>
@@ -151,8 +201,46 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 <li>MIN_STREAM_PERIOD
 : <a class="el" href="ppc1api_8h.html#aaa3e30e62db801ddc5a2cea190d31a8f">ppc1api.h</a>
 </li>
+</ul>
+
+
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>PLATFORM_ID
+: <a class="el" href="_c_make_c_compiler_id_8c.html#adbc5372f40838899018fadbc89bd588b">CMakeCCompilerId.c</a>
+, <a class="el" href="_c_make_c_x_x_compiler_id_8cpp.html#adbc5372f40838899018fadbc89bd588b">CMakeCXXCompilerId.cpp</a>
+</li>
+<li>PPC1_PID
+: <a class="el" href="ppc1api_8h.html#a2ef6cc8a71f35e06f0ef9cb1d9884747">ppc1api.h</a>
+</li>
+<li>PPC1_VID
+: <a class="el" href="ppc1api_8h.html#a7dcc16f9cf42cadad5805140f6d75398">ppc1api.h</a>
+</li>
 <li>PPC1API_EXPORT
 : <a class="el" href="export_8h.html#a691d307dd3cf104704a0359721cdd820">export.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
+<li>QT_MOC_LITERAL
+: <a class="el" href="moc___lab-on-a-tip_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe">moc_Lab-on-a-tip.cpp</a>
+, <a class="el" href="moc___lab-on-a-tip__console_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe">moc_Lab-on-a-tip_console.cpp</a>
+, <a class="el" href="moc___lab-on-a-tip__macro_runner_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe">moc_Lab-on-a-tip_macroRunner.cpp</a>
+, <a class="el" href="moc___lab-on-a-tip__tools_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe">moc_Lab-on-a-tip_tools.cpp</a>
+, <a class="el" href="moc___q_round_progress_bar_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe">moc_QRoundProgressBar.cpp</a>
+, <a class="el" href="console_2moc___lab-on-a-tip__console_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe">moc_Lab-on-a-tip_console.cpp</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>STRINGIFY
+: <a class="el" href="_c_make_c_compiler_id_8c.html#a43e1cad902b6477bec893cb6430bd6c8">CMakeCCompilerId.c</a>
+, <a class="el" href="_c_make_c_x_x_compiler_id_8cpp.html#a43e1cad902b6477bec893cb6430bd6c8">CMakeCXXCompilerId.cpp</a>
+</li>
+<li>STRINGIFY_HELPER
+: <a class="el" href="_c_make_c_compiler_id_8c.html#a2ae9b72bb13abaabfcf2ee0ba7d3fa1d">CMakeCCompilerId.c</a>
+, <a class="el" href="_c_make_c_x_x_compiler_id_8cpp.html#a2ae9b72bb13abaabfcf2ee0ba7d3fa1d">CMakeCXXCompilerId.cpp</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -160,7 +248,7 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon May 15 2017 00:48:56 for Fluicell PPC1 API by
+    <li class="footer">Generated on Sun May 28 2017 18:25:09 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

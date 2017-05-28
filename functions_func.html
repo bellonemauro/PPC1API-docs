@@ -73,6 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -116,7 +117,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -132,11 +133,17 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>channel()
 : <a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data_1_1channel.html#ae742d5ac59723bc94866db16965d212a">fluicell::PPC1api::PPC1_data::channel</a>
 </li>
+<li>checkVIDPID()
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a85e6c71aaa179056d8b76a99cfa88cdd">fluicell::PPC1api</a>
+</li>
 <li>closeAllValves()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#aa6ded5ff01769965f98088a49ea3b2aa">fluicell::PPC1api</a>
 </li>
+<li>command()
+: <a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#abe6c6c7754849eb4c1057d778d8d56b4">fluicell::PPC1api::command</a>
+</li>
 <li>connectCOM()
-: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a5c15184ecd696be6ce9b5c64df3cbfc8">fluicell::PPC1api</a>
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a5e752ea70d87a7ed946229abef82f141">fluicell::PPC1api</a>
 </li>
 </ul>
 
@@ -154,8 +161,8 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>decreaseFlowspeed()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#a9ae29e3ff67e66e002c1c5b02e3ab824">fluicell::PPC1api</a>
 </li>
-<li>decreaseVacuum()
-: <a class="el" href="classfluicell_1_1_p_p_c1api.html#af193a383ab5d7c15823e3515dc054c1f">fluicell::PPC1api</a>
+<li>decreaseVacuum5p()
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a1fd2058da69745247bdd5b2c65da33f0">fluicell::PPC1api</a>
 </li>
 <li>disconnectCOM()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#a29aa8a41e818a7700094d3ee6ddb4572">fluicell::PPC1api</a>
@@ -186,8 +193,8 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>increaseFlowspeed()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#ac06372063cd2d396dfbf8ef74b15b59c">fluicell::PPC1api</a>
 </li>
-<li>increaseVacuum()
-: <a class="el" href="classfluicell_1_1_p_p_c1api.html#ae6cdaf8f9b07dbc840a85987c0930d40">fluicell::PPC1api</a>
+<li>increaseVacuum5p()
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#af87c04323f33794950bea585e490268d">fluicell::PPC1api</a>
 </li>
 <li>isConnected()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#a6568854933586fc0847edbded368fc0d">fluicell::PPC1api</a>
@@ -218,6 +225,11 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>reboot()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#aa9bd3e883f6cb6ac73d59a388087a2b7">fluicell::PPC1api</a>
 </li>
+<li>retranslateUi()
+: <a class="el" href="class_ui___labonatip__console.html#a89e57466ec86024125e8c704507d7b64">Ui_Labonatip_console</a>
+, <a class="el" href="class_ui___labonatip___g_u_i.html#a47e98eddec89fc19a7f4da402a5750ed">Ui_Labonatip_GUI</a>
+, <a class="el" href="class_ui___labonatip__tools.html#a377b8dcf40d56c8c1bfcba63b7a597ae">Ui_Labonatip_tools</a>
+</li>
 <li>run()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#a3782c4e20eaca8b8a359a94a4d621b4c">fluicell::PPC1api</a>
 </li>
@@ -227,6 +239,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
 <li>sendData()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#a6e44d475dde8d0bd3fbecd37beea23a8">fluicell::PPC1api</a>
+</li>
+<li>serialDeviceInfo::serialDeviceInfo()
+: <a class="el" href="structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#a9341a35402b5fe5b99ea0703f5544c86">fluicell::PPC1api::serialDeviceInfo</a>
 </li>
 <li>setBaudRate()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#aaa6fd573836a51eef8b22712f4408d9f">fluicell::PPC1api</a>
@@ -242,6 +257,11 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>setPressureChannelD()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#a986051361e698f42000606e6204326b2">fluicell::PPC1api</a>
+</li>
+<li>setupUi()
+: <a class="el" href="class_ui___labonatip__console.html#a5d3cd40f78051f3ba288180ad5cfab33">Ui_Labonatip_console</a>
+, <a class="el" href="class_ui___labonatip___g_u_i.html#a4bf88bd9699e39d697a8a4be4fe61ae5">Ui_Labonatip_GUI</a>
+, <a class="el" href="class_ui___labonatip__tools.html#ab903340d02811835358778945500d25b">Ui_Labonatip_tools</a>
 </li>
 <li>setVacuumChannelA()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#a595338315cf16fdee49229893f0ef219">fluicell::PPC1api</a>
@@ -287,7 +307,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon May 15 2017 00:48:56 for Fluicell PPC1 API by
+    <li class="footer">Generated on Sun May 28 2017 18:25:06 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

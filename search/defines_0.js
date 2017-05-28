@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['default_5fpoff',['DEFAULT_POFF',['../ppc1api_8h.html#a0ea8a28417971fb5398a7b9903974f75',1,'ppc1api.h']]],
-  ['default_5fpon',['DEFAULT_PON',['../ppc1api_8h.html#a545c3eed84a034373d4f879de9721c96',1,'ppc1api.h']]],
-  ['default_5fvacuum',['DEFAULT_VACUUM',['../ppc1api_8h.html#ae7b93ccf3efde9769e3cd1271bce0c73',1,'ppc1api.h']]]
+  ['architecture_5fid',['ARCHITECTURE_ID',['../_c_make_c_compiler_id_8c.html#aba35d0d200deaeb06aee95ca297acb28',1,'ARCHITECTURE_ID():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#aba35d0d200deaeb06aee95ca297acb28',1,'ARCHITECTURE_ID():&#160;CMakeCXXCompilerId.cpp']]]
 ];
