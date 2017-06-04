@@ -1,23 +1,4 @@
 var searchData=
 [
-  ['tab',['tab',['../class_ui___labonatip___g_u_i.html#a5ad36d196abf912f7df5a967ddc8368f',1,'Ui_Labonatip_GUI']]],
-  ['tab_5f2',['tab_2',['../class_ui___labonatip___g_u_i.html#ae1d76526c85caf0cbfa68a4b9959efd2',1,'Ui_Labonatip_GUI']]],
-  ['tab_5f3',['tab_3',['../class_ui___labonatip___g_u_i.html#a239ce22a294099b0001f9bd21b1feb60',1,'Ui_Labonatip_GUI']]],
-  ['tabwidget',['tabWidget',['../class_ui___labonatip___g_u_i.html#a695ee32aafb00992d2b0300d517ab279',1,'Ui_Labonatip_GUI']]],
-  ['test_5fserialinfo_5fautomoc_2ecpp',['test_serialInfo_automoc.cpp',['../test__serial_info__automoc_8cpp.html',1,'']]],
-  ['textedit',['textEdit',['../class_ui___labonatip__tools.html#a91193a4929da125db651b0ad6db83a23',1,'Ui_Labonatip_tools']]],
-  ['textedit_5f3',['textEdit_3',['../class_ui___labonatip___g_u_i.html#a4e76807c2ae52d1fb162e85eb87dc066',1,'Ui_Labonatip_GUI']]],
-  ['textedit_5f4',['textEdit_4',['../class_ui___labonatip___g_u_i.html#a6cede65b2fe462ab5f6073d45ee155a2',1,'Ui_Labonatip_GUI']]],
-  ['textedit_5f5',['textEdit_5',['../class_ui___labonatip___g_u_i.html#af1c0d6ee67abae73eb8df0f3abdf44eb',1,'Ui_Labonatip_GUI']]],
-  ['textedit_5f9',['textEdit_9',['../class_ui___labonatip__tools.html#aa1acb4f8e9b903d1f19d65d57df3d1ed',1,'Ui_Labonatip_tools']]],
-  ['textedit_5fconsole',['textEdit_console',['../class_ui___labonatip__console.html#a3fbe5397432e0a65ec600334ff58f950',1,'Ui_Labonatip_console']]],
-  ['threadserial',['threadSerial',['../classfluicell_1_1_p_p_c1api.html#a0f5a66c348750e85a4279283f3457cd4',1,'fluicell::PPC1api']]],
-  ['todigit',['toDigit',['../classfluicell_1_1_p_p_c1api.html#a171116f65b9ef5130f7966a3c4f99fd5',1,'fluicell::PPC1api']]],
-  ['toolbar',['toolBar',['../class_ui___labonatip___g_u_i.html#aff01dec3f2bf579a9f22c3d3d17bcf7c',1,'Ui_Labonatip_GUI']]],
-  ['toolbar_5f2',['toolBar_2',['../class_ui___labonatip___g_u_i.html#a0407449bd1d90939815c778b5783f281',1,'Ui_Labonatip_GUI']]],
-  ['toolbar_5f3',['toolBar_3',['../class_ui___labonatip___g_u_i.html#a1e9c95fa65cf24f5479e70cde132b679',1,'Ui_Labonatip_GUI']]],
-  ['toolbar_5f4',['toolBar_4',['../class_ui___labonatip___g_u_i.html#a1b116afbdf32850b05fe901b8958524c',1,'Ui_Labonatip_GUI']]],
-  ['treewidget',['treeWidget',['../class_ui___labonatip__tools.html#aeb78d13d00019a8cdbabcb6125b70297',1,'Ui_Labonatip_tools']]],
-  ['treewidget_5f2',['treeWidget_2',['../class_ui___labonatip__tools.html#ad1df2cd67f5c1f442232b10a6240c007',1,'Ui_Labonatip_tools']]],
-  ['treewidget_5fmacrotable',['treeWidget_macroTable',['../class_ui___labonatip__tools.html#a4e726202e9706af5dd886491f44d0a26',1,'Ui_Labonatip_tools']]]
+  ['_7eppc1api',['~PPC1api',['../classfluicell_1_1_p_p_c1api.html#a6f011a325a25c922f72090e7bd651d14',1,'fluicell::PPC1api']]]
 ];

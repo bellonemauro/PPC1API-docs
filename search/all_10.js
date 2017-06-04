@@ -1,19 +1,5 @@
 var searchData=
 [
-  ['qt_5fmeta_5fdata_5flabonatip_5fconsole',['qt_meta_data_Labonatip_console',['../moc___lab-on-a-tip__console_8cpp.html#a7570d2ce0c1c1bb4814025918f3258ef',1,'qt_meta_data_Labonatip_console():&#160;moc_Lab-on-a-tip_console.cpp'],['../console_2moc___lab-on-a-tip__console_8cpp.html#a7570d2ce0c1c1bb4814025918f3258ef',1,'qt_meta_data_Labonatip_console():&#160;moc_Lab-on-a-tip_console.cpp']]],
-  ['qt_5fmeta_5fdata_5flabonatip_5fgui',['qt_meta_data_Labonatip_GUI',['../moc___lab-on-a-tip_8cpp.html#aacd815090743d8b78656070e016216b0',1,'moc_Lab-on-a-tip.cpp']]],
-  ['qt_5fmeta_5fdata_5flabonatip_5fmacrorunner',['qt_meta_data_Labonatip_macroRunner',['../moc___lab-on-a-tip__macro_runner_8cpp.html#af714d3232a732f94d6aa253361aeda9c',1,'moc_Lab-on-a-tip_macroRunner.cpp']]],
-  ['qt_5fmeta_5fdata_5flabonatip_5ftools',['qt_meta_data_Labonatip_tools',['../moc___lab-on-a-tip__tools_8cpp.html#a14df44ddec29d7c06491c16fe47f6efa',1,'moc_Lab-on-a-tip_tools.cpp']]],
-  ['qt_5fmeta_5fdata_5fqroundprogressbar',['qt_meta_data_QRoundProgressBar',['../moc___q_round_progress_bar_8cpp.html#ad3f818ddc12d9a5a24cc7e52817065b0',1,'moc_QRoundProgressBar.cpp']]],
-  ['qt_5fmeta_5fstringdata_5flabonatip_5fconsole',['qt_meta_stringdata_Labonatip_console',['../moc___lab-on-a-tip__console_8cpp.html#ab5a1ddbfefbd0389112b9536225d9a7c',1,'qt_meta_stringdata_Labonatip_console():&#160;moc_Lab-on-a-tip_console.cpp'],['../console_2moc___lab-on-a-tip__console_8cpp.html#ab5a1ddbfefbd0389112b9536225d9a7c',1,'qt_meta_stringdata_Labonatip_console():&#160;moc_Lab-on-a-tip_console.cpp']]],
-  ['qt_5fmeta_5fstringdata_5flabonatip_5fconsole_5ft',['qt_meta_stringdata_Labonatip_console_t',['../structqt__meta__stringdata___labonatip__console__t.html',1,'']]],
-  ['qt_5fmeta_5fstringdata_5flabonatip_5fgui',['qt_meta_stringdata_Labonatip_GUI',['../moc___lab-on-a-tip_8cpp.html#a8f7622bd660cb1f224918124e784ec84',1,'moc_Lab-on-a-tip.cpp']]],
-  ['qt_5fmeta_5fstringdata_5flabonatip_5fgui_5ft',['qt_meta_stringdata_Labonatip_GUI_t',['../structqt__meta__stringdata___labonatip___g_u_i__t.html',1,'']]],
-  ['qt_5fmeta_5fstringdata_5flabonatip_5fmacrorunner',['qt_meta_stringdata_Labonatip_macroRunner',['../moc___lab-on-a-tip__macro_runner_8cpp.html#a437457ebdfc7ddc40030e9551d0af31f',1,'moc_Lab-on-a-tip_macroRunner.cpp']]],
-  ['qt_5fmeta_5fstringdata_5flabonatip_5fmacrorunner_5ft',['qt_meta_stringdata_Labonatip_macroRunner_t',['../structqt__meta__stringdata___labonatip__macro_runner__t.html',1,'']]],
-  ['qt_5fmeta_5fstringdata_5flabonatip_5ftools',['qt_meta_stringdata_Labonatip_tools',['../moc___lab-on-a-tip__tools_8cpp.html#a764eca3a91df20a5955cb35aacf74b47',1,'moc_Lab-on-a-tip_tools.cpp']]],
-  ['qt_5fmeta_5fstringdata_5flabonatip_5ftools_5ft',['qt_meta_stringdata_Labonatip_tools_t',['../structqt__meta__stringdata___labonatip__tools__t.html',1,'']]],
-  ['qt_5fmeta_5fstringdata_5fqroundprogressbar',['qt_meta_stringdata_QRoundProgressBar',['../moc___q_round_progress_bar_8cpp.html#a1a2e29a82a2470ddbba88adc1b6afa7b',1,'moc_QRoundProgressBar.cpp']]],
-  ['qt_5fmeta_5fstringdata_5fqroundprogressbar_5ft',['qt_meta_stringdata_QRoundProgressBar_t',['../structqt__meta__stringdata___q_round_progress_bar__t.html',1,'']]],
-  ['qt_5fmoc_5fliteral',['QT_MOC_LITERAL',['../moc___lab-on-a-tip_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe',1,'QT_MOC_LITERAL():&#160;moc_Lab-on-a-tip.cpp'],['../moc___lab-on-a-tip__console_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe',1,'QT_MOC_LITERAL():&#160;moc_Lab-on-a-tip_console.cpp'],['../moc___lab-on-a-tip__macro_runner_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe',1,'QT_MOC_LITERAL():&#160;moc_Lab-on-a-tip_macroRunner.cpp'],['../moc___lab-on-a-tip__tools_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe',1,'QT_MOC_LITERAL():&#160;moc_Lab-on-a-tip_tools.cpp'],['../moc___q_round_progress_bar_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe',1,'QT_MOC_LITERAL():&#160;moc_QRoundProgressBar.cpp'],['../console_2moc___lab-on-a-tip__console_8cpp.html#a75bb9482d242cde0a06c9dbdc6b83abe',1,'QT_MOC_LITERAL():&#160;moc_Lab-on-a-tip_console.cpp']]]
+  ['threadserial',['threadSerial',['../classfluicell_1_1_p_p_c1api.html#a0f5a66c348750e85a4279283f3457cd4',1,'fluicell::PPC1api']]],
+  ['todigit',['toDigit',['../classfluicell_1_1_p_p_c1api.html#a171116f65b9ef5130f7966a3c4f99fd5',1,'fluicell::PPC1api']]]
 ];

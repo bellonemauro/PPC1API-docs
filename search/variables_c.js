@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['open_5fvalve_5fa',['open_valve_a',['../structfluicell_1_1_p_p_c1api_1_1command.html#a0453e8583034fac96297e1519350aa97',1,'fluicell::PPC1api::command']]],
-  ['open_5fvalve_5fb',['open_valve_b',['../structfluicell_1_1_p_p_c1api_1_1command.html#ae0ea18ea80455f3872c906cf6bd671ec',1,'fluicell::PPC1api::command']]],
-  ['open_5fvalve_5fc',['open_valve_c',['../structfluicell_1_1_p_p_c1api_1_1command.html#a881f9742a6a4eb1c1e1fea42c7f66dad',1,'fluicell::PPC1api::command']]],
-  ['open_5fvalve_5fd',['open_valve_d',['../structfluicell_1_1_p_p_c1api_1_1command.html#a128337845b3667db9be0f5561c4b9d5b',1,'fluicell::PPC1api::command']]]
+  ['v_5frecirc',['V_recirc',['../structfluicell_1_1_p_p_c1api_1_1command.html#aa7af3dba8c455e4d92853150ffa15287',1,'fluicell::PPC1api::command']]],
+  ['v_5fswitch',['V_switch',['../structfluicell_1_1_p_p_c1api_1_1command.html#a58270f153232bc318a4b4895694f1168',1,'fluicell::PPC1api::command']]],
+  ['vid',['VID',['../structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#a0933e487d8040eb978e0eb2ae456a33c',1,'fluicell::PPC1api::serialDeviceInfo']]]
 ];

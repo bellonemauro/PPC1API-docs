@@ -1,13 +1,8 @@
 var searchData=
 [
-  ['m_5fbaud_5frate',['m_baud_rate',['../classfluicell_1_1_p_p_c1api.html#aee19ec87d3826318d4b64932ad6d1cc2',1,'fluicell::PPC1api']]],
-  ['m_5fcomport',['m_COMport',['../classfluicell_1_1_p_p_c1api.html#ac1f5eba25b0e822874fc5a92d49adc7a',1,'fluicell::PPC1api']]],
-  ['m_5fdatastreamperiod',['m_dataStreamPeriod',['../classfluicell_1_1_p_p_c1api.html#a264048ab3cb2ed63b6edefac9b40abf7',1,'fluicell::PPC1api']]],
-  ['m_5fisrunning',['m_isRunning',['../classfluicell_1_1_p_p_c1api.html#acc84c0144a7ec87137fb6ec60faffe4f',1,'fluicell::PPC1api']]],
-  ['m_5fppc1_5fdata',['m_PPC1_data',['../classfluicell_1_1_p_p_c1api.html#af9dd1f0a00e25a5ac30ac78422754266',1,'fluicell::PPC1api']]],
-  ['m_5fppc1_5fserial',['m_PPC1_serial',['../classfluicell_1_1_p_p_c1api.html#a86c7526301801b65659a7720a492823f',1,'fluicell::PPC1api']]],
-  ['m_5fthread',['m_thread',['../classfluicell_1_1_p_p_c1api.html#a3f4ae90f4f5795ac38c9dcb34d4fd62f',1,'fluicell::PPC1api']]],
-  ['m_5fthreadterminationhandler',['m_threadTerminationHandler',['../classfluicell_1_1_p_p_c1api.html#a0aad3357fc03b0de72a6a91e0c5ee34c',1,'fluicell::PPC1api']]],
-  ['main_5fscrollarea',['Main_scrollArea',['../class_ui___labonatip___g_u_i.html#a418668303dba5dd6da0add6ee266d32a',1,'Ui_Labonatip_GUI']]],
-  ['manufacturerlabel',['manufacturerLabel',['../class_ui___labonatip__console.html#a926e5ad0bff0265b426a39ee724818c8',1,'Ui_Labonatip_console::manufacturerLabel()'],['../class_ui___labonatip__tools.html#a93261cb3fe3ef0cc14f708282ba0f44c',1,'Ui_Labonatip_tools::manufacturerLabel()']]]
+  ['sensor_5freading',['sensor_reading',['../structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data_1_1channel.html#afc4ed95e531a9378e6e73b810eaa24fb',1,'fluicell::PPC1api::PPC1_data::channel']]],
+  ['set_5fpoint',['set_point',['../structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data_1_1channel.html#a2e443e664883eb48733c1ff48d4ef4a4',1,'fluicell::PPC1api::PPC1_data::channel']]],
+  ['state',['state',['../structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data_1_1channel.html#a24d2929cb2f58a1fac8ce210d8ce65a8',1,'fluicell::PPC1api::PPC1_data::channel']]],
+  ['status_5fmessage',['status_message',['../structfluicell_1_1_p_p_c1api_1_1command.html#ab2d2160c7c75b02c700620fa35cb5172',1,'fluicell::PPC1api::command']]],
+  ['sync_5fout',['sync_out',['../structfluicell_1_1_p_p_c1api_1_1command.html#a2daf4a2222c612503d042836fc04acfc',1,'fluicell::PPC1api::command']]]
 ];

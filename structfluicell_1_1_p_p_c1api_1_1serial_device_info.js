@@ -1,6 +1,6 @@
 var structfluicell_1_1_p_p_c1api_1_1serial_device_info =
 [
-    [ "serialDeviceInfo::serialDeviceInfo", "structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#a9341a35402b5fe5b99ea0703f5544c86", null ],
+    [ "serialDeviceInfo", "structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#a7cc4d8714bde089f94ea7b8d4e25af4e", null ],
     [ "description", "structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#aa5a87b8bdf647b193cbc838cec3f3e06", null ],
     [ "hardware_ID", "structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#a994d5cbd6242a886360a1f566658dbcb", null ],
     [ "PID", "structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#aa40f6fb043c70d01b54634baba86c079", null ],
