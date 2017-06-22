@@ -1,5 +1,21 @@
 var searchData=
 [
-  ['threadserial',['threadSerial',['../classfluicell_1_1_p_p_c1api.html#a0f5a66c348750e85a4279283f3457cd4',1,'fluicell::PPC1api']]],
-  ['todigit',['toDigit',['../classfluicell_1_1_p_p_c1api.html#a171116f65b9ef5130f7966a3c4f99fd5',1,'fluicell::PPC1api']]]
+  ['senddata',['sendData',['../classfluicell_1_1_p_p_c1api.html#a6e44d475dde8d0bd3fbecd37beea23a8',1,'fluicell::PPC1api']]],
+  ['serialdeviceinfo',['serialDeviceInfo',['../structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#a7cc4d8714bde089f94ea7b8d4e25af4e',1,'fluicell::PPC1api::serialDeviceInfo']]],
+  ['setbaudrate',['setBaudRate',['../classfluicell_1_1_p_p_c1api.html#aaa6fd573836a51eef8b22712f4408d9f',1,'fluicell::PPC1api']]],
+  ['setcomport',['setCOMport',['../classfluicell_1_1_p_p_c1api.html#afa46938e08037a7ac36115435923c9bb',1,'fluicell::PPC1api']]],
+  ['setdatastreamperiod',['setDataStreamPeriod',['../classfluicell_1_1_p_p_c1api.html#a0b823eeaa0c49da0ca0571030d2a1c81',1,'fluicell::PPC1api']]],
+  ['setpressurechannelc',['setPressureChannelC',['../classfluicell_1_1_p_p_c1api.html#a63860f2fc32c4eea447f3ce2340f6659',1,'fluicell::PPC1api']]],
+  ['setpressurechanneld',['setPressureChannelD',['../classfluicell_1_1_p_p_c1api.html#a986051361e698f42000606e6204326b2',1,'fluicell::PPC1api']]],
+  ['setpulseperiod',['setPulsePeriod',['../classfluicell_1_1_p_p_c1api.html#aade9f336dd232522ef44c0cf92060105',1,'fluicell::PPC1api']]],
+  ['setruntimetimeout',['setRuntimeTimeout',['../classfluicell_1_1_p_p_c1api.html#a4eac7eba38aec1454586f6363c262e6f',1,'fluicell::PPC1api']]],
+  ['setttlstate',['setTTLstate',['../classfluicell_1_1_p_p_c1api.html#a1c128247366b517bf54b0fa82a25a146',1,'fluicell::PPC1api']]],
+  ['setvacuumchannela',['setVacuumChannelA',['../classfluicell_1_1_p_p_c1api.html#a595338315cf16fdee49229893f0ef219',1,'fluicell::PPC1api']]],
+  ['setvacuumchannelb',['setVacuumChannelB',['../classfluicell_1_1_p_p_c1api.html#a6e812505271c293aa95d3a9ce408291d',1,'fluicell::PPC1api']]],
+  ['setvalve_5fi',['setValve_i',['../classfluicell_1_1_p_p_c1api.html#a06d56faa8697e734b58f7f033d28b09a',1,'fluicell::PPC1api']]],
+  ['setvalve_5fj',['setValve_j',['../classfluicell_1_1_p_p_c1api.html#abb4feae1a327a38e8771746aeb27e9ed',1,'fluicell::PPC1api']]],
+  ['setvalve_5fk',['setValve_k',['../classfluicell_1_1_p_p_c1api.html#a19645c0ec24c66f652a705e79cde08c9',1,'fluicell::PPC1api']]],
+  ['setvalve_5fl',['setValve_l',['../classfluicell_1_1_p_p_c1api.html#a4de0dcbc2461ad58d027d3cd558b7140',1,'fluicell::PPC1api']]],
+  ['setvalvesstate',['setValvesState',['../classfluicell_1_1_p_p_c1api.html#a117813c6b896aeddad6c2616d7317da4',1,'fluicell::PPC1api']]],
+  ['stop',['stop',['../classfluicell_1_1_p_p_c1api.html#ab178b25bd6e054035937fe7c5ae292bb',1,'fluicell::PPC1api']]]
 ];

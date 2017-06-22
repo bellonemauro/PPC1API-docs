@@ -3,11 +3,11 @@ var indexSectionsWithContent =
   0: "acdefghijklmoprstvw~",
   1: "cps",
   2: "f",
-  3: "empr",
-  4: "cdgiprst~",
+  3: "epr",
+  4: "cdgioprst~",
   5: "acdhijklmopsvw",
   6: "dmp",
-  7: "l"
+  7: "lpr"
 };
 
 var indexSectionNames =

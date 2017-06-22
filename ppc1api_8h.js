@@ -17,6 +17,7 @@ var ppc1api_8h =
     [ "MIN_CHAN_B", "ppc1api_8h.html#a6faa45ebceca717b04635ff1e508d095", null ],
     [ "MIN_CHAN_C", "ppc1api_8h.html#a3cdc39e75e41d097ac01e3e89d4e861e", null ],
     [ "MIN_CHAN_D", "ppc1api_8h.html#a4320cb9b746d5e35c6cd9d6af3cd702e", null ],
+    [ "MIN_PULSE_PERIOD", "ppc1api_8h.html#abe093c0c33a5947c667d5909ca3b9874", null ],
     [ "MIN_STREAM_PERIOD", "ppc1api_8h.html#aaa3e30e62db801ddc5a2cea190d31a8f", null ],
     [ "PPC1_PID", "ppc1api_8h.html#a2ef6cc8a71f35e06f0ef9cb1d9884747", null ],
     [ "PPC1_VID", "ppc1api_8h.html#a7dcc16f9cf42cadad5805140f6d75398", null ]
