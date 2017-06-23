@@ -2,10 +2,8 @@ var NAVTREE =
 [
   [ "Fluicell PPC1 API", "index.html", [
     [ "Lab-on-a-tip", "md__r_e_a_d_m_e.html", null ],
-    [ "README", "md__c_1_code__fluicell__git__labonatip__ext_data__r_e_a_d_m_e.html", null ],
     [ "PCC1 API", "md__c_1_code__fluicell__git__labonatip_libs_ppc1api__r_e_a_d_m_e.html", null ],
     [ "README", "md__c_1_code__fluicell__git__labonatip_libs__r_e_a_d_m_e.html", null ],
-    [ "README", "md__c_1_code__fluicell__git__labonatip_plugins__r_e_a_d_m_e.html", null ],
     [ "README", "md__c_1_code__fluicell__git__labonatip__r_e_a_d_m_e.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ]
