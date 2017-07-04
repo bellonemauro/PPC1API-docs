@@ -109,6 +109,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple API for the communication with the Fluicell PPC1 controller.  <a href="classfluicell_1_1_p_p_c1api.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data.html">fluicell::PPC1api::PPC1_data</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">PCC1 Output data stream specification.  <a href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data_1_1channel.html">fluicell::PPC1api::PPC1_data::channel</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Channel data structure contains the information about a PPC1 channel PPC1 has four channels, A and B for vacuum and C and P for pressure, all the channels have the same data structure.  <a href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data_1_1channel.html#details">More...</a><br /></td></tr>
@@ -117,12 +118,13 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serial device info data structure.  <a href="structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html">fluicell::PPC1api::command</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">PCC1 Command data structure definition.  <a href="structfluicell_1_1_p_p_c1api_1_1command.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacefluicell"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefluicell.html">fluicell</a></td></tr>
-<tr class="memdesc:namespacefluicell"><td class="mdescLeft">&#160;</td><td class="mdescRight">All fluicell software will begin with fluicell namespace. <br /></td></tr>
+<tr class="memdesc:namespacefluicell"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the Fluicell namespace, all the classes will be in here. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -160,15 +162,6 @@ Macros</h2></td></tr>
 <tr class="memitem:abe093c0c33a5947c667d5909ca3b9874"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ppc1api_8h.html#abe093c0c33a5947c667d5909ca3b9874">MIN_PULSE_PERIOD</a>&#160;&#160;&#160;20</td></tr>
 <tr class="memdesc:abe093c0c33a5947c667d5909ca3b9874"><td class="mdescLeft">&#160;</td><td class="mdescRight">in msec  <a href="#abe093c0c33a5947c667d5909ca3b9874">More...</a><br /></td></tr>
 <tr class="separator:abe093c0c33a5947c667d5909ca3b9874"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a545c3eed84a034373d4f879de9721c96"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ppc1api_8h.html#a545c3eed84a034373d4f879de9721c96">DEFAULT_PON</a>&#160;&#160;&#160;190</td></tr>
-<tr class="memdesc:a545c3eed84a034373d4f879de9721c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">in mbar  <a href="#a545c3eed84a034373d4f879de9721c96">More...</a><br /></td></tr>
-<tr class="separator:a545c3eed84a034373d4f879de9721c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ea8a28417971fb5398a7b9903974f75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ppc1api_8h.html#a0ea8a28417971fb5398a7b9903974f75">DEFAULT_POFF</a>&#160;&#160;&#160;21</td></tr>
-<tr class="memdesc:a0ea8a28417971fb5398a7b9903974f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">in mbar  <a href="#a0ea8a28417971fb5398a7b9903974f75">More...</a><br /></td></tr>
-<tr class="separator:a0ea8a28417971fb5398a7b9903974f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7b93ccf3efde9769e3cd1271bce0c73"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ppc1api_8h.html#ae7b93ccf3efde9769e3cd1271bce0c73">DEFAULT_VACUUM</a>&#160;&#160;&#160;115</td></tr>
-<tr class="memdesc:ae7b93ccf3efde9769e3cd1271bce0c73"><td class="mdescLeft">&#160;</td><td class="mdescRight">in mbar (negative value!)  <a href="#ae7b93ccf3efde9769e3cd1271bce0c73">More...</a><br /></td></tr>
-<tr class="separator:ae7b93ccf3efde9769e3cd1271bce0c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dcc16f9cf42cadad5805140f6d75398"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ppc1api_8h.html#a7dcc16f9cf42cadad5805140f6d75398">PPC1_VID</a>&#160;&#160;&#160;&quot;16D0&quot;</td></tr>
 <tr class="memdesc:a7dcc16f9cf42cadad5805140f6d75398"><td class="mdescLeft">&#160;</td><td class="mdescRight">device vendor ID  <a href="#a7dcc16f9cf42cadad5805140f6d75398">More...</a><br /></td></tr>
 <tr class="separator:a7dcc16f9cf42cadad5805140f6d75398"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,54 +170,6 @@ Macros</h2></td></tr>
 <tr class="separator:a2ef6cc8a71f35e06f0ef9cb1d9884747"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a0ea8a28417971fb5398a7b9903974f75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ea8a28417971fb5398a7b9903974f75">&#9670;&nbsp;</a></span>DEFAULT_POFF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFAULT_POFF&#160;&#160;&#160;21</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>in mbar </p>
-
-</div>
-</div>
-<a id="a545c3eed84a034373d4f879de9721c96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a545c3eed84a034373d4f879de9721c96">&#9670;&nbsp;</a></span>DEFAULT_PON</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFAULT_PON&#160;&#160;&#160;190</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>in mbar </p>
-
-</div>
-</div>
-<a id="ae7b93ccf3efde9769e3cd1271bce0c73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7b93ccf3efde9769e3cd1271bce0c73">&#9670;&nbsp;</a></span>DEFAULT_VACUUM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFAULT_VACUUM&#160;&#160;&#160;115</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>in mbar (negative value!) </p>
-
-</div>
-</div>
 <a id="a9e680752e265045a2939c9498710778c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e680752e265045a2939c9498710778c">&#9670;&nbsp;</a></span>MAX_CHAN_A</h2>
 
@@ -439,7 +384,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_be0558065af857cd95de5563580d1df3.html">ppc1api</a></li><li class="navelem"><a class="el" href="dir_fc7b6e92b978116bfd3494dc4e471032.html">include</a></li><li class="navelem"><a class="el" href="dir_f5f8f5eada8a658e5b7971d37812ad99.html">fluicell</a></li><li class="navelem"><a class="el" href="dir_30220c3e420fe36a8aba9446d9dcd464.html">ppc1api</a></li><li class="navelem"><a class="el" href="ppc1api_8h.html">ppc1api.h</a></li>
-    <li class="footer">Generated on Fri Jun 23 2017 07:20:43 for Fluicell PPC1 API by
+    <li class="footer">Generated on Tue Jul 4 2017 16:07:52 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

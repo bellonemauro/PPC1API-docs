@@ -5,6 +5,7 @@ var searchData=
   ['setbaudrate',['setBaudRate',['../classfluicell_1_1_p_p_c1api.html#aaa6fd573836a51eef8b22712f4408d9f',1,'fluicell::PPC1api']]],
   ['setcomport',['setCOMport',['../classfluicell_1_1_p_p_c1api.html#afa46938e08037a7ac36115435923c9bb',1,'fluicell::PPC1api']]],
   ['setdatastreamperiod',['setDataStreamPeriod',['../classfluicell_1_1_p_p_c1api.html#a0b823eeaa0c49da0ca0571030d2a1c81',1,'fluicell::PPC1api']]],
+  ['setdefaultpv',['setDefaultPV',['../classfluicell_1_1_p_p_c1api.html#abd4aa38cfa1d7a7706c92b855a49ac5d',1,'fluicell::PPC1api']]],
   ['setpressurechannelc',['setPressureChannelC',['../classfluicell_1_1_p_p_c1api.html#a63860f2fc32c4eea447f3ce2340f6659',1,'fluicell::PPC1api']]],
   ['setpressurechanneld',['setPressureChannelD',['../classfluicell_1_1_p_p_c1api.html#a986051361e698f42000606e6204326b2',1,'fluicell::PPC1api']]],
   ['setpulseperiod',['setPulsePeriod',['../classfluicell_1_1_p_p_c1api.html#aade9f336dd232522ef44c0cf92060105',1,'fluicell::PPC1api']]],
@@ -17,5 +18,6 @@ var searchData=
   ['setvalve_5fk',['setValve_k',['../classfluicell_1_1_p_p_c1api.html#a19645c0ec24c66f652a705e79cde08c9',1,'fluicell::PPC1api']]],
   ['setvalve_5fl',['setValve_l',['../classfluicell_1_1_p_p_c1api.html#a4de0dcbc2461ad58d027d3cd558b7140',1,'fluicell::PPC1api']]],
   ['setvalvesstate',['setValvesState',['../classfluicell_1_1_p_p_c1api.html#a117813c6b896aeddad6c2616d7317da4',1,'fluicell::PPC1api']]],
+  ['setvebose',['setVebose',['../classfluicell_1_1_p_p_c1api.html#a152639feac06cce1d2a55a882482d814',1,'fluicell::PPC1api']]],
   ['stop',['stop',['../classfluicell_1_1_p_p_c1api.html#ab178b25bd6e054035937fe7c5ae292bb',1,'fluicell::PPC1api']]]
 ];
