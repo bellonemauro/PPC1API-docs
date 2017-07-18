@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ask',['ask',['../structfluicell_1_1_p_p_c1api_1_1command.html#ab6a7662b844b60633977462cc4934186',1,'fluicell::PPC1api::command']]],
-  ['ask_5fmessage',['ask_message',['../structfluicell_1_1_p_p_c1api_1_1command.html#ac4d9b8f308c48da188bda2b2d517ecf6',1,'fluicell::PPC1api::command']]]
+  ['alloff',['allOff',['../ppc1api_8h.html#a2284fcacd4c115ac141283a21003a04e',1,'ppc1api.h']]],
+  ['ask_5fmsg',['ask_msg',['../ppc1api_8h.html#a731350c88136c5b71cf6180fa27b9056',1,'ppc1api.h']]]
 ];

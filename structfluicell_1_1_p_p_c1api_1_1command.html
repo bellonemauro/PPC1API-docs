@@ -84,7 +84,7 @@ $(document).ready(function(){initNavTree('structfluicell_1_1_p_p_c1api_1_1comman
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="structfluicell_1_1_p_p_c1api_1_1command-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">fluicell::PPC1api::command Struct Reference</div>  </div>
@@ -99,56 +99,50 @@ $(document).ready(function(){initNavTree('structfluicell_1_1_p_p_c1api_1_1comman
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abe6c6c7754849eb4c1057d778d8d56b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#abe6c6c7754849eb4c1057d778d8d56b4">command</a> ()</td></tr>
-<tr class="memdesc:abe6c6c7754849eb4c1057d778d8d56b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command constructor .  <a href="#abe6c6c7754849eb4c1057d778d8d56b4">More...</a><br /></td></tr>
+<tr class="memdesc:abe6c6c7754849eb4c1057d778d8d56b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command data structure .  <a href="#abe6c6c7754849eb4c1057d778d8d56b4">More...</a><br /></td></tr>
 <tr class="separator:abe6c6c7754849eb4c1057d778d8d56b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a906cc3c0845e89de2dd7b360ffd85ae8"><td class="memItemLeft" align="right" valign="top">instructions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a906cc3c0845e89de2dd7b360ffd85ae8">getInstruction</a> ()</td></tr>
+<tr class="memdesc:a906cc3c0845e89de2dd7b360ffd85ae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the command from the enumerator.  <a href="#a906cc3c0845e89de2dd7b360ffd85ae8">More...</a><br /></td></tr>
+<tr class="separator:a906cc3c0845e89de2dd7b360ffd85ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acee7b4db464d1bd8afe96cac40cfc585"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#acee7b4db464d1bd8afe96cac40cfc585">setInstruction</a> (instructions _instruction)</td></tr>
+<tr class="memdesc:acee7b4db464d1bd8afe96cac40cfc585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the command .  <a href="#acee7b4db464d1bd8afe96cac40cfc585">More...</a><br /></td></tr>
+<tr class="separator:acee7b4db464d1bd8afe96cac40cfc585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eba1526a9f272ca6ab08b6ae4a877dc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a3eba1526a9f272ca6ab08b6ae4a877dc">getCommandAsString</a> ()</td></tr>
+<tr class="memdesc:a3eba1526a9f272ca6ab08b6ae4a877dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple cast of the enumerator into the corresponding command as a string.  <a href="#a3eba1526a9f272ca6ab08b6ae4a877dc">More...</a><br /></td></tr>
+<tr class="separator:a3eba1526a9f272ca6ab08b6ae4a877dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad56f7f207b0c516a0b3405bf34167a06"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#ad56f7f207b0c516a0b3405bf34167a06">getValue</a> ()</td></tr>
+<tr class="memdesc:ad56f7f207b0c516a0b3405bf34167a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value for the corresponding command.  <a href="#ad56f7f207b0c516a0b3405bf34167a06">More...</a><br /></td></tr>
+<tr class="separator:ad56f7f207b0c516a0b3405bf34167a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3769af98e7169e46693f189c769bfaa9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a3769af98e7169e46693f189c769bfaa9">setValue</a> (double _value)</td></tr>
+<tr class="memdesc:a3769af98e7169e46693f189c769bfaa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value for the corresponding command.  <a href="#a3769af98e7169e46693f189c769bfaa9">More...</a><br /></td></tr>
+<tr class="separator:a3769af98e7169e46693f189c769bfaa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8631222c908ef4bc8387fd7fbc7cf8fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a8631222c908ef4bc8387fd7fbc7cf8fe">isStatusVisualized</a> ()</td></tr>
+<tr class="memdesc:a8631222c908ef4bc8387fd7fbc7cf8fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the status is set to be visualized.  <a href="#a8631222c908ef4bc8387fd7fbc7cf8fe">More...</a><br /></td></tr>
+<tr class="separator:a8631222c908ef4bc8387fd7fbc7cf8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a1ff116959f9771b3c580af287230e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a3a1ff116959f9771b3c580af287230e4">setVisualizeStatus</a> (bool _visualize_status)</td></tr>
+<tr class="memdesc:a3a1ff116959f9771b3c580af287230e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the status is set to be visualized.  <a href="#a3a1ff116959f9771b3c580af287230e4">More...</a><br /></td></tr>
+<tr class="separator:a3a1ff116959f9771b3c580af287230e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a458db8da876e8b2c2b1c0ddafa84db"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a9a458db8da876e8b2c2b1c0ddafa84db">getStatusMessage</a> ()</td></tr>
+<tr class="memdesc:a9a458db8da876e8b2c2b1c0ddafa84db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status message.  <a href="#a9a458db8da876e8b2c2b1c0ddafa84db">More...</a><br /></td></tr>
+<tr class="separator:a9a458db8da876e8b2c2b1c0ddafa84db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab88f130fc717e8e8fd7ae17b46559869"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#ab88f130fc717e8e8fd7ae17b46559869">setStatusMessage</a> (string _status_message)</td></tr>
+<tr class="memdesc:ab88f130fc717e8e8fd7ae17b46559869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the status message.  <a href="#ab88f130fc717e8e8fd7ae17b46559869">More...</a><br /></td></tr>
+<tr class="separator:ab88f130fc717e8e8fd7ae17b46559869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a6caeab511357785b5548d7e6834f73ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a6caeab511357785b5548d7e6834f73ac">loops</a></td></tr>
-<tr class="memdesc:a6caeab511357785b5548d7e6834f73ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command data structure .  <a href="#a6caeab511357785b5548d7e6834f73ac">More...</a><br /></td></tr>
-<tr class="separator:a6caeab511357785b5548d7e6834f73ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6d1a744ab952deabd615d98fbc1d00a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#ad6d1a744ab952deabd615d98fbc1d00a">P_on</a></td></tr>
-<tr class="memdesc:ad6d1a744ab952deabd615d98fbc1d00a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(int: pressure in mbar) -&mdash; Channel D  <a href="#ad6d1a744ab952deabd615d98fbc1d00a">More...</a><br /></td></tr>
-<tr class="separator:ad6d1a744ab952deabd615d98fbc1d00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8ab8cf1e9fa2b8d5dd3e24484e44136"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#aa8ab8cf1e9fa2b8d5dd3e24484e44136">P_off</a></td></tr>
-<tr class="memdesc:aa8ab8cf1e9fa2b8d5dd3e24484e44136"><td class="mdescLeft">&#160;</td><td class="mdescRight">(int: pressure in mbar) -&mdash; Channel C  <a href="#aa8ab8cf1e9fa2b8d5dd3e24484e44136">More...</a><br /></td></tr>
-<tr class="separator:aa8ab8cf1e9fa2b8d5dd3e24484e44136"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58270f153232bc318a4b4895694f1168"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a58270f153232bc318a4b4895694f1168">V_switch</a></td></tr>
-<tr class="memdesc:a58270f153232bc318a4b4895694f1168"><td class="mdescLeft">&#160;</td><td class="mdescRight">(int: pressure in mbar) -&mdash; Channel B  <a href="#a58270f153232bc318a4b4895694f1168">More...</a><br /></td></tr>
-<tr class="separator:a58270f153232bc318a4b4895694f1168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7af3dba8c455e4d92853150ffa15287"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#aa7af3dba8c455e4d92853150ffa15287">V_recirc</a></td></tr>
-<tr class="memdesc:aa7af3dba8c455e4d92853150ffa15287"><td class="mdescLeft">&#160;</td><td class="mdescRight">(int: pressure in mbar) -&mdash; Channel A  <a href="#aa7af3dba8c455e4d92853150ffa15287">More...</a><br /></td></tr>
-<tr class="separator:aa7af3dba8c455e4d92853150ffa15287"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac650823606e10b7026cfcb6f75886a43"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#ac650823606e10b7026cfcb6f75886a43">Duration</a></td></tr>
-<tr class="memdesc:ac650823606e10b7026cfcb6f75886a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">duration for the application of the command  <a href="#ac650823606e10b7026cfcb6f75886a43">More...</a><br /></td></tr>
-<tr class="separator:ac650823606e10b7026cfcb6f75886a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6a7662b844b60633977462cc4934186"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#ab6a7662b844b60633977462cc4934186">ask</a></td></tr>
-<tr class="memdesc:ab6a7662b844b60633977462cc4934186"><td class="mdescLeft">&#160;</td><td class="mdescRight">set true to stop execution and ask confirmation to continue  <a href="#ab6a7662b844b60633977462cc4934186">More...</a><br /></td></tr>
-<tr class="separator:ab6a7662b844b60633977462cc4934186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4d9b8f308c48da188bda2b2d517ecf6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#ac4d9b8f308c48da188bda2b2d517ecf6">ask_message</a></td></tr>
-<tr class="memdesc:ac4d9b8f308c48da188bda2b2d517ecf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">message to ask if \param(ask)- is true  <a href="#ac4d9b8f308c48da188bda2b2d517ecf6">More...</a><br /></td></tr>
-<tr class="separator:ac4d9b8f308c48da188bda2b2d517ecf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:abdb6d00493ff584758a00259e2e79066"><td class="memItemLeft" align="right" valign="top">instructions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#abdb6d00493ff584758a00259e2e79066">instruction</a></td></tr>
+<tr class="memdesc:abdb6d00493ff584758a00259e2e79066"><td class="mdescLeft">&#160;</td><td class="mdescRight">command  <a href="#abdb6d00493ff584758a00259e2e79066">More...</a><br /></td></tr>
+<tr class="separator:abdb6d00493ff584758a00259e2e79066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d0470409d6e4ff8cb7658b68e0082d9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a1d0470409d6e4ff8cb7658b68e0082d9">value</a></td></tr>
+<tr class="memdesc:a1d0470409d6e4ff8cb7658b68e0082d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">corresponded value to be applied to the command  <a href="#a1d0470409d6e4ff8cb7658b68e0082d9">More...</a><br /></td></tr>
+<tr class="separator:a1d0470409d6e4ff8cb7658b68e0082d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5101c24ba1a6679636050531a27d9bb4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a5101c24ba1a6679636050531a27d9bb4">visualize_status</a></td></tr>
+<tr class="memdesc:a5101c24ba1a6679636050531a27d9bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">if active the status message will be visualized  <a href="#a5101c24ba1a6679636050531a27d9bb4">More...</a><br /></td></tr>
+<tr class="separator:a5101c24ba1a6679636050531a27d9bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2d2160c7c75b02c700620fa35cb5172"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#ab2d2160c7c75b02c700620fa35cb5172">status_message</a></td></tr>
 <tr class="memdesc:ab2d2160c7c75b02c700620fa35cb5172"><td class="mdescLeft">&#160;</td><td class="mdescRight">message to show as status during the command running  <a href="#ab2d2160c7c75b02c700620fa35cb5172">More...</a><br /></td></tr>
 <tr class="separator:ab2d2160c7c75b02c700620fa35cb5172"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0453e8583034fac96297e1519350aa97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a0453e8583034fac96297e1519350aa97">open_valve_a</a></td></tr>
-<tr class="memdesc:a0453e8583034fac96297e1519350aa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">closes other valves, then opens valve a for solution 1 valve only  <a href="#a0453e8583034fac96297e1519350aa97">More...</a><br /></td></tr>
-<tr class="separator:a0453e8583034fac96297e1519350aa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0ea18ea80455f3872c906cf6bd671ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#ae0ea18ea80455f3872c906cf6bd671ec">open_valve_b</a></td></tr>
-<tr class="memdesc:ae0ea18ea80455f3872c906cf6bd671ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">closes other valves, then opens valve b for solution 2 valve  <a href="#ae0ea18ea80455f3872c906cf6bd671ec">More...</a><br /></td></tr>
-<tr class="separator:ae0ea18ea80455f3872c906cf6bd671ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a881f9742a6a4eb1c1e1fea42c7f66dad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a881f9742a6a4eb1c1e1fea42c7f66dad">open_valve_c</a></td></tr>
-<tr class="memdesc:a881f9742a6a4eb1c1e1fea42c7f66dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">closes other valves, then opens valve c for solution 3 valve  <a href="#a881f9742a6a4eb1c1e1fea42c7f66dad">More...</a><br /></td></tr>
-<tr class="separator:a881f9742a6a4eb1c1e1fea42c7f66dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a128337845b3667db9be0f5561c4b9d5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a128337845b3667db9be0f5561c4b9d5b">open_valve_d</a></td></tr>
-<tr class="memdesc:a128337845b3667db9be0f5561c4b9d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">closes other valves, then opens valve d for solution 4 valve  <a href="#a128337845b3667db9be0f5561c4b9d5b">More...</a><br /></td></tr>
-<tr class="separator:a128337845b3667db9be0f5561c4b9d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dc5da480da9a86539b507f7484a2a04"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a8dc5da480da9a86539b507f7484a2a04">wait_sync</a></td></tr>
-<tr class="memdesc:a8dc5da480da9a86539b507f7484a2a04"><td class="mdescLeft">&#160;</td><td class="mdescRight">macro stops until trigger signal is received  <a href="#a8dc5da480da9a86539b507f7484a2a04">More...</a><br /></td></tr>
-<tr class="separator:a8dc5da480da9a86539b507f7484a2a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2daf4a2222c612503d042836fc04acfc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a2daf4a2222c612503d042836fc04acfc">sync_out</a></td></tr>
-<tr class="memdesc:a2daf4a2222c612503d042836fc04acfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">if negative then default state is 1 and pulse is 0, if positive, then pulse is 1 and default is 0  <a href="#a2daf4a2222c612503d042836fc04acfc">More...</a><br /></td></tr>
-<tr class="separator:a2daf4a2222c612503d042836fc04acfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>PCC1 Command data structure definition. </p>
@@ -185,174 +179,286 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Command constructor . </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab6a7662b844b60633977462cc4934186"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6a7662b844b60633977462cc4934186">&#9670;&nbsp;</a></span>ask</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool fluicell::PPC1api::command::ask</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>set true to stop execution and ask confirmation to continue </p>
-
-</div>
-</div>
-<a id="ac4d9b8f308c48da188bda2b2d517ecf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4d9b8f308c48da188bda2b2d517ecf6">&#9670;&nbsp;</a></span>ask_message</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">string fluicell::PPC1api::command::ask_message</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>message to ask if \param(ask)- is true </p>
-
-</div>
-</div>
-<a id="ac650823606e10b7026cfcb6f75886a43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac650823606e10b7026cfcb6f75886a43">&#9670;&nbsp;</a></span>Duration</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int fluicell::PPC1api::command::Duration</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>duration for the application of the command </p>
-
-</div>
-</div>
-<a id="a6caeab511357785b5548d7e6834f73ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6caeab511357785b5548d7e6834f73ac">&#9670;&nbsp;</a></span>loops</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int fluicell::PPC1api::command::loops</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 <p>Command data structure . </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">loopsnumber</td><td>of loops </td></tr>
+    <tr><td class="paramname">loopsCommand</td><td>constructor . </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a0453e8583034fac96297e1519350aa97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0453e8583034fac96297e1519350aa97">&#9670;&nbsp;</a></span>open_valve_a</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3eba1526a9f272ca6ab08b6ae4a877dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eba1526a9f272ca6ab08b6ae4a877dc">&#9670;&nbsp;</a></span>getCommandAsString()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool fluicell::PPC1api::command::open_valve_a</td>
+          <td class="memname">std::string fluicell::PPC1api::command::getCommandAsString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>closes other valves, then opens valve a for solution 1 valve only </p>
+<p>Simple cast of the enumerator into the corresponding command as a string. </p>
 
 </div>
 </div>
-<a id="ae0ea18ea80455f3872c906cf6bd671ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0ea18ea80455f3872c906cf6bd671ec">&#9670;&nbsp;</a></span>open_valve_b</h2>
+<a id="a906cc3c0845e89de2dd7b360ffd85ae8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a906cc3c0845e89de2dd7b360ffd85ae8">&#9670;&nbsp;</a></span>getInstruction()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool fluicell::PPC1api::command::open_valve_b</td>
+          <td class="memname">instructions fluicell::PPC1api::command::getInstruction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>closes other valves, then opens valve b for solution 2 valve </p>
+<p>Get the command from the enumerator. </p>
 
 </div>
 </div>
-<a id="a881f9742a6a4eb1c1e1fea42c7f66dad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a881f9742a6a4eb1c1e1fea42c7f66dad">&#9670;&nbsp;</a></span>open_valve_c</h2>
+<a id="a9a458db8da876e8b2c2b1c0ddafa84db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a458db8da876e8b2c2b1c0ddafa84db">&#9670;&nbsp;</a></span>getStatusMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool fluicell::PPC1api::command::open_valve_c</td>
+          <td class="memname">string fluicell::PPC1api::command::getStatusMessage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>closes other valves, then opens valve c for solution 3 valve </p>
+<p>Get the status message. </p>
 
 </div>
 </div>
-<a id="a128337845b3667db9be0f5561c4b9d5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a128337845b3667db9be0f5561c4b9d5b">&#9670;&nbsp;</a></span>open_valve_d</h2>
+<a id="ad56f7f207b0c516a0b3405bf34167a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad56f7f207b0c516a0b3405bf34167a06">&#9670;&nbsp;</a></span>getValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool fluicell::PPC1api::command::open_valve_d</td>
+          <td class="memname">double fluicell::PPC1api::command::getValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>closes other valves, then opens valve d for solution 4 valve </p>
+<p>Get the value for the corresponding command. </p>
 
 </div>
 </div>
-<a id="aa8ab8cf1e9fa2b8d5dd3e24484e44136"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8ab8cf1e9fa2b8d5dd3e24484e44136">&#9670;&nbsp;</a></span>P_off</h2>
+<a id="a8631222c908ef4bc8387fd7fbc7cf8fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8631222c908ef4bc8387fd7fbc7cf8fe">&#9670;&nbsp;</a></span>isStatusVisualized()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int fluicell::PPC1api::command::P_off</td>
+          <td class="memname">bool fluicell::PPC1api::command::isStatusVisualized </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>(int: pressure in mbar) -&mdash; Channel C </p>
+<p>True if the status is set to be visualized. </p>
 
 </div>
 </div>
-<a id="ad6d1a744ab952deabd615d98fbc1d00a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6d1a744ab952deabd615d98fbc1d00a">&#9670;&nbsp;</a></span>P_on</h2>
+<a id="acee7b4db464d1bd8afe96cac40cfc585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acee7b4db464d1bd8afe96cac40cfc585">&#9670;&nbsp;</a></span>setInstruction()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int fluicell::PPC1api::command::P_on</td>
+          <td class="memname">void fluicell::PPC1api::command::setInstruction </td>
+          <td>(</td>
+          <td class="paramtype">instructions&#160;</td>
+          <td class="paramname"><em>_instruction</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>(int: pressure in mbar) -&mdash; Channel D </p>
+<p>Set the command . </p>
+
+</div>
+</div>
+<a id="ab88f130fc717e8e8fd7ae17b46559869"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab88f130fc717e8e8fd7ae17b46559869">&#9670;&nbsp;</a></span>setStatusMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fluicell::PPC1api::command::setStatusMessage </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_status_message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the status message. </p>
+
+</div>
+</div>
+<a id="a3769af98e7169e46693f189c769bfaa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3769af98e7169e46693f189c769bfaa9">&#9670;&nbsp;</a></span>setValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fluicell::PPC1api::command::setValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the value for the corresponding command. </p>
+
+</div>
+</div>
+<a id="a3a1ff116959f9771b3c580af287230e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a1ff116959f9771b3c580af287230e4">&#9670;&nbsp;</a></span>setVisualizeStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fluicell::PPC1api::command::setVisualizeStatus </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>_visualize_status</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if the status is set to be visualized. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="abdb6d00493ff584758a00259e2e79066"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb6d00493ff584758a00259e2e79066">&#9670;&nbsp;</a></span>instruction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">instructions fluicell::PPC1api::command::instruction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>command </p>
 
 </div>
 </div>
@@ -361,78 +467,70 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">string fluicell::PPC1api::command::status_message</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>message to show as status during the command running </p>
 
 </div>
 </div>
-<a id="a2daf4a2222c612503d042836fc04acfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2daf4a2222c612503d042836fc04acfc">&#9670;&nbsp;</a></span>sync_out</h2>
+<a id="a1d0470409d6e4ff8cb7658b68e0082d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d0470409d6e4ff8cb7658b68e0082d9">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int fluicell::PPC1api::command::sync_out</td>
+          <td class="memname">double fluicell::PPC1api::command::value</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>if negative then default state is 1 and pulse is 0, if positive, then pulse is 1 and default is 0 </p>
+<p>corresponded value to be applied to the command </p>
 
 </div>
 </div>
-<a id="aa7af3dba8c455e4d92853150ffa15287"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7af3dba8c455e4d92853150ffa15287">&#9670;&nbsp;</a></span>V_recirc</h2>
+<a id="a5101c24ba1a6679636050531a27d9bb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5101c24ba1a6679636050531a27d9bb4">&#9670;&nbsp;</a></span>visualize_status</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int fluicell::PPC1api::command::V_recirc</td>
+          <td class="memname">bool fluicell::PPC1api::command::visualize_status</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>(int: pressure in mbar) -&mdash; Channel A </p>
-
-</div>
-</div>
-<a id="a58270f153232bc318a4b4895694f1168"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58270f153232bc318a4b4895694f1168">&#9670;&nbsp;</a></span>V_switch</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int fluicell::PPC1api::command::V_switch</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>(int: pressure in mbar) -&mdash; Channel B </p>
-
-</div>
-</div>
-<a id="a8dc5da480da9a86539b507f7484a2a04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dc5da480da9a86539b507f7484a2a04">&#9670;&nbsp;</a></span>wait_sync</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool fluicell::PPC1api::command::wait_sync</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>macro stops until trigger signal is received </p>
+<p>if active the status message will be visualized </p>
 
 </div>
 </div>
@@ -445,7 +543,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacefluicell.html">fluicell</a></li><li class="navelem"><a class="el" href="classfluicell_1_1_p_p_c1api.html">PPC1api</a></li><li class="navelem"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html">command</a></li>
-    <li class="footer">Generated on Tue Jul 4 2017 22:47:29 for Fluicell PPC1 API by
+    <li class="footer">Generated on Tue Jul 18 2017 07:51:59 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

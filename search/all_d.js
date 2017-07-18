@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['p_5foff',['P_off',['../structfluicell_1_1_p_p_c1api_1_1command.html#aa8ab8cf1e9fa2b8d5dd3e24484e44136',1,'fluicell::PPC1api::command']]],
-  ['p_5fon',['P_on',['../structfluicell_1_1_p_p_c1api_1_1command.html#ad6d1a744ab952deabd615d98fbc1d00a',1,'fluicell::PPC1api::command']]],
   ['pid',['PID',['../structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#aa40f6fb043c70d01b54634baba86c079',1,'fluicell::PPC1api::serialDeviceInfo']]],
   ['pid_5fout_5fdc',['PID_out_DC',['../structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data_1_1channel.html#a188460018a311102471f3980865e2e21',1,'fluicell::PPC1api::PPC1_data::channel']]],
   ['port',['port',['../structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#a376aad94687bd46471d3aa5ffd23ecb2',1,'fluicell::PPC1api::serialDeviceInfo']]],
@@ -14,5 +12,6 @@ var searchData=
   ['ppc1api_2ecpp',['ppc1api.cpp',['../ppc1api_8cpp.html',1,'']]],
   ['ppc1api_2eh',['ppc1api.h',['../ppc1api_8h.html',1,'']]],
   ['ppc1api_5fexport',['PPC1API_EXPORT',['../export_8h.html#a691d307dd3cf104704a0359721cdd820',1,'export.h']]],
-  ['pumpingoff',['pumpingOff',['../classfluicell_1_1_p_p_c1api.html#a6ad966a6faafa30e4fb042ded8c32928',1,'fluicell::PPC1api']]]
+  ['pumpingoff',['pumpingOff',['../classfluicell_1_1_p_p_c1api.html#a6ad966a6faafa30e4fb042ded8c32928',1,'fluicell::PPC1api']]],
+  ['pumpsoff',['pumpsOff',['../ppc1api_8h.html#a66dc63984787069afae502493d1cba05',1,'ppc1api.h']]]
 ];
