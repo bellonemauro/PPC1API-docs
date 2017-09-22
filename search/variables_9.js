@@ -10,6 +10,7 @@ var searchData=
   ['m_5fisrunning',['m_isRunning',['../classfluicell_1_1_p_p_c1api.html#acc84c0144a7ec87137fb6ec60faffe4f',1,'fluicell::PPC1api']]],
   ['m_5fppc1_5fdata',['m_PPC1_data',['../classfluicell_1_1_p_p_c1api.html#af9dd1f0a00e25a5ac30ac78422754266',1,'fluicell::PPC1api']]],
   ['m_5fppc1_5fserial',['m_PPC1_serial',['../classfluicell_1_1_p_p_c1api.html#a86c7526301801b65659a7720a492823f',1,'fluicell::PPC1api']]],
+  ['m_5fppc1_5fstatus',['m_PPC1_status',['../classfluicell_1_1_p_p_c1api.html#a2d5a11d96b97b8551ec95bba5e9d7015',1,'fluicell::PPC1api']]],
   ['m_5fthread',['m_thread',['../classfluicell_1_1_p_p_c1api.html#a3f4ae90f4f5795ac38c9dcb34d4fd62f',1,'fluicell::PPC1api']]],
   ['m_5fthreadterminationhandler',['m_threadTerminationHandler',['../classfluicell_1_1_p_p_c1api.html#a0aad3357fc03b0de72a6a91e0c5ee34c',1,'fluicell::PPC1api']]],
   ['m_5fverbose',['m_verbose',['../classfluicell_1_1_p_p_c1api.html#afacec00e78083943eb0e0d71f6840b0d',1,'fluicell::PPC1api']]]

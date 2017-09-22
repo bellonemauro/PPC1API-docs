@@ -19,6 +19,12 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,6 +113,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data.html">PPC1_data</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">PCC1 Output data stream specification.  <a href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__status.html">PPC1_status</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1serial_device_info.html">serialDeviceInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serial device info data structure.  <a href="structfluicell_1_1_p_p_c1api_1_1serial_device_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,12 +142,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ad966a6faafa30e4fb042ded8c32928"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a6ad966a6faafa30e4fb042ded8c32928">pumpingOff</a> ()</td></tr>
 <tr class="memdesc:a6ad966a6faafa30e4fb042ded8c32928"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put all the set points to zero and close the valves, the device is now in a sleep mode.  <a href="#a6ad966a6faafa30e4fb042ded8c32928">More...</a><br /></td></tr>
 <tr class="separator:a6ad966a6faafa30e4fb042ded8c32928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf3f4b0e54b289b439cfbcc05171d90d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#aaf3f4b0e54b289b439cfbcc05171d90d">openAllValves</a> ()</td></tr>
-<tr class="memdesc:aaf3f4b0e54b289b439cfbcc05171d90d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close all the valves i to l.  <a href="#aaf3f4b0e54b289b439cfbcc05171d90d">More...</a><br /></td></tr>
-<tr class="separator:aaf3f4b0e54b289b439cfbcc05171d90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6ded5ff01769965f98088a49ea3b2aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#aa6ded5ff01769965f98088a49ea3b2aa">closeAllValves</a> ()</td></tr>
-<tr class="memdesc:aa6ded5ff01769965f98088a49ea3b2aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close all the valves i to l.  <a href="#aa6ded5ff01769965f98088a49ea3b2aa">More...</a><br /></td></tr>
-<tr class="separator:aa6ded5ff01769965f98088a49ea3b2aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5e524e936cd5525f593d3503df412a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#aa5e524e936cd5525f593d3503df412a3">openAllValves</a> ()</td></tr>
+<tr class="memdesc:aa5e524e936cd5525f593d3503df412a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close all the valves i to l.  <a href="#aa5e524e936cd5525f593d3503df412a3">More...</a><br /></td></tr>
+<tr class="separator:aa5e524e936cd5525f593d3503df412a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87df84bee1237c65a9d9f8676ecd143b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a87df84bee1237c65a9d9f8676ecd143b">closeAllValves</a> ()</td></tr>
+<tr class="memdesc:a87df84bee1237c65a9d9f8676ecd143b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close all the valves i to l.  <a href="#a87df84bee1237c65a9d9f8676ecd143b">More...</a><br /></td></tr>
+<tr class="separator:a87df84bee1237c65a9d9f8676ecd143b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9bd3e883f6cb6ac73d59a388087a2b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#aa9bd3e883f6cb6ac73d59a388087a2b7">reboot</a> ()</td></tr>
 <tr class="memdesc:aa9bd3e883f6cb6ac73d59a388087a2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a reboot character to the device.  <a href="#aa9bd3e883f6cb6ac73d59a388087a2b7">More...</a><br /></td></tr>
 <tr class="separator:aa9bd3e883f6cb6ac73d59a388087a2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,78 +157,66 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab178b25bd6e054035937fe7c5ae292bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#ab178b25bd6e054035937fe7c5ae292bb">stop</a> ()</td></tr>
 <tr class="memdesc:ab178b25bd6e054035937fe7c5ae292bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Safe stop the thread.  <a href="#ab178b25bd6e054035937fe7c5ae292bb">More...</a><br /></td></tr>
 <tr class="separator:ab178b25bd6e054035937fe7c5ae292bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a595338315cf16fdee49229893f0ef219"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a595338315cf16fdee49229893f0ef219">setVacuumChannelA</a> (double _value=-0.0)</td></tr>
-<tr class="memdesc:a595338315cf16fdee49229893f0ef219"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a value on the vacuum channel A, admitted values are [-300.0, 0.0] in mbar.  <a href="#a595338315cf16fdee49229893f0ef219">More...</a><br /></td></tr>
-<tr class="separator:a595338315cf16fdee49229893f0ef219"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e812505271c293aa95d3a9ce408291d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a6e812505271c293aa95d3a9ce408291d">setVacuumChannelB</a> (double _value=-0.0)</td></tr>
-<tr class="memdesc:a6e812505271c293aa95d3a9ce408291d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a value on the vacuum channel B, admitted values are [-300.0, 0.0] in mbar.  <a href="#a6e812505271c293aa95d3a9ce408291d">More...</a><br /></td></tr>
-<tr class="separator:a6e812505271c293aa95d3a9ce408291d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63860f2fc32c4eea447f3ce2340f6659"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a63860f2fc32c4eea447f3ce2340f6659">setPressureChannelC</a> (double _value=0.0)</td></tr>
-<tr class="memdesc:a63860f2fc32c4eea447f3ce2340f6659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a value on the pressure channel C, admitted values are [0.0, 450.0] in mbar.  <a href="#a63860f2fc32c4eea447f3ce2340f6659">More...</a><br /></td></tr>
-<tr class="separator:a63860f2fc32c4eea447f3ce2340f6659"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a986051361e698f42000606e6204326b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a986051361e698f42000606e6204326b2">setPressureChannelD</a> (double _value=0.0)</td></tr>
-<tr class="memdesc:a986051361e698f42000606e6204326b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a value on the pressure channel D, admitted values are [0.0, 450.0] in mbar.  <a href="#a986051361e698f42000606e6204326b2">More...</a><br /></td></tr>
-<tr class="separator:a986051361e698f42000606e6204326b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4de0dcbc2461ad58d027d3cd558b7140"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a4de0dcbc2461ad58d027d3cd558b7140">setValve_l</a> (bool _value=false)</td></tr>
-<tr class="memdesc:a4de0dcbc2461ad58d027d3cd558b7140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the valve "l" value to true/false to Open/Close.  <a href="#a4de0dcbc2461ad58d027d3cd558b7140">More...</a><br /></td></tr>
-<tr class="separator:a4de0dcbc2461ad58d027d3cd558b7140"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19645c0ec24c66f652a705e79cde08c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a19645c0ec24c66f652a705e79cde08c9">setValve_k</a> (bool _value=false)</td></tr>
-<tr class="memdesc:a19645c0ec24c66f652a705e79cde08c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the valve "k" value to true/false to Open/Close.  <a href="#a19645c0ec24c66f652a705e79cde08c9">More...</a><br /></td></tr>
-<tr class="separator:a19645c0ec24c66f652a705e79cde08c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb4feae1a327a38e8771746aeb27e9ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#abb4feae1a327a38e8771746aeb27e9ed">setValve_j</a> (bool _value=false)</td></tr>
-<tr class="memdesc:abb4feae1a327a38e8771746aeb27e9ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the valve "j" value to true/false to Open/Close.  <a href="#abb4feae1a327a38e8771746aeb27e9ed">More...</a><br /></td></tr>
-<tr class="separator:abb4feae1a327a38e8771746aeb27e9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06d56faa8697e734b58f7f033d28b09a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a06d56faa8697e734b58f7f033d28b09a">setValve_i</a> (bool _value=false)</td></tr>
-<tr class="memdesc:a06d56faa8697e734b58f7f033d28b09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the valve "i" value to true/false to Open/Close.  <a href="#a06d56faa8697e734b58f7f033d28b09a">More...</a><br /></td></tr>
-<tr class="separator:a06d56faa8697e734b58f7f033d28b09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a117813c6b896aeddad6c2616d7317da4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a117813c6b896aeddad6c2616d7317da4">setValvesState</a> (int _value=0x00)</td></tr>
-<tr class="memdesc:a117813c6b896aeddad6c2616d7317da4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set all the valves state in one command using a binary number where 1/0 are Open/Close.  <a href="#a117813c6b896aeddad6c2616d7317da4">More...</a><br /></td></tr>
-<tr class="separator:a117813c6b896aeddad6c2616d7317da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c128247366b517bf54b0fa82a25a146"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a1c128247366b517bf54b0fa82a25a146">setTTLstate</a> (bool _value)</td></tr>
-<tr class="memdesc:a1c128247366b517bf54b0fa82a25a146"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the TTL output state (high or low)  <a href="#a1c128247366b517bf54b0fa82a25a146">More...</a><br /></td></tr>
-<tr class="separator:a1c128247366b517bf54b0fa82a25a146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aade9f336dd232522ef44c0cf92060105"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#aade9f336dd232522ef44c0cf92060105">setPulsePeriod</a> (int _value)</td></tr>
-<tr class="memdesc:aade9f336dd232522ef44c0cf92060105"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a pulse lasting _value (ms)  <a href="#aade9f336dd232522ef44c0cf92060105">More...</a><br /></td></tr>
-<tr class="separator:aade9f336dd232522ef44c0cf92060105"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eac7eba38aec1454586f6363c262e6f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a4eac7eba38aec1454586f6363c262e6f">setRuntimeTimeout</a> (int _value)</td></tr>
-<tr class="memdesc:a4eac7eba38aec1454586f6363c262e6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the runtime timeout to _value (mbar)  <a href="#a4eac7eba38aec1454586f6363c262e6f">More...</a><br /></td></tr>
-<tr class="separator:a4eac7eba38aec1454586f6363c262e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dc0fa2362307ad46124e69d60f82b5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a8dc0fa2362307ad46124e69d60f82b5e">increaseDropletSize</a> (double _percentage=2.5)</td></tr>
-<tr class="memdesc:a8dc0fa2362307ad46124e69d60f82b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increase the droplet size by _percentage, default value = 2.5.  <a href="#a8dc0fa2362307ad46124e69d60f82b5e">More...</a><br /></td></tr>
-<tr class="separator:a8dc0fa2362307ad46124e69d60f82b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7750724b22ddabfaf370b6670c6f134"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#ad7750724b22ddabfaf370b6670c6f134">decreaseDropletSize</a> (double _percentage=2.5)</td></tr>
-<tr class="memdesc:ad7750724b22ddabfaf370b6670c6f134"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduce the droplet size by _percentage, default value = 2.5 %.  <a href="#ad7750724b22ddabfaf370b6670c6f134">More...</a><br /></td></tr>
-<tr class="separator:ad7750724b22ddabfaf370b6670c6f134"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af940e7e7b8bbac994f008c4af8cb3d3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#af940e7e7b8bbac994f008c4af8cb3d3f">setDropletSize</a> (double _percentage=0.0)</td></tr>
-<tr class="memdesc:af940e7e7b8bbac994f008c4af8cb3d3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the droplet size by _percentage.  <a href="#af940e7e7b8bbac994f008c4af8cb3d3f">More...</a><br /></td></tr>
-<tr class="separator:af940e7e7b8bbac994f008c4af8cb3d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef3822f5945c305ec3b66980c6c77f39"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#aef3822f5945c305ec3b66980c6c77f39">getDropletSizePercentage</a> ()</td></tr>
-<tr class="memdesc:aef3822f5945c305ec3b66980c6c77f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current droplet size in percentage.  <a href="#aef3822f5945c305ec3b66980c6c77f39">More...</a><br /></td></tr>
-<tr class="separator:aef3822f5945c305ec3b66980c6c77f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a918fa76ec0db05957f70bcdf70a08b08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a918fa76ec0db05957f70bcdf70a08b08">increaseFlowspeed</a> (double _percentage=5.0)</td></tr>
-<tr class="memdesc:a918fa76ec0db05957f70bcdf70a08b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increase the flow speed by _percentage, default value = 5%.  <a href="#a918fa76ec0db05957f70bcdf70a08b08">More...</a><br /></td></tr>
-<tr class="separator:a918fa76ec0db05957f70bcdf70a08b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada2244db1d03ec03c8c24b67f6ff5216"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#ada2244db1d03ec03c8c24b67f6ff5216">decreaseFlowspeed</a> (double _percentage=5.0)</td></tr>
-<tr class="memdesc:ada2244db1d03ec03c8c24b67f6ff5216"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduce the flow speed by _percentage, default value = 5%.  <a href="#ada2244db1d03ec03c8c24b67f6ff5216">More...</a><br /></td></tr>
-<tr class="separator:ada2244db1d03ec03c8c24b67f6ff5216"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01cb30cab5e512580de878a1f71b9ca8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a01cb30cab5e512580de878a1f71b9ca8">setFlowspeed</a> (double _percentage=0.0)</td></tr>
-<tr class="memdesc:a01cb30cab5e512580de878a1f71b9ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the flow speed by _percentage.  <a href="#a01cb30cab5e512580de878a1f71b9ca8">More...</a><br /></td></tr>
-<tr class="separator:a01cb30cab5e512580de878a1f71b9ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2484e5bdde5c2cd5cc2a3456d61c12ed"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a2484e5bdde5c2cd5cc2a3456d61c12ed">getFlowSpeedPercentage</a> ()</td></tr>
-<tr class="memdesc:a2484e5bdde5c2cd5cc2a3456d61c12ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current flow speed in percentage.  <a href="#a2484e5bdde5c2cd5cc2a3456d61c12ed">More...</a><br /></td></tr>
-<tr class="separator:a2484e5bdde5c2cd5cc2a3456d61c12ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99df5ecdc3004af7fae97644316aa3a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a99df5ecdc3004af7fae97644316aa3a8">increaseVacuum</a> (double _percentage=5.0)</td></tr>
-<tr class="memdesc:a99df5ecdc3004af7fae97644316aa3a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increase the vacuum by _percentage, default value = 5%.  <a href="#a99df5ecdc3004af7fae97644316aa3a8">More...</a><br /></td></tr>
-<tr class="separator:a99df5ecdc3004af7fae97644316aa3a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21f447ab5faee10a91edcc71c64d6b14"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a21f447ab5faee10a91edcc71c64d6b14">decreaseVacuum</a> (double _percentage=5.0)</td></tr>
-<tr class="memdesc:a21f447ab5faee10a91edcc71c64d6b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduce the vacuum by _percentage, default value = 5%.  <a href="#a21f447ab5faee10a91edcc71c64d6b14">More...</a><br /></td></tr>
-<tr class="separator:a21f447ab5faee10a91edcc71c64d6b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab21d1103091b6bf29d17f4af168ed08f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#ab21d1103091b6bf29d17f4af168ed08f">setVacuum</a> (double _percentage=0.0)</td></tr>
-<tr class="memdesc:ab21d1103091b6bf29d17f4af168ed08f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the vacuum by _percentage.  <a href="#ab21d1103091b6bf29d17f4af168ed08f">More...</a><br /></td></tr>
-<tr class="separator:ab21d1103091b6bf29d17f4af168ed08f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addae37c50625d4616add7fe5ba838382"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#addae37c50625d4616add7fe5ba838382">getVacuumPercentage</a> ()</td></tr>
-<tr class="memdesc:addae37c50625d4616add7fe5ba838382"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current vacuum value in percentage.  <a href="#addae37c50625d4616add7fe5ba838382">More...</a><br /></td></tr>
-<tr class="separator:addae37c50625d4616add7fe5ba838382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9294dedc810dbe43c57a8576a99c3565"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a9294dedc810dbe43c57a8576a99c3565">setVacuumChannelA</a> (const double _value=-0.0)</td></tr>
+<tr class="memdesc:a9294dedc810dbe43c57a8576a99c3565"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a value on the vacuum channel A, admitted values are [-300.0, 0.0] in mbar.  <a href="#a9294dedc810dbe43c57a8576a99c3565">More...</a><br /></td></tr>
+<tr class="separator:a9294dedc810dbe43c57a8576a99c3565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addbf9a4d5421b3fbea0808fda1504090"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#addbf9a4d5421b3fbea0808fda1504090">setVacuumChannelB</a> (const double _value=-0.0)</td></tr>
+<tr class="memdesc:addbf9a4d5421b3fbea0808fda1504090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a value on the vacuum channel B, admitted values are [-300.0, 0.0] in mbar.  <a href="#addbf9a4d5421b3fbea0808fda1504090">More...</a><br /></td></tr>
+<tr class="separator:addbf9a4d5421b3fbea0808fda1504090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada93a852f2e07c3aa5a04833e26771ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#ada93a852f2e07c3aa5a04833e26771ab">setPressureChannelC</a> (const double _value=0.0)</td></tr>
+<tr class="memdesc:ada93a852f2e07c3aa5a04833e26771ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a value on the pressure channel C, admitted values are [0.0, 450.0] in mbar.  <a href="#ada93a852f2e07c3aa5a04833e26771ab">More...</a><br /></td></tr>
+<tr class="separator:ada93a852f2e07c3aa5a04833e26771ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eaedc05bd4d7b57b254aa2805cc1c71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a7eaedc05bd4d7b57b254aa2805cc1c71">setPressureChannelD</a> (const double _value=0.0)</td></tr>
+<tr class="memdesc:a7eaedc05bd4d7b57b254aa2805cc1c71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a value on the pressure channel D, admitted values are [0.0, 450.0] in mbar.  <a href="#a7eaedc05bd4d7b57b254aa2805cc1c71">More...</a><br /></td></tr>
+<tr class="separator:a7eaedc05bd4d7b57b254aa2805cc1c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c3a108dec63356abc3393483e220e93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a5c3a108dec63356abc3393483e220e93">setValve_l</a> (const bool _value=false)</td></tr>
+<tr class="memdesc:a5c3a108dec63356abc3393483e220e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the valve "l" value to true/false to Open/Close.  <a href="#a5c3a108dec63356abc3393483e220e93">More...</a><br /></td></tr>
+<tr class="separator:a5c3a108dec63356abc3393483e220e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b1ae120f7a59f7f876c6e2b3abccc5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a33b1ae120f7a59f7f876c6e2b3abccc5">setValve_k</a> (const bool _value=false)</td></tr>
+<tr class="memdesc:a33b1ae120f7a59f7f876c6e2b3abccc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the valve "k" value to true/false to Open/Close.  <a href="#a33b1ae120f7a59f7f876c6e2b3abccc5">More...</a><br /></td></tr>
+<tr class="separator:a33b1ae120f7a59f7f876c6e2b3abccc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435d0569d3b1d0968483fd3eec69c4f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a435d0569d3b1d0968483fd3eec69c4f4">setValve_j</a> (const bool _value=false)</td></tr>
+<tr class="memdesc:a435d0569d3b1d0968483fd3eec69c4f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the valve "j" value to true/false to Open/Close.  <a href="#a435d0569d3b1d0968483fd3eec69c4f4">More...</a><br /></td></tr>
+<tr class="separator:a435d0569d3b1d0968483fd3eec69c4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8300674a802280c29aa7cc09664ca0ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a8300674a802280c29aa7cc09664ca0ec">setValve_i</a> (const bool _value=false)</td></tr>
+<tr class="memdesc:a8300674a802280c29aa7cc09664ca0ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the valve "i" value to true/false to Open/Close.  <a href="#a8300674a802280c29aa7cc09664ca0ec">More...</a><br /></td></tr>
+<tr class="separator:a8300674a802280c29aa7cc09664ca0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a337507aee80aa2c2c3f26b3e2e75706a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a337507aee80aa2c2c3f26b3e2e75706a">setValvesState</a> (const int _value=0x00)</td></tr>
+<tr class="memdesc:a337507aee80aa2c2c3f26b3e2e75706a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set all the valves state in one command using a binary number where 1/0 are Open/Close.  <a href="#a337507aee80aa2c2c3f26b3e2e75706a">More...</a><br /></td></tr>
+<tr class="separator:a337507aee80aa2c2c3f26b3e2e75706a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ae1f8b9b07da2455c969691dcc76696"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a8ae1f8b9b07da2455c969691dcc76696">setTTLstate</a> (const bool _value)</td></tr>
+<tr class="memdesc:a8ae1f8b9b07da2455c969691dcc76696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the TTL output state (high or low)  <a href="#a8ae1f8b9b07da2455c969691dcc76696">More...</a><br /></td></tr>
+<tr class="separator:a8ae1f8b9b07da2455c969691dcc76696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15ed7d10b01161725e69e5910bd56771"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a15ed7d10b01161725e69e5910bd56771">setPulsePeriod</a> (const int _value)</td></tr>
+<tr class="memdesc:a15ed7d10b01161725e69e5910bd56771"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a pulse lasting _value (ms)  <a href="#a15ed7d10b01161725e69e5910bd56771">More...</a><br /></td></tr>
+<tr class="separator:a15ed7d10b01161725e69e5910bd56771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc3a84cdd18c0a5b40acb572f15a32f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#aefc3a84cdd18c0a5b40acb572f15a32f">setRuntimeTimeout</a> (const int _value)</td></tr>
+<tr class="memdesc:aefc3a84cdd18c0a5b40acb572f15a32f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the runtime timeout to _value (mbar)  <a href="#aefc3a84cdd18c0a5b40acb572f15a32f">More...</a><br /></td></tr>
+<tr class="separator:aefc3a84cdd18c0a5b40acb572f15a32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee822102d3369a4abf53894ef94ea07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a4ee822102d3369a4abf53894ef94ea07">setDropletSize</a> (double _percentage=100.0)</td></tr>
+<tr class="memdesc:a4ee822102d3369a4abf53894ef94ea07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the droplet size to a specific _percentage, default value = 100.0 %.  <a href="#a4ee822102d3369a4abf53894ef94ea07">More...</a><br /></td></tr>
+<tr class="separator:a4ee822102d3369a4abf53894ef94ea07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f0b2f91e06a3ba76a2a8e5611133299"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a1f0b2f91e06a3ba76a2a8e5611133299">getDropletSize</a> ()</td></tr>
+<tr class="memdesc:a1f0b2f91e06a3ba76a2a8e5611133299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current droplet size in percentage.  <a href="#a1f0b2f91e06a3ba76a2a8e5611133299">More...</a><br /></td></tr>
+<tr class="separator:a1f0b2f91e06a3ba76a2a8e5611133299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a695d4b21f22d2cea20459409d8a59c0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a695d4b21f22d2cea20459409d8a59c0a">setFlowspeed</a> (const double _percentage=100.0)</td></tr>
+<tr class="memdesc:a695d4b21f22d2cea20459409d8a59c0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the flow speed by _percentage.  <a href="#a695d4b21f22d2cea20459409d8a59c0a">More...</a><br /></td></tr>
+<tr class="separator:a695d4b21f22d2cea20459409d8a59c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdae3859f66735371d5785a3b9caee1a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#acdae3859f66735371d5785a3b9caee1a">getFlowSpeed</a> ()</td></tr>
+<tr class="memdesc:acdae3859f66735371d5785a3b9caee1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current flow speed in percentage.  <a href="#acdae3859f66735371d5785a3b9caee1a">More...</a><br /></td></tr>
+<tr class="separator:acdae3859f66735371d5785a3b9caee1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aca108d44bbded075395ece7d135744"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a6aca108d44bbded075395ece7d135744">setVacuum</a> (const double _percentage=100.0)</td></tr>
+<tr class="memdesc:a6aca108d44bbded075395ece7d135744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the vacuum by _percentage.  <a href="#a6aca108d44bbded075395ece7d135744">More...</a><br /></td></tr>
+<tr class="separator:a6aca108d44bbded075395ece7d135744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad831b5382d280a31a263fa298da3033c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#ad831b5382d280a31a263fa298da3033c">getVacuum</a> ()</td></tr>
+<tr class="memdesc:ad831b5382d280a31a263fa298da3033c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current vacuum value in percentage.  <a href="#ad831b5382d280a31a263fa298da3033c">More...</a><br /></td></tr>
+<tr class="separator:ad831b5382d280a31a263fa298da3033c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a814090ef294eabb6fbc79e2ce81a4321"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a814090ef294eabb6fbc79e2ce81a4321">getFlow</a> (double _square_channel_mod=1.128, double _pipe_diameter=0.00003, double _delta_pressure=-14600.0, double _dynamic_viscosity=0.00089, double _pipe_length=0.124)</td></tr>
+<tr class="memdesc:a814090ef294eabb6fbc79e2ce81a4321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the flow value.  <a href="#a814090ef294eabb6fbc79e2ce81a4321">More...</a><br /></td></tr>
+<tr class="separator:a814090ef294eabb6fbc79e2ce81a4321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62018d0b1bc9b6e3a8c78bb9eedb2fca"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a62018d0b1bc9b6e3a8c78bb9eedb2fca">getFlowSimple</a> (double _delta_pressure=-14600.0, double _pipe_length=0.124)</td></tr>
+<tr class="memdesc:a62018d0b1bc9b6e3a8c78bb9eedb2fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the outflow value using default values.  <a href="#a62018d0b1bc9b6e3a8c78bb9eedb2fca">More...</a><br /></td></tr>
+<tr class="separator:a62018d0b1bc9b6e3a8c78bb9eedb2fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fa4c0f0b9610232bfe4a12aee9ec400"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a6fa4c0f0b9610232bfe4a12aee9ec400">run</a> (<a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html">command</a> _cmd)</td></tr>
 <tr class="memdesc:a6fa4c0f0b9610232bfe4a12aee9ec400"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run a command for the PPC1.  <a href="#a6fa4c0f0b9610232bfe4a12aee9ec400">More...</a><br /></td></tr>
 <tr class="separator:a6fa4c0f0b9610232bfe4a12aee9ec400"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,9 +232,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a152639feac06cce1d2a55a882482d814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a152639feac06cce1d2a55a882482d814">setVebose</a> (bool _verbose=false)</td></tr>
 <tr class="memdesc:a152639feac06cce1d2a55a882482d814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set verbose output.  <a href="#a152639feac06cce1d2a55a882482d814">More...</a><br /></td></tr>
 <tr class="separator:a152639feac06cce1d2a55a882482d814"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd4aa38cfa1d7a7706c92b855a49ac5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#abd4aa38cfa1d7a7706c92b855a49ac5d">setDefaultPV</a> (double _default_pon=190.0, double _default_poff=21.0, double _default_v_recirc=115.0, double _default_v_switch=115.0)</td></tr>
-<tr class="memdesc:abd4aa38cfa1d7a7706c92b855a49ac5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the default values of pressures and vacuum to 100 droplet size.  <a href="#abd4aa38cfa1d7a7706c92b855a49ac5d">More...</a><br /></td></tr>
-<tr class="separator:abd4aa38cfa1d7a7706c92b855a49ac5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4491aef030374451befd373227a6b186"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a4491aef030374451befd373227a6b186">setDefaultPV</a> (double _default_pon=190.0, double _default_poff=21.0, double _default_v_recirc=-115.0, double _default_v_switch=-115.0)</td></tr>
+<tr class="memdesc:a4491aef030374451befd373227a6b186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the default values of pressures and vacuum to 100 droplet size.  <a href="#a4491aef030374451befd373227a6b186">More...</a><br /></td></tr>
+<tr class="separator:a4491aef030374451befd373227a6b186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07a3ee29334cb0d408de5349f6384522"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a07a3ee29334cb0d408de5349f6384522">getDeviceID</a> ()</td></tr>
 <tr class="memdesc:a07a3ee29334cb0d408de5349f6384522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get device serial number.  <a href="#a07a3ee29334cb0d408de5349f6384522">More...</a><br /></td></tr>
 <tr class="separator:a07a3ee29334cb0d408de5349f6384522"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -253,18 +249,23 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af9dd1f0a00e25a5ac30ac78422754266"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data.html">PPC1_data</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#af9dd1f0a00e25a5ac30ac78422754266">m_PPC1_data</a></td></tr>
 <tr class="separator:af9dd1f0a00e25a5ac30ac78422754266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d5a11d96b97b8551ec95bba5e9d7015"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__status.html">PPC1_status</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a2d5a11d96b97b8551ec95bba5e9d7015">m_PPC1_status</a></td></tr>
+<tr class="separator:a2d5a11d96b97b8551ec95bba5e9d7015"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aef71416237c9d9e7f421e5d59b794896"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#aef71416237c9d9e7f421e5d59b794896">decodeDataLine</a> (string &amp;_data)</td></tr>
-<tr class="memdesc:aef71416237c9d9e7f421e5d59b794896"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode data line function.  <a href="#aef71416237c9d9e7f421e5d59b794896">More...</a><br /></td></tr>
-<tr class="separator:aef71416237c9d9e7f421e5d59b794896"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52a365e6edb33d79bb32799715b6d3ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a52a365e6edb33d79bb32799715b6d3ae">decodeChannelLine</a> (string &amp;_data, vector&lt; double &gt; &amp;_line)</td></tr>
-<tr class="memdesc:a52a365e6edb33d79bb32799715b6d3ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode one channel line.  <a href="#a52a365e6edb33d79bb32799715b6d3ae">More...</a><br /></td></tr>
-<tr class="separator:a52a365e6edb33d79bb32799715b6d3ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f5a66c348750e85a4279283f3457cd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a0f5a66c348750e85a4279283f3457cd4">threadSerial</a> ()</td></tr>
 <tr class="memdesc:a0f5a66c348750e85a4279283f3457cd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Threaded routine that stream data from PPC1.  <a href="#a0f5a66c348750e85a4279283f3457cd4">More...</a><br /></td></tr>
 <tr class="separator:a0f5a66c348750e85a4279283f3457cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabcc7c9ffe4fbd8eb04cd28314d52b69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#aabcc7c9ffe4fbd8eb04cd28314d52b69">decodeDataLine</a> (const string &amp;_data, <a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data.html">PPC1_data</a> &amp;_PPC1_data)</td></tr>
+<tr class="memdesc:aabcc7c9ffe4fbd8eb04cd28314d52b69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode data line function.  <a href="#aabcc7c9ffe4fbd8eb04cd28314d52b69">More...</a><br /></td></tr>
+<tr class="separator:aabcc7c9ffe4fbd8eb04cd28314d52b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8127e93150f9aacf5e01e0782fb68ee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#ab8127e93150f9aacf5e01e0782fb68ee">decodeChannelLine</a> (const string &amp;_data, vector&lt; double &gt; &amp;_line)</td></tr>
+<tr class="memdesc:ab8127e93150f9aacf5e01e0782fb68ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode one channel line.  <a href="#ab8127e93150f9aacf5e01e0782fb68ee">More...</a><br /></td></tr>
+<tr class="separator:ab8127e93150f9aacf5e01e0782fb68ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f6ef24ffde1376b9fecc8780515cc6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a8f6ef24ffde1376b9fecc8780515cc6c">updateFlows</a> (const <a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data.html">PPC1_data</a> &amp;_PPC1_data, <a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__status.html">PPC1_status</a> &amp;_PPC1_status)</td></tr>
+<tr class="memdesc:a8f6ef24ffde1376b9fecc8780515cc6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update flow calculation //TODO: write guide here.  <a href="#a8f6ef24ffde1376b9fecc8780515cc6c">More...</a><br /></td></tr>
+<tr class="separator:a8f6ef24ffde1376b9fecc8780515cc6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e44d475dde8d0bd3fbecd37beea23a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a6e44d475dde8d0bd3fbecd37beea23a8">sendData</a> (const string &amp;_data)</td></tr>
 <tr class="memdesc:a6e44d475dde8d0bd3fbecd37beea23a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a string to the PPC1 controller.  <a href="#a6e44d475dde8d0bd3fbecd37beea23a8">More...</a><br /></td></tr>
 <tr class="separator:a6e44d475dde8d0bd3fbecd37beea23a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -427,14 +428,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa6ded5ff01769965f98088a49ea3b2aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6ded5ff01769965f98088a49ea3b2aa">&#9670;&nbsp;</a></span>closeAllValves()</h2>
+<a id="a87df84bee1237c65a9d9f8676ecd143b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87df84bee1237c65a9d9f8676ecd143b">&#9670;&nbsp;</a></span>closeAllValves()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void fluicell::PPC1api::closeAllValves </td>
+          <td class="memname">bool fluicell::PPC1api::closeAllValves </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -576,8 +577,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a52a365e6edb33d79bb32799715b6d3ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52a365e6edb33d79bb32799715b6d3ae">&#9670;&nbsp;</a></span>decodeChannelLine()</h2>
+<a id="ab8127e93150f9aacf5e01e0782fb68ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8127e93150f9aacf5e01e0782fb68ee">&#9670;&nbsp;</a></span>decodeChannelLine()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -588,7 +589,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::decodeChannelLine </td>
           <td>(</td>
-          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramtype">const string &amp;&#160;</td>
           <td class="paramname"><em>_data</em>, </td>
         </tr>
         <tr>
@@ -625,8 +626,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aef71416237c9d9e7f421e5d59b794896"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef71416237c9d9e7f421e5d59b794896">&#9670;&nbsp;</a></span>decodeDataLine()</h2>
+<a id="aabcc7c9ffe4fbd8eb04cd28314d52b69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabcc7c9ffe4fbd8eb04cd28314d52b69">&#9670;&nbsp;</a></span>decodeDataLine()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -637,9 +638,19 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::decodeDataLine </td>
           <td>(</td>
-          <td class="paramtype">string &amp;&#160;</td>
-          <td class="paramname"><em>_data</em></td><td>)</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data.html">PPC1_data</a> &amp;&#160;</td>
+          <td class="paramname"><em>_PPC1_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -666,74 +677,6 @@ Private Attributes</h2></td></tr>
  Valves: 0101<br />
  </p><dl class="section return"><dt>Returns</dt><dd>true if success, false for any error</dd></dl>
 <dl class="section note"><dt>Note</dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="ad7750724b22ddabfaf370b6670c6f134"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7750724b22ddabfaf370b6670c6f134">&#9670;&nbsp;</a></span>decreaseDropletSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool fluicell::PPC1api::decreaseDropletSize </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_percentage</em> = <code>2.5</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reduce the droplet size by _percentage, default value = 2.5 %. </p>
-<p>A bit more advanced control can reduce the droplet size by 2.5%</p>
-<dl class="section return"><dt>Returns</dt><dd>- false in case of errors </dd></dl>
-
-</div>
-</div>
-<a id="ada2244db1d03ec03c8c24b67f6ff5216"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada2244db1d03ec03c8c24b67f6ff5216">&#9670;&nbsp;</a></span>decreaseFlowspeed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool fluicell::PPC1api::decreaseFlowspeed </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_percentage</em> = <code>5.0</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reduce the flow speed by _percentage, default value = 5%. </p>
-<p>A bit more advanced control can reduce the flow speed by 5% by reducing all the set points (channels A, B, C and D) by 5%</p>
-<dl class="section note"><dt>Note</dt><dd>: new_set_point = old_set_point - 5% the calculation is based on the set point and not the actual reading</dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>- false in case of errors </dd></dl>
-
-</div>
-</div>
-<a id="a21f447ab5faee10a91edcc71c64d6b14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21f447ab5faee10a91edcc71c64d6b14">&#9670;&nbsp;</a></span>decreaseVacuum()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool fluicell::PPC1api::decreaseVacuum </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_percentage</em> = <code>5.0</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reduce the vacuum by _percentage, default value = 5%. </p>
-<p>A bit more advanced control can reduce the vacuum by 5% by decreasing the value by 5% on channel A</p>
-<dl class="section note"><dt>Note</dt><dd>: new_set_point = old_set_point - 5% the calculation is based on the set point and not the actual reading</dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>- false in case of errors </dd></dl>
 
 </div>
 </div>
@@ -777,14 +720,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aef3822f5945c305ec3b66980c6c77f39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef3822f5945c305ec3b66980c6c77f39">&#9670;&nbsp;</a></span>getDropletSizePercentage()</h2>
+<a id="a1f0b2f91e06a3ba76a2a8e5611133299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f0b2f91e06a3ba76a2a8e5611133299">&#9670;&nbsp;</a></span>getDropletSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double fluicell::PPC1api::getDropletSizePercentage </td>
+          <td class="memname">double fluicell::PPC1api::getDropletSize </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -793,19 +736,126 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the current droplet size in percentage. </p>
-<dl class="section note"><dt>Note</dt><dd>: the calculation is based on the the actual sensor readings</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>: the calculation is based on the the actual sensor readings </dd>
+<dd>
+: the calculation is actually the cube root of the visualized value</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>- value as the average of the percentage with respect to the default values </dd></dl>
 
 </div>
 </div>
-<a id="a2484e5bdde5c2cd5cc2a3456d61c12ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2484e5bdde5c2cd5cc2a3456d61c12ed">&#9670;&nbsp;</a></span>getFlowSpeedPercentage()</h2>
+<a id="a814090ef294eabb6fbc79e2ce81a4321"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a814090ef294eabb6fbc79e2ce81a4321">&#9670;&nbsp;</a></span>getFlow()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double fluicell::PPC1api::getFlowSpeedPercentage </td>
+          <td class="memname">double fluicell::PPC1api::getFlow </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_square_channel_mod</em> = <code>1.128</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_pipe_diameter</em> = <code>0.00003</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_delta_pressure</em> = <code>-14600.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_dynamic_viscosity</em> = <code>0.00089</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_pipe_length</em> = <code>0.124</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the flow value. </p>
+<p>Calculate the flow in a pipe using the Poiseuille equation in laminar flow, more details <a href="https://en.wikipedia.org/wiki/Hagen%E2%80%93Poiseuille_equation">here</a></p>
+<p>\( Q = \frac{\pi D^4 \Delta P}{128 \mu \Delta x} \)</p>
+<p>Specifically, here is calculate the flow using the square modifier for the specific channel</p>
+<p>\( Q = \frac{\pi (s * D)^4 \Delta P}{128 \mu \Delta x} \)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a62018d0b1bc9b6e3a8c78bb9eedb2fca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62018d0b1bc9b6e3a8c78bb9eedb2fca">&#9670;&nbsp;</a></span>getFlowSimple()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double fluicell::PPC1api::getFlowSimple </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_delta_pressure</em> = <code>-14600.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_pipe_length</em> = <code>0.124</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the outflow value using default values. </p>
+<p>Recall getFlow using default values</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_delta_pressure</td><td>(100*mbar) </td></tr>
+    <tr><td class="paramname">_pipe_length</td><td>(m)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>- flow (nL/s) </dd></dl>
+
+</div>
+</div>
+<a id="acdae3859f66735371d5785a3b9caee1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdae3859f66735371d5785a3b9caee1a">&#9670;&nbsp;</a></span>getFlowSpeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double fluicell::PPC1api::getFlowSpeed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -819,14 +869,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="addae37c50625d4616add7fe5ba838382"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addae37c50625d4616add7fe5ba838382">&#9670;&nbsp;</a></span>getVacuumPercentage()</h2>
+<a id="ad831b5382d280a31a263fa298da3033c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad831b5382d280a31a263fa298da3033c">&#9670;&nbsp;</a></span>getVacuum()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double fluicell::PPC1api::getVacuumPercentage </td>
+          <td class="memname">double fluicell::PPC1api::getVacuum </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -837,74 +887,6 @@ Private Attributes</h2></td></tr>
 <p>Get the current vacuum value in percentage. </p>
 <dl class="section note"><dt>Note</dt><dd>: the calculation is based on the the actual sensor reading</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>- value = 100 * channel_A-&gt;sensor_reading / DEFAULT_VACUUM </dd></dl>
-
-</div>
-</div>
-<a id="a8dc0fa2362307ad46124e69d60f82b5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dc0fa2362307ad46124e69d60f82b5e">&#9670;&nbsp;</a></span>increaseDropletSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool fluicell::PPC1api::increaseDropletSize </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_percentage</em> = <code>2.5</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Increase the droplet size by _percentage, default value = 2.5. </p>
-<p>A bit more advanced control can increase the droplet size by 2.5%</p>
-<dl class="section return"><dt>Returns</dt><dd>- false in case of errors </dd></dl>
-
-</div>
-</div>
-<a id="a918fa76ec0db05957f70bcdf70a08b08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a918fa76ec0db05957f70bcdf70a08b08">&#9670;&nbsp;</a></span>increaseFlowspeed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool fluicell::PPC1api::increaseFlowspeed </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_percentage</em> = <code>5.0</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Increase the flow speed by _percentage, default value = 5%. </p>
-<p>A bit more advanced control can increase the flow speed by 5% by increasing all the set points (channels A, B, C and D) by 5%</p>
-<dl class="section note"><dt>Note</dt><dd>: new_set_point = old_set_point + 5% the calculation is based on the set point and not the actual reading</dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>- false in case of errors </dd></dl>
-
-</div>
-</div>
-<a id="a99df5ecdc3004af7fae97644316aa3a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99df5ecdc3004af7fae97644316aa3a8">&#9670;&nbsp;</a></span>increaseVacuum()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool fluicell::PPC1api::increaseVacuum </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_percentage</em> = <code>5.0</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Increase the vacuum by _percentage, default value = 5%. </p>
-<p>A bit more advanced control can increase the vacuum by 5% by increasing the value by 5% on channel A</p>
-<dl class="section note"><dt>Note</dt><dd>: new_set_point = old_set_point + 5% the calculation is based on the set point and not the actual reading</dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>- false in case of errors </dd></dl>
 
 </div>
 </div>
@@ -964,14 +946,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aaf3f4b0e54b289b439cfbcc05171d90d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf3f4b0e54b289b439cfbcc05171d90d">&#9670;&nbsp;</a></span>openAllValves()</h2>
+<a id="aa5e524e936cd5525f593d3503df412a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5e524e936cd5525f593d3503df412a3">&#9670;&nbsp;</a></span>openAllValves()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void fluicell::PPC1api::openAllValves </td>
+          <td class="memname">bool fluicell::PPC1api::openAllValves </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -980,7 +962,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Close all the valves i to l. </p>
-<p>It recalls the setValvesState with the message 0xFF </p>
+<p>It recalls the setValvesState with the message 0xFF</p>
+<dl class="section return"><dt>Returns</dt><dd>true if success, false for any error </dd></dl>
 
 </div>
 </div>
@@ -1000,6 +983,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Put all the set points to zero and close the valves, the device is now in a sleep mode. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if success, false for any error </dd></dl>
 
 </div>
 </div>
@@ -1234,8 +1218,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abd4aa38cfa1d7a7706c92b855a49ac5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd4aa38cfa1d7a7706c92b855a49ac5d">&#9670;&nbsp;</a></span>setDefaultPV()</h2>
+<a id="a4491aef030374451befd373227a6b186"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4491aef030374451befd373227a6b186">&#9670;&nbsp;</a></span>setDefaultPV()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1259,13 +1243,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_default_v_recirc</em> = <code>115.0</code>, </td>
+          <td class="paramname"><em>_default_v_recirc</em> = <code>-115.0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_default_v_switch</em> = <code>115.0</code>&#160;</td>
+          <td class="paramname"><em>_default_v_switch</em> = <code>-115.0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1296,8 +1280,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af940e7e7b8bbac994f008c4af8cb3d3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af940e7e7b8bbac994f008c4af8cb3d3f">&#9670;&nbsp;</a></span>setDropletSize()</h2>
+<a id="a4ee822102d3369a4abf53894ef94ea07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ee822102d3369a4abf53894ef94ea07">&#9670;&nbsp;</a></span>setDropletSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1306,20 +1290,20 @@ Private Attributes</h2></td></tr>
           <td class="memname">bool fluicell::PPC1api::setDropletSize </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_percentage</em> = <code>0.0</code></td><td>)</td>
+          <td class="paramname"><em>_percentage</em> = <code>100.0</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the droplet size by _percentage. </p>
-<p>Write me</p>
+<p>Change the droplet size to a specific _percentage, default value = 100.0 %. </p>
+<p>Change the droplet size to a specific _percentage with respect to the default values</p>
 <dl class="section return"><dt>Returns</dt><dd>- false in case of errors </dd></dl>
 
 </div>
 </div>
-<a id="a01cb30cab5e512580de878a1f71b9ca8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01cb30cab5e512580de878a1f71b9ca8">&#9670;&nbsp;</a></span>setFlowspeed()</h2>
+<a id="a695d4b21f22d2cea20459409d8a59c0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a695d4b21f22d2cea20459409d8a59c0a">&#9670;&nbsp;</a></span>setFlowspeed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1327,8 +1311,8 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setFlowspeed </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_percentage</em> = <code>0.0</code></td><td>)</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>_percentage</em> = <code>100.0</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1340,8 +1324,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a63860f2fc32c4eea447f3ce2340f6659"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63860f2fc32c4eea447f3ce2340f6659">&#9670;&nbsp;</a></span>setPressureChannelC()</h2>
+<a id="ada93a852f2e07c3aa5a04833e26771ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada93a852f2e07c3aa5a04833e26771ab">&#9670;&nbsp;</a></span>setPressureChannelC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1349,7 +1333,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setPressureChannelC </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
+          <td class="paramtype">const double&#160;</td>
           <td class="paramname"><em>_value</em> = <code>0.0</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1370,8 +1354,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a986051361e698f42000606e6204326b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a986051361e698f42000606e6204326b2">&#9670;&nbsp;</a></span>setPressureChannelD()</h2>
+<a id="a7eaedc05bd4d7b57b254aa2805cc1c71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eaedc05bd4d7b57b254aa2805cc1c71">&#9670;&nbsp;</a></span>setPressureChannelD()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1379,7 +1363,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setPressureChannelD </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
+          <td class="paramtype">const double&#160;</td>
           <td class="paramname"><em>_value</em> = <code>0.0</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1400,8 +1384,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aade9f336dd232522ef44c0cf92060105"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aade9f336dd232522ef44c0cf92060105">&#9670;&nbsp;</a></span>setPulsePeriod()</h2>
+<a id="a15ed7d10b01161725e69e5910bd56771"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15ed7d10b01161725e69e5910bd56771">&#9670;&nbsp;</a></span>setPulsePeriod()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1409,7 +1393,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setPulsePeriod </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>_value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1429,8 +1413,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4eac7eba38aec1454586f6363c262e6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eac7eba38aec1454586f6363c262e6f">&#9670;&nbsp;</a></span>setRuntimeTimeout()</h2>
+<a id="aefc3a84cdd18c0a5b40acb572f15a32f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc3a84cdd18c0a5b40acb572f15a32f">&#9670;&nbsp;</a></span>setRuntimeTimeout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1438,7 +1422,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setRuntimeTimeout </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>_value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1457,8 +1441,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1c128247366b517bf54b0fa82a25a146"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c128247366b517bf54b0fa82a25a146">&#9670;&nbsp;</a></span>setTTLstate()</h2>
+<a id="a8ae1f8b9b07da2455c969691dcc76696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ae1f8b9b07da2455c969691dcc76696">&#9670;&nbsp;</a></span>setTTLstate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1466,7 +1450,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setTTLstate </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
+          <td class="paramtype">const bool&#160;</td>
           <td class="paramname"><em>_value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1485,8 +1469,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab21d1103091b6bf29d17f4af168ed08f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab21d1103091b6bf29d17f4af168ed08f">&#9670;&nbsp;</a></span>setVacuum()</h2>
+<a id="a6aca108d44bbded075395ece7d135744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aca108d44bbded075395ece7d135744">&#9670;&nbsp;</a></span>setVacuum()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1494,8 +1478,8 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setVacuum </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_percentage</em> = <code>0.0</code></td><td>)</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>_percentage</em> = <code>100.0</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1507,8 +1491,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a595338315cf16fdee49229893f0ef219"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a595338315cf16fdee49229893f0ef219">&#9670;&nbsp;</a></span>setVacuumChannelA()</h2>
+<a id="a9294dedc810dbe43c57a8576a99c3565"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9294dedc810dbe43c57a8576a99c3565">&#9670;&nbsp;</a></span>setVacuumChannelA()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1516,7 +1500,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setVacuumChannelA </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
+          <td class="paramtype">const double&#160;</td>
           <td class="paramname"><em>_value</em> = <code>-0.0</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1537,8 +1521,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6e812505271c293aa95d3a9ce408291d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e812505271c293aa95d3a9ce408291d">&#9670;&nbsp;</a></span>setVacuumChannelB()</h2>
+<a id="addbf9a4d5421b3fbea0808fda1504090"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addbf9a4d5421b3fbea0808fda1504090">&#9670;&nbsp;</a></span>setVacuumChannelB()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1546,7 +1530,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setVacuumChannelB </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
+          <td class="paramtype">const double&#160;</td>
           <td class="paramname"><em>_value</em> = <code>-0.0</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1567,8 +1551,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a06d56faa8697e734b58f7f033d28b09a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06d56faa8697e734b58f7f033d28b09a">&#9670;&nbsp;</a></span>setValve_i()</h2>
+<a id="a8300674a802280c29aa7cc09664ca0ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8300674a802280c29aa7cc09664ca0ec">&#9670;&nbsp;</a></span>setValve_i()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1576,7 +1560,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setValve_i </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
+          <td class="paramtype">const bool&#160;</td>
           <td class="paramname"><em>_value</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1596,8 +1580,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abb4feae1a327a38e8771746aeb27e9ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb4feae1a327a38e8771746aeb27e9ed">&#9670;&nbsp;</a></span>setValve_j()</h2>
+<a id="a435d0569d3b1d0968483fd3eec69c4f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a435d0569d3b1d0968483fd3eec69c4f4">&#9670;&nbsp;</a></span>setValve_j()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1605,7 +1589,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setValve_j </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
+          <td class="paramtype">const bool&#160;</td>
           <td class="paramname"><em>_value</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1625,8 +1609,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a19645c0ec24c66f652a705e79cde08c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19645c0ec24c66f652a705e79cde08c9">&#9670;&nbsp;</a></span>setValve_k()</h2>
+<a id="a33b1ae120f7a59f7f876c6e2b3abccc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33b1ae120f7a59f7f876c6e2b3abccc5">&#9670;&nbsp;</a></span>setValve_k()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1634,7 +1618,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setValve_k </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
+          <td class="paramtype">const bool&#160;</td>
           <td class="paramname"><em>_value</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1654,8 +1638,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4de0dcbc2461ad58d027d3cd558b7140"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4de0dcbc2461ad58d027d3cd558b7140">&#9670;&nbsp;</a></span>setValve_l()</h2>
+<a id="a5c3a108dec63356abc3393483e220e93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c3a108dec63356abc3393483e220e93">&#9670;&nbsp;</a></span>setValve_l()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1663,7 +1647,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setValve_l </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
+          <td class="paramtype">const bool&#160;</td>
           <td class="paramname"><em>_value</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1683,8 +1667,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a117813c6b896aeddad6c2616d7317da4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a117813c6b896aeddad6c2616d7317da4">&#9670;&nbsp;</a></span>setValvesState()</h2>
+<a id="a337507aee80aa2c2c3f26b3e2e75706a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a337507aee80aa2c2c3f26b3e2e75706a">&#9670;&nbsp;</a></span>setValvesState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1692,7 +1676,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool fluicell::PPC1api::setValvesState </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>_value</em> = <code>0x00</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1831,6 +1815,45 @@ Private Attributes</h2></td></tr>
 <p>Internal function that makes sure the char is properly interpreted as a digit</p>
 <dl class="section return"><dt>Returns</dt><dd>value</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>(int)char return the integer ASCII code for char so sub '0' is required </dd></dl>
+
+</div>
+</div>
+<a id="a8f6ef24ffde1376b9fecc8780515cc6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f6ef24ffde1376b9fecc8780515cc6c">&#9670;&nbsp;</a></span>updateFlows()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fluicell::PPC1api::updateFlows </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data.html">PPC1_data</a> &amp;&#160;</td>
+          <td class="paramname"><em>_PPC1_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__status.html">PPC1_status</a> &amp;&#160;</td>
+          <td class="paramname"><em>_PPC1_status</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update flow calculation //TODO: write guide here. </p>
+<dl class="section note"><dt>Note</dt><dd>- </dd></dl>
 
 </div>
 </div>
@@ -2066,6 +2089,21 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2d5a11d96b97b8551ec95bba5e9d7015"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d5a11d96b97b8551ec95bba5e9d7015">&#9670;&nbsp;</a></span>m_PPC1_status</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__status.html">PPC1_status</a>* fluicell::PPC1api::m_PPC1_status</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>data structure member exposed to be used by the user, maybe this will be changed in the future </p>
+
+</div>
+</div>
 <a id="a3f4ae90f4f5795ac38c9dcb34d4fd62f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3f4ae90f4f5795ac38c9dcb34d4fd62f">&#9670;&nbsp;</a></span>m_thread</h2>
 
@@ -2146,7 +2184,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacefluicell.html">fluicell</a></li><li class="navelem"><a class="el" href="classfluicell_1_1_p_p_c1api.html">PPC1api</a></li>
-    <li class="footer">Generated on Fri Aug 25 2017 11:12:08 for Fluicell PPC1 API by
+    <li class="footer">Generated on Fri Sep 22 2017 16:50:17 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

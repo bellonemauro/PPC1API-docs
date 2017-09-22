@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['waitsync',['waitSync',['../ppc1api_8h.html#a4eb9c2b546c4270d140ec38a52fa85fb',1,'ppc1api.h']]]
+  ['updateflows',['updateFlows',['../classfluicell_1_1_p_p_c1api.html#a8f6ef24ffde1376b9fecc8780515cc6c',1,'fluicell::PPC1api']]]
 ];
