@@ -1,0 +1,67 @@
+[OPTIONS]
+Compiled file=../../labonatip2_help.chm
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=Fluicell PPC1 API
+
+[WINDOWS]
+main="Fluicell PPC1 API","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+export_8h_source.html
+ppc1api_8h_source.html
+docs_2_r_e_a_d_m_e_8md.html
+libs_2ppc1api_2_r_e_a_d_m_e_8md.html
+libs_2_r_e_a_d_m_e_8md.html
+_r_e_a_d_m_e_8md.html
+export_8h.html
+ppc1api_8h.html
+ppc1api_8cpp.html
+namespacefluicell.html
+classfluicell_1_1_p_p_c1api.html
+classfluicell_1_1_p_p_c1api-members.html
+structfluicell_1_1_p_p_c1api_1_1command.html
+structfluicell_1_1_p_p_c1api_1_1command-members.html
+structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data.html
+structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data-members.html
+structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data_1_1channel.html
+structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data_1_1channel-members.html
+structfluicell_1_1_p_p_c1api_1_1_p_p_c1__status.html
+structfluicell_1_1_p_p_c1api_1_1_p_p_c1__status-members.html
+structfluicell_1_1_p_p_c1api_1_1serial_device_info.html
+structfluicell_1_1_p_p_c1api_1_1serial_device_info-members.html
+dir_f5f8f5eada8a658e5b7971d37812ad99.html
+dir_fc7b6e92b978116bfd3494dc4e471032.html
+dir_6719ab1f1f7655efc2fa43f7eb574fd1.html
+dir_be0558065af857cd95de5563580d1df3.html
+dir_30220c3e420fe36a8aba9446d9dcd464.html
+dir_89ed3877a77c26b3d6917d3027abb258.html
+index.html
+namespaces.html
+annotated.html
+classes.html
+functions.html
+functions_func.html
+functions_vars.html
+files.html
+globals.html
+globals_vars.html
+globals_defs.html
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png
+doxygen.png
+closed.png
+open.png
+bdwn.png
+sync_on.png
+sync_off.png

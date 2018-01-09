@@ -1,6 +1,7 @@
 var searchData=
 [
   ['m_5fbaud_5frate',['m_baud_rate',['../classfluicell_1_1_p_p_c1api.html#aee19ec87d3826318d4b64932ad6d1cc2',1,'fluicell::PPC1api']]],
+  ['m_5fcom_5ftimeout',['m_COM_timeout',['../classfluicell_1_1_p_p_c1api.html#a3f7f5352403cf64cc73c982e9d19b92d',1,'fluicell::PPC1api']]],
   ['m_5fcomport',['m_COMport',['../classfluicell_1_1_p_p_c1api.html#ac1f5eba25b0e822874fc5a92d49adc7a',1,'fluicell::PPC1api']]],
   ['m_5fdatastreamperiod',['m_dataStreamPeriod',['../classfluicell_1_1_p_p_c1api.html#a264048ab3cb2ed63b6edefac9b40abf7',1,'fluicell::PPC1api']]],
   ['m_5fdefault_5fpoff',['m_default_poff',['../classfluicell_1_1_p_p_c1api.html#aedabd5726ea674faa30c95662f263b49',1,'fluicell::PPC1api']]],
@@ -8,6 +9,8 @@ var searchData=
   ['m_5fdefault_5fv_5frecirc',['m_default_v_recirc',['../classfluicell_1_1_p_p_c1api.html#ac78c15fbde2d14efda7e877e06d06455',1,'fluicell::PPC1api']]],
   ['m_5fdefault_5fv_5fswitch',['m_default_v_switch',['../classfluicell_1_1_p_p_c1api.html#a1a45de5773740dd5139da600b4bfe291',1,'fluicell::PPC1api']]],
   ['m_5fisrunning',['m_isRunning',['../classfluicell_1_1_p_p_c1api.html#acc84c0144a7ec87137fb6ec60faffe4f',1,'fluicell::PPC1api']]],
+  ['m_5fpipe_5flength2tip',['m_pipe_length2tip',['../classfluicell_1_1_p_p_c1api.html#aac89c8420f814811e4a4844cc1bc1362',1,'fluicell::PPC1api']]],
+  ['m_5fpipe_5flength2zone',['m_pipe_length2zone',['../classfluicell_1_1_p_p_c1api.html#a3a551cd1353819efe4fd1d2c2dd6dccc',1,'fluicell::PPC1api']]],
   ['m_5fppc1_5fdata',['m_PPC1_data',['../classfluicell_1_1_p_p_c1api.html#af9dd1f0a00e25a5ac30ac78422754266',1,'fluicell::PPC1api']]],
   ['m_5fppc1_5fserial',['m_PPC1_serial',['../classfluicell_1_1_p_p_c1api.html#a86c7526301801b65659a7720a492823f',1,'fluicell::PPC1api']]],
   ['m_5fppc1_5fstatus',['m_PPC1_status',['../classfluicell_1_1_p_p_c1api.html#a2d5a11d96b97b8551ec95bba5e9d7015',1,'fluicell::PPC1api']]],

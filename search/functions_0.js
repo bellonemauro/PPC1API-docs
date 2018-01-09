@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['changedropletsizeby',['changeDropletSizeBy',['../classfluicell_1_1_p_p_c1api.html#a91434eafa9f02d0716e3cb7bb496b74c',1,'fluicell::PPC1api']]],
+  ['changeflowspeedby',['changeFlowspeedBy',['../classfluicell_1_1_p_p_c1api.html#a5638b3e5c6ae187c2dbb1b2b281e8dfd',1,'fluicell::PPC1api']]],
+  ['changevacuumpercentageby',['changeVacuumPercentageBy',['../classfluicell_1_1_p_p_c1api.html#a0df9da70b194656dd14d77645e286eb4',1,'fluicell::PPC1api']]],
   ['channel',['channel',['../structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data_1_1channel.html#ae742d5ac59723bc94866db16965d212a',1,'fluicell::PPC1api::PPC1_data::channel']]],
   ['checkvidpid',['checkVIDPID',['../classfluicell_1_1_p_p_c1api.html#a85e6c71aaa179056d8b76a99cfa88cdd',1,'fluicell::PPC1api']]],
   ['closeallvalves',['closeAllValves',['../classfluicell_1_1_p_p_c1api.html#a87df84bee1237c65a9d9f8676ecd143b',1,'fluicell::PPC1api']]],

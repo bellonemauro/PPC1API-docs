@@ -91,6 +91,15 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_c"></a>- c -</h3><ul>
+<li>changeDropletSizeBy()
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a91434eafa9f02d0716e3cb7bb496b74c">fluicell::PPC1api</a>
+</li>
+<li>changeFlowspeedBy()
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a5638b3e5c6ae187c2dbb1b2b281e8dfd">fluicell::PPC1api</a>
+</li>
+<li>changeVacuumPercentageBy()
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a0df9da70b194656dd14d77645e286eb4">fluicell::PPC1api</a>
+</li>
 <li>channel()
 : <a class="el" href="structfluicell_1_1_p_p_c1api_1_1_p_p_c1__data_1_1channel.html#ae742d5ac59723bc94866db16965d212a">fluicell::PPC1api::PPC1_data::channel</a>
 </li>
@@ -265,6 +274,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>m_baud_rate
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#aee19ec87d3826318d4b64932ad6d1cc2">fluicell::PPC1api</a>
 </li>
+<li>m_COM_timeout
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a3f7f5352403cf64cc73c982e9d19b92d">fluicell::PPC1api</a>
+</li>
 <li>m_COMport
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#ac1f5eba25b0e822874fc5a92d49adc7a">fluicell::PPC1api</a>
 </li>
@@ -285,6 +297,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>m_isRunning
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#acc84c0144a7ec87137fb6ec60faffe4f">fluicell::PPC1api</a>
+</li>
+<li>m_pipe_length2tip
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#aac89c8420f814811e4a4844cc1bc1362">fluicell::PPC1api</a>
+</li>
+<li>m_pipe_length2zone
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a3a551cd1353819efe4fd1d2c2dd6dccc">fluicell::PPC1api</a>
 </li>
 <li>m_PPC1_data
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#af9dd1f0a00e25a5ac30ac78422754266">fluicell::PPC1api</a>
@@ -384,7 +402,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#afa46938e08037a7ac36115435923c9bb">fluicell::PPC1api</a>
 </li>
 <li>setDataStreamPeriod()
-: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a0b823eeaa0c49da0ca0571030d2a1c81">fluicell::PPC1api</a>
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#af5f2433e6eeff2f320dcbb15f2fd8e93">fluicell::PPC1api</a>
 </li>
 <li>setDefaultPV()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#a4491aef030374451befd373227a6b186">fluicell::PPC1api</a>
@@ -416,14 +434,14 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>setTTLstate()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#a8ae1f8b9b07da2455c969691dcc76696">fluicell::PPC1api</a>
 </li>
-<li>setVacuum()
-: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a6aca108d44bbded075395ece7d135744">fluicell::PPC1api</a>
-</li>
 <li>setVacuumChannelA()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#a9294dedc810dbe43c57a8576a99c3565">fluicell::PPC1api</a>
 </li>
 <li>setVacuumChannelB()
 : <a class="el" href="classfluicell_1_1_p_p_c1api.html#addbf9a4d5421b3fbea0808fda1504090">fluicell::PPC1api</a>
+</li>
+<li>setVacuumPercentage()
+: <a class="el" href="classfluicell_1_1_p_p_c1api.html#a1999c86ec523b4e5b58f26fde20b9622">fluicell::PPC1api</a>
 </li>
 <li>setValue()
 : <a class="el" href="structfluicell_1_1_p_p_c1api_1_1command.html#a3769af98e7169e46693f189c769bfaa9">fluicell::PPC1api::command</a>
@@ -507,7 +525,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Sep 22 2017 16:50:18 for Fluicell PPC1 API by
+    <li class="footer">Generated on Tue Jan 9 2018 19:27:20 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
