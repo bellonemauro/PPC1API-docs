@@ -110,7 +110,7 @@ Inheritance diagram for fluicell::PPC1api:</div>
   <img src="classfluicell_1_1_p_p_c1api.png" usemap="#fluicell::PPC1api_map" alt=""/>
   <map id="fluicell::PPC1api_map" name="fluicell::PPC1api_map">
 <area href="structfluicell_1_1_p_p_c1__data.html" title="PCC1 Output data stream specification. " alt="fluicell::PPC1_data" shape="rect" coords="0,0,147,24"/>
-<area href="structfluicell_1_1_p_p_c1__status.html" alt="fluicell::PPC1_status" shape="rect" coords="157,0,304,24"/>
+<area href="structfluicell_1_1_p_p_c1__status.html" title="PPC1_status structure contains the inflow and outflow data for each well in the pipette. " alt="fluicell::PPC1_status" shape="rect" coords="157,0,304,24"/>
 <area href="structfluicell_1_1serial_device_info.html" title="Serial device info data structure. " alt="fluicell::serialDeviceInfo" shape="rect" coords="314,0,461,24"/>
 <area href="structfluicell_1_1command.html" title="PCC1 Command data structure definition. " alt="fluicell::command" shape="rect" coords="471,0,618,24"/>
 </map>
@@ -194,6 +194,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4ee822102d3369a4abf53894ef94ea07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the droplet size to a specific _percentage, default value = 100.0 %.  <a href="#a4ee822102d3369a4abf53894ef94ea07">More...</a><br /></td></tr>
 <tr class="separator:a4ee822102d3369a4abf53894ef94ea07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91434eafa9f02d0716e3cb7bb496b74c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a91434eafa9f02d0716e3cb7bb496b74c">changeDropletSizeBy</a> (double _percentage=0.0)</td></tr>
+<tr class="memdesc:a91434eafa9f02d0716e3cb7bb496b74c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the droplet size by a specific amound + or -.  <a href="#a91434eafa9f02d0716e3cb7bb496b74c">More...</a><br /></td></tr>
 <tr class="separator:a91434eafa9f02d0716e3cb7bb496b74c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f0b2f91e06a3ba76a2a8e5611133299"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a1f0b2f91e06a3ba76a2a8e5611133299">getDropletSize</a> ()</td></tr>
 <tr class="memdesc:a1f0b2f91e06a3ba76a2a8e5611133299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current droplet size as percentage.  <a href="#a1f0b2f91e06a3ba76a2a8e5611133299">More...</a><br /></td></tr>
@@ -237,9 +238,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a152639feac06cce1d2a55a882482d814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a152639feac06cce1d2a55a882482d814">setVebose</a> (bool _verbose=false)</td></tr>
 <tr class="memdesc:a152639feac06cce1d2a55a882482d814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set verbose output.  <a href="#a152639feac06cce1d2a55a882482d814">More...</a><br /></td></tr>
 <tr class="separator:a152639feac06cce1d2a55a882482d814"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4491aef030374451befd373227a6b186"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a4491aef030374451befd373227a6b186">setDefaultPV</a> (double _default_pon=190.0, double _default_poff=21.0, double _default_v_recirc=-115.0, double _default_v_switch=-115.0)</td></tr>
-<tr class="memdesc:a4491aef030374451befd373227a6b186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the default values of pressures and vacuum to 100 droplet size.  <a href="#a4491aef030374451befd373227a6b186">More...</a><br /></td></tr>
-<tr class="separator:a4491aef030374451befd373227a6b186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ead75e7265e6fad47e4122e14b2d17"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#aa6ead75e7265e6fad47e4122e14b2d17">setDefaultPV</a> (double _default_pon=190.0, double _default_poff=21.0, double _default_v_recirc=-115.0, double _default_v_switch=-115.0)</td></tr>
+<tr class="memdesc:aa6ead75e7265e6fad47e4122e14b2d17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the default values of pressures and vacuum to 100 droplet size.  <a href="#aa6ead75e7265e6fad47e4122e14b2d17">More...</a><br /></td></tr>
+<tr class="separator:aa6ead75e7265e6fad47e4122e14b2d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07a3ee29334cb0d408de5349f6384522"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a07a3ee29334cb0d408de5349f6384522">getDeviceID</a> ()</td></tr>
 <tr class="memdesc:a07a3ee29334cb0d408de5349f6384522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get device serial number.  <a href="#a07a3ee29334cb0d408de5349f6384522">More...</a><br /></td></tr>
 <tr class="separator:a07a3ee29334cb0d408de5349f6384522"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -284,7 +285,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a74331e6bad60817f332c707d465980e6 inherit pub_methods_structfluicell_1_1command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the command from the enumerator.  <a href="structfluicell_1_1command.html#a74331e6bad60817f332c707d465980e6">More...</a><br /></td></tr>
 <tr class="separator:a74331e6bad60817f332c707d465980e6 inherit pub_methods_structfluicell_1_1command"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3087f726d8cb3880eeb7db2a24026e75 inherit pub_methods_structfluicell_1_1command"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1command.html#a3087f726d8cb3880eeb7db2a24026e75">setInstruction</a> (instructions _instruction)</td></tr>
-<tr class="memdesc:a3087f726d8cb3880eeb7db2a24026e75 inherit pub_methods_structfluicell_1_1command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the command .  <a href="structfluicell_1_1command.html#a3087f726d8cb3880eeb7db2a24026e75">More...</a><br /></td></tr>
+<tr class="memdesc:a3087f726d8cb3880eeb7db2a24026e75 inherit pub_methods_structfluicell_1_1command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the command.  <a href="structfluicell_1_1command.html#a3087f726d8cb3880eeb7db2a24026e75">More...</a><br /></td></tr>
 <tr class="separator:a3087f726d8cb3880eeb7db2a24026e75 inherit pub_methods_structfluicell_1_1command"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8424a2bcbde2a04843798febff25433 inherit pub_methods_structfluicell_1_1command"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1command.html#ad8424a2bcbde2a04843798febff25433">getCommandAsString</a> ()</td></tr>
 <tr class="memdesc:ad8424a2bcbde2a04843798febff25433 inherit pub_methods_structfluicell_1_1command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple cast of the enumerator into the corresponding command as a string.  <a href="structfluicell_1_1command.html#ad8424a2bcbde2a04843798febff25433">More...</a><br /></td></tr>
@@ -410,7 +411,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:ab8127e93150f9aacf5e01e0782fb68ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode one channel line.  <a href="#ab8127e93150f9aacf5e01e0782fb68ee">More...</a><br /></td></tr>
 <tr class="separator:ab8127e93150f9aacf5e01e0782fb68ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f6ef24ffde1376b9fecc8780515cc6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a8f6ef24ffde1376b9fecc8780515cc6c">updateFlows</a> (const <a class="el" href="structfluicell_1_1_p_p_c1__data.html">PPC1_data</a> &amp;_PPC1_data, <a class="el" href="structfluicell_1_1_p_p_c1__status.html">PPC1_status</a> &amp;_PPC1_status)</td></tr>
-<tr class="memdesc:a8f6ef24ffde1376b9fecc8780515cc6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update flow calculation.  <a href="#a8f6ef24ffde1376b9fecc8780515cc6c">More...</a><br /></td></tr>
+<tr class="memdesc:a8f6ef24ffde1376b9fecc8780515cc6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update inflow and outflow calculation.  <a href="#a8f6ef24ffde1376b9fecc8780515cc6c">More...</a><br /></td></tr>
 <tr class="separator:a8f6ef24ffde1376b9fecc8780515cc6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e44d475dde8d0bd3fbecd37beea23a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfluicell_1_1_p_p_c1api.html#a6e44d475dde8d0bd3fbecd37beea23a8">sendData</a> (const string &amp;_data)</td></tr>
 <tr class="memdesc:a6e44d475dde8d0bd3fbecd37beea23a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a string to the PPC1 controller.  <a href="#a6e44d475dde8d0bd3fbecd37beea23a8">More...</a><br /></td></tr>
@@ -574,6 +575,19 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Change the droplet size by a specific amound + or -. </p>
+<p>Change the droplet size by adding a specific _percentage with respect to the default values of vacuum and pressures.</p>
+<dl class="section note"><dt>Note</dt><dd>: the droplet size linear increment corresponds to a cubic power of the desired values for pressures and vacuums </dd>
+<dd>
+: example: if _percentage = 5% ==&gt; the size goes to 105%</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_percentage</td><td>is the desired percentage value</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>- false in case of errors </dd></dl>
 
 </div>
 </div>
@@ -1507,17 +1521,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4491aef030374451befd373227a6b186"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4491aef030374451befd373227a6b186">&#9670;&nbsp;</a></span>setDefaultPV()</h2>
+<a id="aa6ead75e7265e6fad47e4122e14b2d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6ead75e7265e6fad47e4122e14b2d17">&#9670;&nbsp;</a></span>setDefaultPV()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void fluicell::PPC1api::setDefaultPV </td>
+          <td class="memname">bool fluicell::PPC1api::setDefaultPV </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>_default_pon</em> = <code>190.0</code>, </td>
@@ -1546,11 +1557,6 @@ Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Reset the default values of pressures and vacuum to 100 droplet size. </p>
@@ -1563,9 +1569,8 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>- values are in mbar </dd>
-<dd>
-- there is no actual check on the numbers, TODO too weak implement! </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if success, false for out of range values</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>- values are in mbar </dd></dl>
 
 </div>
 </div>
@@ -2204,7 +2209,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Update flow calculation. </p>
+<p>Update inflow and outflow calculation. </p>
 <p>This function updates flows calculation (inflow and outflow) to allow the user to get the current status of the PPC1. This is currently based on calculation no sensor data are available.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2664,7 +2669,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacefluicell.html">fluicell</a></li><li class="navelem"><a class="el" href="classfluicell_1_1_p_p_c1api.html">PPC1api</a></li>
-    <li class="footer">Generated on Sun Feb 18 2018 14:27:30 for Fluicell PPC1 API by
+    <li class="footer">Generated on Fri Feb 23 2018 18:05:18 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

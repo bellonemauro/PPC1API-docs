@@ -6,7 +6,7 @@ var searchData=
   ['setchanneldata',['setChannelData',['../structfluicell_1_1_p_p_c1__data_1_1channel.html#a7b239fabaaedc072ca8737d40c347fcf',1,'fluicell::PPC1_data::channel']]],
   ['setcomport',['setCOMport',['../classfluicell_1_1_p_p_c1api.html#afa46938e08037a7ac36115435923c9bb',1,'fluicell::PPC1api']]],
   ['setdatastreamperiod',['setDataStreamPeriod',['../classfluicell_1_1_p_p_c1api.html#af5f2433e6eeff2f320dcbb15f2fd8e93',1,'fluicell::PPC1api']]],
-  ['setdefaultpv',['setDefaultPV',['../classfluicell_1_1_p_p_c1api.html#a4491aef030374451befd373227a6b186',1,'fluicell::PPC1api']]],
+  ['setdefaultpv',['setDefaultPV',['../classfluicell_1_1_p_p_c1api.html#aa6ead75e7265e6fad47e4122e14b2d17',1,'fluicell::PPC1api']]],
   ['setdropletsize',['setDropletSize',['../classfluicell_1_1_p_p_c1api.html#a4ee822102d3369a4abf53894ef94ea07',1,'fluicell::PPC1api']]],
   ['setfilterenabled',['setFilterEnabled',['../classfluicell_1_1_p_p_c1api.html#a600b845b71532f24e26b25790f7396cd',1,'fluicell::PPC1api']]],
   ['setfiltersize',['setFilterSize',['../classfluicell_1_1_p_p_c1api.html#a99c98865f56daf35477cdef6fe7b0a6c',1,'fluicell::PPC1api::setFilterSize()'],['../structfluicell_1_1_p_p_c1__data.html#af6b8c420e3ca1263579c8b900db69538',1,'fluicell::PPC1_data::setFilterSize()'],['../structfluicell_1_1_p_p_c1__data_1_1channel.html#ad1cb0a1822ba5c5dfb0d63fb65214340',1,'fluicell::PPC1_data::channel::setFiltersize()']]],

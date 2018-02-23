@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['readme',['README',['../md__c_1_code__fluicell__git__labonatip_libs__r_e_a_d_m_e.html',1,'']]],
   ['readdata',['readData',['../classfluicell_1_1_p_p_c1api.html#abf4cb9c5a38a2896131095a8e8cf09d4',1,'fluicell::PPC1api']]],
   ['reading_5fvec',['reading_vec',['../structfluicell_1_1_p_p_c1__data_1_1channel.html#ae603857417af695a1378d9144b639737',1,'fluicell::PPC1_data::channel']]],
   ['readme_2emd',['README.md',['../docs_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../libs_2ppc1api_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../libs_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../_r_e_a_d_m_e_8md.html',1,'(Global Namespace)']]],
