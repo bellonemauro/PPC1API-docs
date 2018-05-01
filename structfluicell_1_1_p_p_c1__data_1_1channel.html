@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('structfluicell_1_1_p_p_c1__data_1_1cha
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="structfluicell_1_1_p_p_c1__data_1_1channel-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -98,7 +99,7 @@ $(document).ready(function(){initNavTree('structfluicell_1_1_p_p_c1__data_1_1cha
 </div><!--header-->
 <div class="contents">
 
-<p>Channel data structure contains the information about a PPC1 channel PPC1 has four channels, A and B for vacuum and C and P for pressure, all the channels have the same data structure.  
+<p>Channel data structure.  
  <a href="structfluicell_1_1_p_p_c1__data_1_1channel.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="ppc1api__data__structures_8h_source.html">ppc1api_data_structures.h</a>&gt;</code></p>
@@ -106,6 +107,7 @@ $(document).ready(function(){initNavTree('structfluicell_1_1_p_p_c1__data_1_1cha
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b239fabaaedc072ca8737d40c347fcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#a7b239fabaaedc072ca8737d40c347fcf">setChannelData</a> (double _set_point, double _sensor_reading, double <a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#accba8fc1721cf62eb6789e740c6edc58">PID_out_DC</a>, int _state)</td></tr>
+<tr class="memdesc:a7b239fabaaedc072ca8737d40c347fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set channel data.  <a href="#a7b239fabaaedc072ca8737d40c347fcf">More...</a><br /></td></tr>
 <tr class="separator:a7b239fabaaedc072ca8737d40c347fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92fd87d690fd20d13fd161da09194ea5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#a92fd87d690fd20d13fd161da09194ea5">channel</a> ()</td></tr>
 <tr class="memdesc:a92fd87d690fd20d13fd161da09194ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for PPC1 channel data container.  <a href="#a92fd87d690fd20d13fd161da09194ea5">More...</a><br /></td></tr>
@@ -122,27 +124,39 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a20279de2b3ab1051fccd6d1a04d24935"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#a20279de2b3ab1051fccd6d1a04d24935">set_point</a></td></tr>
+<tr class="memdesc:a20279de2b3ab1051fccd6d1a04d24935"><td class="mdescLeft">&#160;</td><td class="mdescRight">the closed loop PID controller input value (in mbar)  <a href="#a20279de2b3ab1051fccd6d1a04d24935">More...</a><br /></td></tr>
 <tr class="separator:a20279de2b3ab1051fccd6d1a04d24935"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a578c650c7c4fadf3b9c33832be5e9c0c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#a578c650c7c4fadf3b9c33832be5e9c0c">sensor_reading</a></td></tr>
+<tr class="memdesc:a578c650c7c4fadf3b9c33832be5e9c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">the actual current pressure value (in mbar), filtered if active  <a href="#a578c650c7c4fadf3b9c33832be5e9c0c">More...</a><br /></td></tr>
 <tr class="separator:a578c650c7c4fadf3b9c33832be5e9c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3842d4085e1deaa28957c5097e030c39"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#a3842d4085e1deaa28957c5097e030c39">filtered_sensor_reading</a></td></tr>
-<tr class="separator:a3842d4085e1deaa28957c5097e030c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae603857417af695a1378d9144b639737"><td class="memItemLeft" align="right" valign="top">vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#ae603857417af695a1378d9144b639737">reading_vec</a></td></tr>
-<tr class="separator:ae603857417af695a1378d9144b639737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accba8fc1721cf62eb6789e740c6edc58"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#accba8fc1721cf62eb6789e740c6edc58">PID_out_DC</a></td></tr>
+<tr class="memdesc:accba8fc1721cf62eb6789e740c6edc58"><td class="mdescLeft">&#160;</td><td class="mdescRight">PID_out_DC PID output duty cycle is the output value of closed loop PID controller.  <a href="#accba8fc1721cf62eb6789e740c6edc58">More...</a><br /></td></tr>
 <tr class="separator:accba8fc1721cf62eb6789e740c6edc58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade7600fb05ddefa8c13447d4457852e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#ade7600fb05ddefa8c13447d4457852e9">state</a></td></tr>
+<tr class="memdesc:ade7600fb05ddefa8c13447d4457852e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">state shows error flags  <a href="#ade7600fb05ddefa8c13447d4457852e9">More...</a><br /></td></tr>
 <tr class="separator:ade7600fb05ddefa8c13447d4457852e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a38dadab2224c85ee6e8bba3c664f694f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#a38dadab2224c85ee6e8bba3c664f694f">movingAveragefilter</a> (vector&lt; double &gt; &amp;_reading_vec, double _sensor_reading)</td></tr>
+<tr class="memdesc:a38dadab2224c85ee6e8bba3c664f694f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement a moving average filter of PPC1 data.  <a href="#a38dadab2224c85ee6e8bba3c664f694f">More...</a><br /></td></tr>
+<tr class="separator:a38dadab2224c85ee6e8bba3c664f694f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a2dcc175d0ac71d20739b80984b14c1c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#a2dcc175d0ac71d20739b80984b14c1c4">filter_enabled</a></td></tr>
-<tr class="separator:a2dcc175d0ac71d20739b80984b14c1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a035f25dd55b3d894835be71674c79b01"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#a035f25dd55b3d894835be71674c79b01">filter_size</a></td></tr>
-<tr class="separator:a035f25dd55b3d894835be71674c79b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80eb6650ef312e3fe751b571161afd05"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#a80eb6650ef312e3fe751b571161afd05">m_filter_enabled</a></td></tr>
+<tr class="memdesc:a80eb6650ef312e3fe751b571161afd05"><td class="mdescLeft">&#160;</td><td class="mdescRight">class member to enable to filtering in the data reading  <a href="#a80eb6650ef312e3fe751b571161afd05">More...</a><br /></td></tr>
+<tr class="separator:a80eb6650ef312e3fe751b571161afd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95bd7153accaa6bbce1549daeeb334e7"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#a95bd7153accaa6bbce1549daeeb334e7">m_filter_size</a></td></tr>
+<tr class="memdesc:a95bd7153accaa6bbce1549daeeb334e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">class member to set the filter size  <a href="#a95bd7153accaa6bbce1549daeeb334e7">More...</a><br /></td></tr>
+<tr class="separator:a95bd7153accaa6bbce1549daeeb334e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaedd29165b05d21406b5a721ba9ddfee"><td class="memItemLeft" align="right" valign="top">vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html#aaedd29165b05d21406b5a721ba9ddfee">m_reading_vec</a></td></tr>
+<tr class="memdesc:aaedd29165b05d21406b5a721ba9ddfee"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal vector used for the filter to save the history  <a href="#aaedd29165b05d21406b5a721ba9ddfee">More...</a><br /></td></tr>
+<tr class="separator:aaedd29165b05d21406b5a721ba9ddfee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Channel data structure contains the information about a PPC1 channel PPC1 has four channels, A and B for vacuum and C and P for pressure, all the channels have the same data structure. </p>
+<div class="textblock"><p>Channel data structure. </p>
+<p>it contains the information about a PPC1 channel PPC1 has four channels, A and B for vacuum and C and P for pressure, all the channels have the same data structure.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">set_point</td><td>is the closed loop PID controller input value (in mbar) </td></tr>
@@ -257,6 +271,53 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a38dadab2224c85ee6e8bba3c664f694f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38dadab2224c85ee6e8bba3c664f694f">&#9670;&nbsp;</a></span>movingAveragefilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double fluicell::PPC1_data::channel::movingAveragefilter </td>
+          <td>(</td>
+          <td class="paramtype">vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>_reading_vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_sensor_reading</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implement a moving average filter of PPC1 data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_reading_vec</td><td>the stack cointaining the history of readings </td></tr>
+    <tr><td class="paramname">_sensor_reading</td><td>the actual sensor reading</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>: it make use of m_filter_size data member for the size of the filter</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the filtered value </dd></dl>
+
+</div>
+</div>
 <a id="a7b239fabaaedc072ca8737d40c347fcf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b239fabaaedc072ca8737d40c347fcf">&#9670;&nbsp;</a></span>setChannelData()</h2>
 
@@ -303,6 +364,19 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Set channel data. </p>
+<p>It allows the to set all the data in the channel in one line by giving all the data in one line. this function also includes the data filtering function on the sensor reading, it uses two class members: m_filter_enabled and m_filter_size</p>
+<p>The implemented filter is a rolling average filter that averages the last n samples, where n is defined in the class member m_filter_size</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_set_point</td><td></td></tr>
+    <tr><td class="paramname">_sensor_reading</td><td></td></tr>
+    <tr><td class="paramname">PID_out_DC</td><td></td></tr>
+    <tr><td class="paramname">_state</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ad1cb0a1822ba5c5dfb0d63fb65214340"></a>
@@ -332,8 +406,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2dcc175d0ac71d20739b80984b14c1c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dcc175d0ac71d20739b80984b14c1c4">&#9670;&nbsp;</a></span>filter_enabled</h2>
+<a id="a80eb6650ef312e3fe751b571161afd05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80eb6650ef312e3fe751b571161afd05">&#9670;&nbsp;</a></span>m_filter_enabled</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,7 +416,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool fluicell::PPC1_data::channel::filter_enabled</td>
+          <td class="memname">bool fluicell::PPC1_data::channel::m_filter_enabled</td>
         </tr>
       </table>
   </td>
@@ -352,10 +426,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>class member to enable to filtering in the data reading </p>
+
 </div>
 </div>
-<a id="a035f25dd55b3d894835be71674c79b01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a035f25dd55b3d894835be71674c79b01">&#9670;&nbsp;</a></span>filter_size</h2>
+<a id="a95bd7153accaa6bbce1549daeeb334e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95bd7153accaa6bbce1549daeeb334e7">&#9670;&nbsp;</a></span>m_filter_size</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -364,7 +440,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int fluicell::PPC1_data::channel::filter_size</td>
+          <td class="memname">unsigned int fluicell::PPC1_data::channel::m_filter_size</td>
         </tr>
       </table>
   </td>
@@ -374,19 +450,31 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>class member to set the filter size </p>
+
 </div>
 </div>
-<a id="a3842d4085e1deaa28957c5097e030c39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3842d4085e1deaa28957c5097e030c39">&#9670;&nbsp;</a></span>filtered_sensor_reading</h2>
+<a id="aaedd29165b05d21406b5a721ba9ddfee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaedd29165b05d21406b5a721ba9ddfee">&#9670;&nbsp;</a></span>m_reading_vec</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double fluicell::PPC1_data::channel::filtered_sensor_reading</td>
+          <td class="memname">vector&lt;double&gt; fluicell::PPC1_data::channel::m_reading_vec</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>internal vector used for the filter to save the history </p>
 
 </div>
 </div>
@@ -402,19 +490,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ae603857417af695a1378d9144b639737"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae603857417af695a1378d9144b639737">&#9670;&nbsp;</a></span>reading_vec</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">vector&lt;double&gt; fluicell::PPC1_data::channel::reading_vec</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>PID_out_DC PID output duty cycle is the output value of closed loop PID controller. </p>
 
 </div>
 </div>
@@ -430,6 +506,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>the actual current pressure value (in mbar), filtered if active </p>
+
 </div>
 </div>
 <a id="a20279de2b3ab1051fccd6d1a04d24935"></a>
@@ -443,6 +521,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>the closed loop PID controller input value (in mbar) </p>
 
 </div>
 </div>
@@ -458,6 +538,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>state shows error flags </p>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
@@ -469,7 +551,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacefluicell.html">fluicell</a></li><li class="navelem"><a class="el" href="structfluicell_1_1_p_p_c1__data.html">PPC1_data</a></li><li class="navelem"><a class="el" href="structfluicell_1_1_p_p_c1__data_1_1channel.html">channel</a></li>
-    <li class="footer">Generated on Fri Feb 23 2018 18:39:10 for Fluicell PPC1 API by
+    <li class="footer">Generated on Tue May 1 2018 15:49:02 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

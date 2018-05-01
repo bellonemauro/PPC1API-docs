@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['openallvalves',['openAllValves',['../classfluicell_1_1_p_p_c1api.html#aa5e524e936cd5525f593d3503df412a3',1,'fluicell::PPC1api']]]
+  ['movingaveragefilter',['movingAveragefilter',['../structfluicell_1_1_p_p_c1__data_1_1channel.html#a38dadab2224c85ee6e8bba3c664f694f',1,'fluicell::PPC1_data::channel']]]
 ];

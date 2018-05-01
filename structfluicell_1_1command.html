@@ -114,8 +114,10 @@ Inheritance diagram for fluicell::command:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab486582775eebe832cb582499c6f9efc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1command.html#ab486582775eebe832cb582499c6f9efc">command</a> ()</td></tr>
-<tr class="memdesc:ab486582775eebe832cb582499c6f9efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command data structure .  <a href="#ab486582775eebe832cb582499c6f9efc">More...</a><br /></td></tr>
+<tr class="memdesc:ab486582775eebe832cb582499c6f9efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command constructor.  <a href="#ab486582775eebe832cb582499c6f9efc">More...</a><br /></td></tr>
 <tr class="separator:ab486582775eebe832cb582499c6f9efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4fb5e88313c374b5acb4e7bd21e5e7e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1command.html#ae4fb5e88313c374b5acb4e7bd21e5e7e">checkValidity</a> ()</td></tr>
+<tr class="separator:ae4fb5e88313c374b5acb4e7bd21e5e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74331e6bad60817f332c707d465980e6"><td class="memItemLeft" align="right" valign="top">instructions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1command.html#a74331e6bad60817f332c707d465980e6">getInstruction</a> ()</td></tr>
 <tr class="memdesc:a74331e6bad60817f332c707d465980e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the command from the enumerator.  <a href="#a74331e6bad60817f332c707d465980e6">More...</a><br /></td></tr>
 <tr class="separator:a74331e6bad60817f332c707d465980e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,11 +164,56 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>PCC1 Command data structure definition. </p>
 <p>The command data structure contains the information to run a command in the PPC1 controller. The final objective is to define a class of commands able to control the PPC1 controller and run a protocol as a set of commands.</p>
+<a class="anchor" id="multi_row"></a>
+<table class="doxtable">
+<caption>Supported commands</caption>
+<tr>
+<th>enum index </th><th>Command </th><th>value </th><th>Comment   </th></tr>
+<tr>
+<td>0  </td><td>setPon  </td><td>int [0 MAX]  </td><td>(int: pressure in mbar) - - - - Channel D   </td></tr>
+<tr>
+<td>1  </td><td>setPoff  </td><td>int [0 MAX]  </td><td>(int: pressure in mbar) - - - - Channel C   </td></tr>
+<tr>
+<td>2  </td><td>setVswitch  </td><td>int [MIN 0]  </td><td>(int: pressure in mbar) - - - - Channel B   </td></tr>
+<tr>
+<td>3  </td><td>setVrecirc  </td><td>int [MIN 0]  </td><td>(int: pressure in mbar) - - - - Channel A   </td></tr>
+<tr>
+<td>4  </td><td>solution1  </td><td>true / false  </td><td>closes other valves, then opens valve 'a' for solution 1   </td></tr>
+<tr>
+<td>5  </td><td>solution2  </td><td>true / false  </td><td>closes other valves, then opens valve 'b' for solution 1   </td></tr>
+<tr>
+<td>6  </td><td>solution3  </td><td>true / false  </td><td>closes other valves, then opens valve 'c' for solution 1   </td></tr>
+<tr>
+<td>7  </td><td>solution4  </td><td>true / false  </td><td>closes other valves, then opens valve 'd' for solution 1   </td></tr>
+<tr>
+<td>8  </td><td>wait  </td><td>int n  </td><td>wait for n seconds   </td></tr>
+<tr>
+<td>9  </td><td>ask_msg  </td><td>true / false  </td><td>set true to stop execution and ask confirmation to continue,<br />
+ INTEPRETED but NO ACTION required at API level   </td></tr>
+<tr>
+<td>10  </td><td>allOff  </td><td>-  </td><td>stop all solutions flow   </td></tr>
+<tr>
+<td>11  </td><td>pumpsOff  </td><td>-  </td><td>stop pressures and vacuum by setting the channels to 0   </td></tr>
+<tr>
+<td>12  </td><td>waitSync  </td><td>int [0 MAX]  </td><td>protocol stops until trigger signal is received   </td></tr>
+<tr>
+<td>13  </td><td>syncOut  </td><td>int [0 MAX]  </td><td>if negative then default state is 1 and pulse is 0,<br />
+ if positive, then pulse is 1 and default is 0  </td></tr>
+<tr>
+<td>14  </td><td>zoneSize  </td><td>percentage [30, 210]  </td><td>Change the zone size percentage to _value   </td></tr>
+<tr>
+<td>15  </td><td>flowSpeed  </td><td>percentage [60, 250]  </td><td>Change the flow speed percentage to _value   </td></tr>
+<tr>
+<td>16  </td><td>vacuum  </td><td>percentage [10, 250]  </td><td>Change the vacuum percentage to _value   </td></tr>
+<tr>
+<td>17  </td><td>loop  </td><td>int [0 MAX]  </td><td>number of loops   </td></tr>
+</table>
+<p>Supported commands:</p>
 <p><b>Usage:</b><br />
 </p><ul>
-<li>define the object : <a class="el" href="structfluicell_1_1command.html#ab486582775eebe832cb582499c6f9efc" title="Command data structure . ">fluicell::PPC1api::command</a> *my_command;<ul>
+<li>define the object : <a class="el" href="structfluicell_1_1command.html#ab486582775eebe832cb582499c6f9efc" title="Command constructor. ">fluicell::PPC1api::command</a> *my_command;<ul>
 <li>a protocol is a vector of commands : std::vector&lt;fluicell::PPC1api::command&gt; *_protocol;</li>
-<li>run the command still missing implementation !! </li>
+<li>run the command still under development !! </li>
 </ul>
 </li>
 </ul>
@@ -194,17 +241,36 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Command data structure . </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">loopsCommand</td><td>constructor </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Command constructor. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae4fb5e88313c374b5acb4e7bd21e5e7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4fb5e88313c374b5acb4e7bd21e5e7e">&#9670;&nbsp;</a></span>checkValidity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool fluicell::command::checkValidity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad8424a2bcbde2a04843798febff25433"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8424a2bcbde2a04843798febff25433">&#9670;&nbsp;</a></span>getCommandAsString()</h2>
 
@@ -558,7 +624,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacefluicell.html">fluicell</a></li><li class="navelem"><a class="el" href="structfluicell_1_1command.html">command</a></li>
-    <li class="footer">Generated on Fri Feb 23 2018 18:39:09 for Fluicell PPC1 API by
+    <li class="footer">Generated on Tue May 1 2018 15:49:02 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

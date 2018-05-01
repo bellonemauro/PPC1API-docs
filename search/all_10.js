@@ -11,7 +11,7 @@ var searchData=
   ['setdefaultpv',['setDefaultPV',['../classfluicell_1_1_p_p_c1api.html#aa6ead75e7265e6fad47e4122e14b2d17',1,'fluicell::PPC1api']]],
   ['setdropletsize',['setDropletSize',['../classfluicell_1_1_p_p_c1api.html#a4ee822102d3369a4abf53894ef94ea07',1,'fluicell::PPC1api']]],
   ['setfilterenabled',['setFilterEnabled',['../classfluicell_1_1_p_p_c1api.html#a600b845b71532f24e26b25790f7396cd',1,'fluicell::PPC1api']]],
-  ['setfiltersize',['setFilterSize',['../classfluicell_1_1_p_p_c1api.html#a99c98865f56daf35477cdef6fe7b0a6c',1,'fluicell::PPC1api::setFilterSize()'],['../structfluicell_1_1_p_p_c1__data.html#af6b8c420e3ca1263579c8b900db69538',1,'fluicell::PPC1_data::setFilterSize()'],['../structfluicell_1_1_p_p_c1__data_1_1channel.html#ad1cb0a1822ba5c5dfb0d63fb65214340',1,'fluicell::PPC1_data::channel::setFiltersize()']]],
+  ['setfiltersize',['setFilterSize',['../classfluicell_1_1_p_p_c1api.html#a99c98865f56daf35477cdef6fe7b0a6c',1,'fluicell::PPC1api::setFilterSize()'],['../structfluicell_1_1_p_p_c1__data.html#a7418aa532c62ca96d736739426b4c2dc',1,'fluicell::PPC1_data::setFilterSize()'],['../structfluicell_1_1_p_p_c1__data_1_1channel.html#ad1cb0a1822ba5c5dfb0d63fb65214340',1,'fluicell::PPC1_data::channel::setFiltersize()']]],
   ['setflowspeed',['setFlowspeed',['../classfluicell_1_1_p_p_c1api.html#a695d4b21f22d2cea20459409d8a59c0a',1,'fluicell::PPC1api']]],
   ['setinstruction',['setInstruction',['../structfluicell_1_1command.html#a3087f726d8cb3880eeb7db2a24026e75',1,'fluicell::command']]],
   ['setpoff',['setPoff',['../ppc1api__data__structures_8h.html#a6eb42acb60c2e8dde276272297ce8136',1,'ppc1api_data_structures.h']]],
@@ -31,12 +31,10 @@ var searchData=
   ['setvalve_5fk',['setValve_k',['../classfluicell_1_1_p_p_c1api.html#a33b1ae120f7a59f7f876c6e2b3abccc5',1,'fluicell::PPC1api']]],
   ['setvalve_5fl',['setValve_l',['../classfluicell_1_1_p_p_c1api.html#a5c3a108dec63356abc3393483e220e93',1,'fluicell::PPC1api']]],
   ['setvalvesstate',['setValvesState',['../classfluicell_1_1_p_p_c1api.html#a337507aee80aa2c2c3f26b3e2e75706a',1,'fluicell::PPC1api']]],
-  ['setvalvestate',['setValveState',['../ppc1api__data__structures_8h.html#a19503769fadc40e3864bb6da46edeb05',1,'ppc1api_data_structures.h']]],
-  ['setvebose',['setVebose',['../classfluicell_1_1_p_p_c1api.html#a152639feac06cce1d2a55a882482d814',1,'fluicell::PPC1api']]],
+  ['setverbose',['setVerbose',['../classfluicell_1_1_p_p_c1api.html#ac6c05918369d3f3ebb18484a085dcdaf',1,'fluicell::PPC1api']]],
   ['setvisualizestatus',['setVisualizeStatus',['../structfluicell_1_1command.html#a804738c5d40b264abeaa7c66296b9929',1,'fluicell::command']]],
   ['setvrecirc',['setVrecirc',['../ppc1api__data__structures_8h.html#ac8f1e87bd9be0d488f61aca84afbdb6c',1,'ppc1api_data_structures.h']]],
   ['setvswitch',['setVswitch',['../ppc1api__data__structures_8h.html#ab6e0d7d9ed348d27c0676607eeaf9781',1,'ppc1api_data_structures.h']]],
-  ['sleep',['sleep',['../ppc1api__data__structures_8h.html#a64ec70591e393276b5f75643496fcc97',1,'ppc1api_data_structures.h']]],
   ['solution1',['solution1',['../ppc1api__data__structures_8h.html#a1330058bbf03363fb292af79702c33d9',1,'ppc1api_data_structures.h']]],
   ['solution2',['solution2',['../ppc1api__data__structures_8h.html#ab332b82ad11a6b3f1e8611d854b8e57e',1,'ppc1api_data_structures.h']]],
   ['solution3',['solution3',['../ppc1api__data__structures_8h.html#a96a8840cff9a33fda05226a9ff7a3125',1,'ppc1api_data_structures.h']]],
@@ -45,5 +43,6 @@ var searchData=
   ['solution_5fusage_5fon',['solution_usage_on',['../structfluicell_1_1_p_p_c1__status.html#ae7647513cd41d786958d714e38b9776d',1,'fluicell::PPC1_status']]],
   ['state',['state',['../structfluicell_1_1_p_p_c1__data_1_1channel.html#ade7600fb05ddefa8c13447d4457852e9',1,'fluicell::PPC1_data::channel']]],
   ['status_5fmessage',['status_message',['../structfluicell_1_1command.html#ab99d742cd10b895f5459b7fc9eff07f7',1,'fluicell::command']]],
-  ['stop',['stop',['../classfluicell_1_1_p_p_c1api.html#ab178b25bd6e054035937fe7c5ae292bb',1,'fluicell::PPC1api']]]
+  ['stop',['stop',['../classfluicell_1_1_p_p_c1api.html#ab178b25bd6e054035937fe7c5ae292bb',1,'fluicell::PPC1api']]],
+  ['syncout',['syncOut',['../ppc1api__data__structures_8h.html#a66367c2e3044687493c5461173409ec2',1,'ppc1api_data_structures.h']]]
 ];

@@ -4,6 +4,9 @@ var hierarchy =
     [ "fluicell::command", "structfluicell_1_1command.html", [
       [ "fluicell::PPC1api", "classfluicell_1_1_p_p_c1api.html", null ]
     ] ],
+    [ "exception", null, [
+      [ "fluicell::ppc1Exception", "classfluicell_1_1ppc1_exception.html", null ]
+    ] ],
     [ "fluicell::PPC1_data", "structfluicell_1_1_p_p_c1__data.html", [
       [ "fluicell::PPC1api", "classfluicell_1_1_p_p_c1api.html", null ]
     ] ],

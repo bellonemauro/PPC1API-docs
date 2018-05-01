@@ -1,6 +1,7 @@
 var structfluicell_1_1command =
 [
     [ "command", "structfluicell_1_1command.html#ab486582775eebe832cb582499c6f9efc", null ],
+    [ "checkValidity", "structfluicell_1_1command.html#ae4fb5e88313c374b5acb4e7bd21e5e7e", null ],
     [ "getCommandAsString", "structfluicell_1_1command.html#ad8424a2bcbde2a04843798febff25433", null ],
     [ "getInstruction", "structfluicell_1_1command.html#a74331e6bad60817f332c707d465980e6", null ],
     [ "getStatusMessage", "structfluicell_1_1command.html#ade9d2d8ff24f9ef9c4bc8e81f68208d1", null ],

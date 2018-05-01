@@ -4,6 +4,7 @@ var searchData=
   ['changeflowspeedby',['changeFlowspeedBy',['../classfluicell_1_1_p_p_c1api.html#a5638b3e5c6ae187c2dbb1b2b281e8dfd',1,'fluicell::PPC1api']]],
   ['changevacuumpercentageby',['changeVacuumPercentageBy',['../classfluicell_1_1_p_p_c1api.html#a0df9da70b194656dd14d77645e286eb4',1,'fluicell::PPC1api']]],
   ['channel',['channel',['../structfluicell_1_1_p_p_c1__data_1_1channel.html#a92fd87d690fd20d13fd161da09194ea5',1,'fluicell::PPC1_data::channel']]],
+  ['checkvalidity',['checkValidity',['../structfluicell_1_1command.html#ae4fb5e88313c374b5acb4e7bd21e5e7e',1,'fluicell::command']]],
   ['checkvidpid',['checkVIDPID',['../classfluicell_1_1_p_p_c1api.html#a85e6c71aaa179056d8b76a99cfa88cdd',1,'fluicell::PPC1api']]],
   ['closeallvalves',['closeAllValves',['../classfluicell_1_1_p_p_c1api.html#a87df84bee1237c65a9d9f8676ecd143b',1,'fluicell::PPC1api']]],
   ['command',['command',['../structfluicell_1_1command.html#ab486582775eebe832cb582499c6f9efc',1,'fluicell::command']]],
