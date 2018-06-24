@@ -8,7 +8,20 @@ var searchData=
   ['getflowsimple',['getFlowSimple',['../classfluicell_1_1_p_p_c1api.html#a62018d0b1bc9b6e3a8c78bb9eedb2fca',1,'fluicell::PPC1api']]],
   ['getflowspeed',['getFlowSpeed',['../classfluicell_1_1_p_p_c1api.html#acdae3859f66735371d5785a3b9caee1a',1,'fluicell::PPC1api']]],
   ['getinstruction',['getInstruction',['../structfluicell_1_1command.html#a74331e6bad60817f332c707d465980e6',1,'fluicell::command']]],
+  ['getpipettestatus',['getPipetteStatus',['../classfluicell_1_1_p_p_c1api.html#a9f7fb0e129c23ab0c2fff45f8a85afc6',1,'fluicell::PPC1api']]],
+  ['getpoffreading',['getPoffReading',['../classfluicell_1_1_p_p_c1api.html#a70c9ea8e8d8219fd2b4ccbecdc7eeebb',1,'fluicell::PPC1api']]],
+  ['getpoffsetpoint',['getPoffSetPoint',['../classfluicell_1_1_p_p_c1api.html#a95fef452c3c91a589742fae050bc5f1d',1,'fluicell::PPC1api']]],
+  ['getpoffstate',['getPoffState',['../classfluicell_1_1_p_p_c1api.html#ab50b27100d84b13a4e4e9f20c9e7bb9e',1,'fluicell::PPC1api']]],
+  ['getponreading',['getPonReading',['../classfluicell_1_1_p_p_c1api.html#ad0bf75759757ddaf7b2c71e48a737358',1,'fluicell::PPC1api']]],
+  ['getponsetpoint',['getPonSetPoint',['../classfluicell_1_1_p_p_c1api.html#a16e722f5d5b520d6155164c2c2b1087c',1,'fluicell::PPC1api']]],
+  ['getponstate',['getPonState',['../classfluicell_1_1_p_p_c1api.html#a7fdcda9318b2abd9c628cf908a3a4ebb',1,'fluicell::PPC1api']]],
   ['getstatusmessage',['getStatusMessage',['../structfluicell_1_1command.html#ade9d2d8ff24f9ef9c4bc8e81f68208d1',1,'fluicell::command']]],
   ['getvacuum',['getVacuum',['../classfluicell_1_1_p_p_c1api.html#ad831b5382d280a31a263fa298da3033c',1,'fluicell::PPC1api']]],
-  ['getvalue',['getValue',['../structfluicell_1_1command.html#a6df7cf97265cc9b1cb99e9171b12252a',1,'fluicell::command']]]
+  ['getvalue',['getValue',['../structfluicell_1_1command.html#a6df7cf97265cc9b1cb99e9171b12252a',1,'fluicell::command']]],
+  ['getvrecircreading',['getVrecircReading',['../classfluicell_1_1_p_p_c1api.html#a25b10ee06217a93cb26f3f07c0688dcb',1,'fluicell::PPC1api']]],
+  ['getvrecircsetpoint',['getVrecircSetPoint',['../classfluicell_1_1_p_p_c1api.html#a2ae97445f4651307ae23194e1b310c68',1,'fluicell::PPC1api']]],
+  ['getvrecircstate',['getVrecircState',['../classfluicell_1_1_p_p_c1api.html#ad3539732449197b02df2a37d4cef8be8',1,'fluicell::PPC1api']]],
+  ['getvswitchreading',['getVswitchReading',['../classfluicell_1_1_p_p_c1api.html#aac2b76ad3cfcb11fd58031719299497c',1,'fluicell::PPC1api']]],
+  ['getvswitchsetpoint',['getVswitchSetPoint',['../classfluicell_1_1_p_p_c1api.html#abca6801c19fb8db4385c5aa289335918',1,'fluicell::PPC1api']]],
+  ['getvswitchstate',['getVswitchState',['../classfluicell_1_1_p_p_c1api.html#ab231297e611d4b1c6c2d2f04d1b751b0',1,'fluicell::PPC1api']]]
 ];

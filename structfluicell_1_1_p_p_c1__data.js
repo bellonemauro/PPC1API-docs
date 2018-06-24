@@ -14,5 +14,8 @@ var structfluicell_1_1_p_p_c1__data =
     [ "k", "structfluicell_1_1_p_p_c1__data.html#aa53fd3500824c5eb1620a205b6dad033", null ],
     [ "l", "structfluicell_1_1_p_p_c1__data.html#a399adf703c426fa47b62e31d74d0166b", null ],
     [ "ppc1_IN", "structfluicell_1_1_p_p_c1__data.html#a21ef6caeea978acfd2396b4fd6bc8ce7", null ],
-    [ "ppc1_OUT", "structfluicell_1_1_p_p_c1__data.html#a95272e79220486b5a5139f6b24a19e87", null ]
+    [ "ppc1_OUT", "structfluicell_1_1_p_p_c1__data.html#a95272e79220486b5a5139f6b24a19e87", null ],
+    [ "trigger_fall", "structfluicell_1_1_p_p_c1__data.html#a9d91585f5583829156361b6a42ecd29a", null ],
+    [ "trigger_rise", "structfluicell_1_1_p_p_c1__data.html#a2e39a1156a7e19ba643a755f31b28850", null ],
+    [ "TTL_out_trigger", "structfluicell_1_1_p_p_c1__data.html#ab452fc92ceb516db0cc403cdaa454d0e", null ]
 ];

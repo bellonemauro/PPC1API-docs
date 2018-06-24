@@ -30,7 +30,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"structfluicell_1_1serial_device_info.html#ad7a105a7a4a227324f9ea4de7fea87b8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

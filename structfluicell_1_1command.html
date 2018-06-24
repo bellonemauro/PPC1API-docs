@@ -33,10 +33,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="fluicell_logo_small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="fluicell_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Fluicell PPC1 API
-   &#160;<span id="projectnumber">V0.1.0</span>
+   &#160;<span id="projectnumber">V1.0</span>
    </div>
    <div id="projectbrief">Lab-on-a-tip</div>
   </td>
@@ -136,9 +136,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9998bf757decf312a1bd0999967db184"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1command.html#a9998bf757decf312a1bd0999967db184">isStatusVisualized</a> ()</td></tr>
 <tr class="memdesc:a9998bf757decf312a1bd0999967db184"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the status is set to be visualized.  <a href="#a9998bf757decf312a1bd0999967db184">More...</a><br /></td></tr>
 <tr class="separator:a9998bf757decf312a1bd0999967db184"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a804738c5d40b264abeaa7c66296b9929"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1command.html#a804738c5d40b264abeaa7c66296b9929">setVisualizeStatus</a> (bool _visualize_status)</td></tr>
-<tr class="memdesc:a804738c5d40b264abeaa7c66296b9929"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the status is set to be visualized.  <a href="#a804738c5d40b264abeaa7c66296b9929">More...</a><br /></td></tr>
-<tr class="separator:a804738c5d40b264abeaa7c66296b9929"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade9d2d8ff24f9ef9c4bc8e81f68208d1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1command.html#ade9d2d8ff24f9ef9c4bc8e81f68208d1">getStatusMessage</a> ()</td></tr>
 <tr class="memdesc:ade9d2d8ff24f9ef9c4bc8e81f68208d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status message.  <a href="#ade9d2d8ff24f9ef9c4bc8e81f68208d1">More...</a><br /></td></tr>
 <tr class="separator:ade9d2d8ff24f9ef9c4bc8e81f68208d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,9 +151,6 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac26b11d09110f4a6946f36224080f074"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1command.html#ac26b11d09110f4a6946f36224080f074">value</a></td></tr>
 <tr class="memdesc:ac26b11d09110f4a6946f36224080f074"><td class="mdescLeft">&#160;</td><td class="mdescRight">corresponding value to be applied to the command  <a href="#ac26b11d09110f4a6946f36224080f074">More...</a><br /></td></tr>
 <tr class="separator:ac26b11d09110f4a6946f36224080f074"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a847f433d7856e658936f2f437465dc5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1command.html#a847f433d7856e658936f2f437465dc5a">visualize_status</a></td></tr>
-<tr class="memdesc:a847f433d7856e658936f2f437465dc5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if active the status message will be visualized  <a href="#a847f433d7856e658936f2f437465dc5a">More...</a><br /></td></tr>
-<tr class="separator:a847f433d7856e658936f2f437465dc5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab99d742cd10b895f5459b7fc9eff07f7"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1command.html#ab99d742cd10b895f5459b7fc9eff07f7">status_message</a></td></tr>
 <tr class="memdesc:ab99d742cd10b895f5459b7fc9eff07f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">message to show as status during the command running  <a href="#ab99d742cd10b895f5459b7fc9eff07f7">More...</a><br /></td></tr>
 <tr class="separator:ab99d742cd10b895f5459b7fc9eff07f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -489,34 +483,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a804738c5d40b264abeaa7c66296b9929"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a804738c5d40b264abeaa7c66296b9929">&#9670;&nbsp;</a></span>setVisualizeStatus()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void fluicell::command::setVisualizeStatus </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>_visualize_status</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>True if the status is set to be visualized. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="ab92905ca66b17f9208d8838806224fd3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab92905ca66b17f9208d8838806224fd3">&#9670;&nbsp;</a></span>instruction</h2>
@@ -590,30 +556,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a847f433d7856e658936f2f437465dc5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a847f433d7856e658936f2f437465dc5a">&#9670;&nbsp;</a></span>visualize_status</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool fluicell::command::visualize_status</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>if active the status message will be visualized </p>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>C:/code/Fluicell/Git/Labonatip/libs/ppc1api/include/fluicell/ppc1api/<a class="el" href="ppc1api__data__structures_8h_source.html">ppc1api_data_structures.h</a></li>
 </ul>
@@ -623,7 +565,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacefluicell.html">fluicell</a></li><li class="navelem"><a class="el" href="structfluicell_1_1command.html">command</a></li>
-    <li class="footer">Generated on Tue May 1 2018 16:05:50 for Fluicell PPC1 API by
+    <li class="footer">Generated on Sun Jun 24 2018 11:05:18 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

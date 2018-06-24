@@ -18,5 +18,6 @@ var searchData=
   ['m_5freading_5fvec',['m_reading_vec',['../structfluicell_1_1_p_p_c1__data_1_1channel.html#aaedd29165b05d21406b5a721ba9ddfee',1,'fluicell::PPC1_data::channel']]],
   ['m_5fthread',['m_thread',['../classfluicell_1_1_p_p_c1api.html#a3f4ae90f4f5795ac38c9dcb34d4fd62f',1,'fluicell::PPC1api']]],
   ['m_5fthreadterminationhandler',['m_threadTerminationHandler',['../classfluicell_1_1_p_p_c1api.html#a0aad3357fc03b0de72a6a91e0c5ee34c',1,'fluicell::PPC1api']]],
-  ['m_5fverbose',['m_verbose',['../classfluicell_1_1_p_p_c1api.html#afacec00e78083943eb0e0d71f6840b0d',1,'fluicell::PPC1api']]]
+  ['m_5fverbose',['m_verbose',['../classfluicell_1_1_p_p_c1api.html#afacec00e78083943eb0e0d71f6840b0d',1,'fluicell::PPC1api']]],
+  ['m_5fwait_5fsync_5ftimeout',['m_wait_sync_timeout',['../classfluicell_1_1_p_p_c1api.html#a3f10f14e082e9462cb821ca23e9248e6',1,'fluicell::PPC1api']]]
 ];
