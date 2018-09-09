@@ -34,10 +34,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="fluicell_logo_small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="fluicell_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Fluicell PPC1 API
-   &#160;<span id="projectnumber">V0.1.0</span>
+   &#160;<span id="projectnumber">V1.0</span>
    </div>
    <div id="projectbrief">Lab-on-a-tip</div>
   </td>
@@ -99,10 +99,10 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a href="http://fluicell.com/"></a></p>
-<h1>LAB-ON-A-TIP 2.0</h1>
-<p><b>IMPORTANT</b>: This software is still under development !!! There is no release yet, bugs may be everywhere !!!</p>
-<p>The Lab-on-a-tip is a software that enables facile configuration and use of the <a href="http://fluicell.com/">Fluicell</a> <a href="http://fluicell.com/thebiopensystem/">BioPen</a> system. The cross-platform BioPen software allows independent control of each pressure line and solution delivery.</p>
-<p>Lab-on-a-tip is released under the terms of the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPL</a> license.</p>
+<h1>Biopen wizard - Version 2.1</h1>
+<p><b>IMPORTANT</b>: This software is still under development !!!</p>
+<p>The Biopen wizard is a software that enables facile configuration and use of the <a href="http://fluicell.com/">Fluicell</a> <a href="http://fluicell.com/thebiopensystem/">BioPen</a> system. The cross-platform BioPen software allows independent control of each pressure line and solution delivery.</p>
+<p>Biopen wizard V.2.1 is released under the terms of the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPL</a> license.</p>
 <p>API documentation available <a href="https://bellonemauro.github.io/PPC1API-docs.io/">here</a></p>
 <h1>Dependences</h1>
 <p>The external dependences for this applications are:</p><ul>
@@ -122,8 +122,25 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p>To build the package in windows the variable WINDDEPLOYQT_EXECUTABLE need to point to "your_qt_folder/bin/windeployqt.exe "</p>
 <h3>Linux</h3>
 <p>CMake &ndash;&gt; configure &ndash;&gt; generate</p>
+<h3>List of cmake options</h3>
+<ul>
+<li>ENABLE_verbose &ndash; default off</li>
+<li>VLD_MemoryCheck &ndash; default off</li>
+<li>ENABLE_SOLUTION_FOLDERS &ndash; default on</li>
+<li>ENABLE_setLocalDebugEnvironment &ndash; default off</li>
+<li>ENABLE_BUILD_3rdParty &ndash; default on</li>
+<li>ENABLE_BUILD_libs &ndash; default on</li>
+<li>ENABLE_BUILD_plugins &ndash; default off (no plugins yet)</li>
+<li>ENABLE_BUILD_apps - default off</li>
+<li>ENABLE_BUILD_install &ndash; default on</li>
+<li>ENABLE_BUILD_package &ndash; default on</li>
+<li>ENABLE_WINDEPLOYQT &ndash; default off</li>
+</ul>
+<p>For each application in the folder, an option is also automatically added to allows the user to select which application to build.</p>
+<h3>Doxygen documentation</h3>
+<p>To generate the doxygen documentation of the ppc1api go you need to have <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a> installed, then go the the /docs/Doxyfile_labonatip.in and run.</p>
 <h1>Contribute to the code:</h1>
-<p>New developers can contribute to the code by compiling in Windows or linux. QT GUI must be modified using QT creator/designer</p>
+<p>New developers can contribute to the code by compiling in Windows or Linux. QT GUI must be modified using QT creator/designer</p>
 <h2>Known issues</h2>
 <p>The uninstaller does not completely remove the start-menu folder sometimes, if it happens, remove manually from C: Menu-on-a-tip______ </p><hr/>
 <p> <sup> Software released under GNU GPL License. <br />
@@ -134,7 +151,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed May 2 2018 00:07:15 for Fluicell PPC1 API by
+    <li class="footer">Generated on Sun Sep 9 2018 16:40:45 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

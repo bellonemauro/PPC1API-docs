@@ -32,9 +32,9 @@ var searchData=
   ['setvalve_5fl',['setValve_l',['../classfluicell_1_1_p_p_c1api.html#a5c3a108dec63356abc3393483e220e93',1,'fluicell::PPC1api']]],
   ['setvalvesstate',['setValvesState',['../classfluicell_1_1_p_p_c1api.html#a337507aee80aa2c2c3f26b3e2e75706a',1,'fluicell::PPC1api']]],
   ['setverbose',['setVerbose',['../classfluicell_1_1_p_p_c1api.html#ac6c05918369d3f3ebb18484a085dcdaf',1,'fluicell::PPC1api']]],
-  ['setvisualizestatus',['setVisualizeStatus',['../structfluicell_1_1command.html#a804738c5d40b264abeaa7c66296b9929',1,'fluicell::command']]],
   ['setvrecirc',['setVrecirc',['../ppc1api__data__structures_8h.html#ac8f1e87bd9be0d488f61aca84afbdb6c',1,'ppc1api_data_structures.h']]],
   ['setvswitch',['setVswitch',['../ppc1api__data__structures_8h.html#ab6e0d7d9ed348d27c0676607eeaf9781',1,'ppc1api_data_structures.h']]],
+  ['setwaitsynctimeout',['setWaitSyncTimeout',['../classfluicell_1_1_p_p_c1api.html#aed68900bf1d0b1c3503a17135da6600e',1,'fluicell::PPC1api']]],
   ['solution1',['solution1',['../ppc1api__data__structures_8h.html#a1330058bbf03363fb292af79702c33d9',1,'ppc1api_data_structures.h']]],
   ['solution2',['solution2',['../ppc1api__data__structures_8h.html#ab332b82ad11a6b3f1e8611d854b8e57e',1,'ppc1api_data_structures.h']]],
   ['solution3',['solution3',['../ppc1api__data__structures_8h.html#a96a8840cff9a33fda05226a9ff7a3125',1,'ppc1api_data_structures.h']]],
@@ -44,5 +44,6 @@ var searchData=
   ['state',['state',['../structfluicell_1_1_p_p_c1__data_1_1channel.html#ade7600fb05ddefa8c13447d4457852e9',1,'fluicell::PPC1_data::channel']]],
   ['status_5fmessage',['status_message',['../structfluicell_1_1command.html#ab99d742cd10b895f5459b7fc9eff07f7',1,'fluicell::command']]],
   ['stop',['stop',['../classfluicell_1_1_p_p_c1api.html#ab178b25bd6e054035937fe7c5ae292bb',1,'fluicell::PPC1api']]],
-  ['syncout',['syncOut',['../ppc1api__data__structures_8h.html#a66367c2e3044687493c5461173409ec2',1,'ppc1api_data_structures.h']]]
+  ['syncout',['syncOut',['../ppc1api__data__structures_8h.html#a66367c2e3044687493c5461173409ec2',1,'ppc1api_data_structures.h']]],
+  ['syncsignalarrived',['syncSignalArrived',['../classfluicell_1_1_p_p_c1api.html#a7763857cdc8c3600151dbbb8065afea6',1,'fluicell::PPC1api']]]
 ];

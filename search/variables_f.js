@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['wait',['wait',['../ppc1api__data__structures_8h.html#aec035d60ec8593d0a233af1c0456e57c',1,'ppc1api_data_structures.h']]],
-  ['waitsync',['waitSync',['../ppc1api__data__structures_8h.html#a4eb9c2b546c4270d140ec38a52fa85fb',1,'ppc1api_data_structures.h']]]
+  ['vacuum',['vacuum',['../ppc1api__data__structures_8h.html#af9a3e7cf186ad22ab454aa4a060380f9',1,'ppc1api_data_structures.h']]],
+  ['value',['value',['../structfluicell_1_1command.html#ac26b11d09110f4a6946f36224080f074',1,'fluicell::command']]],
+  ['vid',['VID',['../structfluicell_1_1serial_device_info.html#a8e1f411ec74a3fb93fe3e93a2ad70f95',1,'fluicell::serialDeviceInfo']]]
 ];

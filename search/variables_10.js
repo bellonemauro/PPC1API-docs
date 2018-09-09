@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['zonesize',['zoneSize',['../ppc1api__data__structures_8h.html#ad0391dc6538a382f4ce867da20d70c27',1,'ppc1api_data_structures.h']]]
+  ['wait',['wait',['../ppc1api__data__structures_8h.html#aec035d60ec8593d0a233af1c0456e57c',1,'ppc1api_data_structures.h']]],
+  ['waitsync',['waitSync',['../ppc1api__data__structures_8h.html#a4eb9c2b546c4270d140ec38a52fa85fb',1,'ppc1api_data_structures.h']]]
 ];

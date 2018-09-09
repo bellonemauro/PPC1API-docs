@@ -11,7 +11,11 @@ var searchData=
   ['checkvalidity',['checkValidity',['../structfluicell_1_1command.html#ae4fb5e88313c374b5acb4e7bd21e5e7e',1,'fluicell::command']]],
   ['checkvidpid',['checkVIDPID',['../classfluicell_1_1_p_p_c1api.html#a85e6c71aaa179056d8b76a99cfa88cdd',1,'fluicell::PPC1api']]],
   ['closeallvalves',['closeAllValves',['../classfluicell_1_1_p_p_c1api.html#a87df84bee1237c65a9d9f8676ecd143b',1,'fluicell::PPC1api']]],
+  ['code_5fof_5fconduct_2emd',['CODE_OF_CONDUCT.md',['../_c_o_d_e___o_f___c_o_n_d_u_c_t_8md.html',1,'']]],
   ['command',['command',['../structfluicell_1_1command.html',1,'fluicell::command'],['../structfluicell_1_1command.html#ab486582775eebe832cb582499c6f9efc',1,'fluicell::command::command()']]],
   ['connectcom',['connectCOM',['../classfluicell_1_1_p_p_c1api.html#a58db5e644780e093d9c910dc4baec0bb',1,'fluicell::PPC1api::connectCOM()'],['../classfluicell_1_1_p_p_c1api.html#a5c15184ecd696be6ce9b5c64df3cbfc8',1,'fluicell::PPC1api::connectCOM(string _COMport)'],['../classfluicell_1_1_p_p_c1api.html#a5e752ea70d87a7ed946229abef82f141',1,'fluicell::PPC1api::connectCOM(string _COMport, int _baudRate)']]],
-  ['currentdatetime',['currentDateTime',['../classfluicell_1_1_p_p_c1api.html#a3dd5f760c9071d6299be5ce12d74835c',1,'fluicell::PPC1api']]]
+  ['contributing_2emd',['CONTRIBUTING.md',['../_c_o_n_t_r_i_b_u_t_i_n_g_8md.html',1,'']]],
+  ['currentdatetime',['currentDateTime',['../classfluicell_1_1_p_p_c1api.html#a3dd5f760c9071d6299be5ce12d74835c',1,'fluicell::PPC1api']]],
+  ['contributor_20covenant_20code_20of_20conduct',['Contributor Covenant Code of Conduct',['../md__d_1_code__fluicell__git__labonatip2_80__c_o_d_e__o_f__c_o_n_d_u_c_t.html',1,'']]],
+  ['contributing',['Contributing',['../md__d_1_code__fluicell__git__labonatip2_80__c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]]
 ];

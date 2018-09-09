@@ -34,10 +34,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="fluicell_logo_small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="fluicell_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Fluicell PPC1 API
-   &#160;<span id="projectnumber">V0.1.0</span>
+   &#160;<span id="projectnumber">V1.0</span>
    </div>
    <div id="projectbrief">Lab-on-a-tip</div>
   </td>
@@ -171,6 +171,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a95272e79220486b5a5139f6b24a19e87"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data.html#a95272e79220486b5a5139f6b24a19e87">ppc1_OUT</a></td></tr>
 <tr class="memdesc:a95272e79220486b5a5139f6b24a19e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">OUTy where x and y are either 0 or 1 and show the output state.  <a href="#a95272e79220486b5a5139f6b24a19e87">More...</a><br /></td></tr>
 <tr class="separator:a95272e79220486b5a5139f6b24a19e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d91585f5583829156361b6a42ecd29a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data.html#a9d91585f5583829156361b6a42ecd29a">trigger_fall</a></td></tr>
+<tr class="memdesc:a9d91585f5583829156361b6a42ecd29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is false always, it becomes true when the trigger (fall) is detected  <a href="#a9d91585f5583829156361b6a42ecd29a">More...</a><br /></td></tr>
+<tr class="separator:a9d91585f5583829156361b6a42ecd29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e39a1156a7e19ba643a755f31b28850"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data.html#a2e39a1156a7e19ba643a755f31b28850">trigger_rise</a></td></tr>
+<tr class="memdesc:a2e39a1156a7e19ba643a755f31b28850"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is false always, it becomes true when the trigger (rise) is detected  <a href="#a2e39a1156a7e19ba643a755f31b28850">More...</a><br /></td></tr>
+<tr class="separator:a2e39a1156a7e19ba643a755f31b28850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab452fc92ceb516db0cc403cdaa454d0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data.html#ab452fc92ceb516db0cc403cdaa454d0e">TTL_out_trigger</a></td></tr>
+<tr class="memdesc:ab452fc92ceb516db0cc403cdaa454d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">true = high, false = low  <a href="#ab452fc92ceb516db0cc403cdaa454d0e">More...</a><br /></td></tr>
+<tr class="separator:ab452fc92ceb516db0cc403cdaa454d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01d157a9fc86e5677a166cc9523be641"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfluicell_1_1_p_p_c1__data.html#a01d157a9fc86e5677a166cc9523be641">data_corrupted</a></td></tr>
+<tr class="memdesc:a01d157a9fc86e5677a166cc9523be641"><td class="mdescLeft">&#160;</td><td class="mdescRight">true in case of corrupted data, false otherwise  <a href="#a01d157a9fc86e5677a166cc9523be641">More...</a><br /></td></tr>
+<tr class="separator:a01d157a9fc86e5677a166cc9523be641"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>PCC1 Output data stream specification. </p>
@@ -387,6 +399,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a01d157a9fc86e5677a166cc9523be641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01d157a9fc86e5677a166cc9523be641">&#9670;&nbsp;</a></span>data_corrupted</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool fluicell::PPC1_data::data_corrupted</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>true in case of corrupted data, false otherwise </p>
+
+</div>
+</div>
 <a id="a29643c644e153b13fcf4c76655a68c4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29643c644e153b13fcf4c76655a68c4c">&#9670;&nbsp;</a></span>i</h2>
 
@@ -483,6 +511,54 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9d91585f5583829156361b6a42ecd29a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d91585f5583829156361b6a42ecd29a">&#9670;&nbsp;</a></span>trigger_fall</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool fluicell::PPC1_data::trigger_fall</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this is false always, it becomes true when the trigger (fall) is detected </p>
+
+</div>
+</div>
+<a id="a2e39a1156a7e19ba643a755f31b28850"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e39a1156a7e19ba643a755f31b28850">&#9670;&nbsp;</a></span>trigger_rise</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool fluicell::PPC1_data::trigger_rise</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this is false always, it becomes true when the trigger (rise) is detected </p>
+
+</div>
+</div>
+<a id="ab452fc92ceb516db0cc403cdaa454d0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab452fc92ceb516db0cc403cdaa454d0e">&#9670;&nbsp;</a></span>TTL_out_trigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool fluicell::PPC1_data::TTL_out_trigger</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>true = high, false = low </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>D:/code/Fluicell/Git/Labonatip2.0/libs/ppc1api/include/fluicell/ppc1api/<a class="el" href="ppc1api__data__structures_8h_source.html">ppc1api_data_structures.h</a></li>
 </ul>
@@ -492,7 +568,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacefluicell.html">fluicell</a></li><li class="navelem"><a class="el" href="structfluicell_1_1_p_p_c1__data.html">PPC1_data</a></li>
-    <li class="footer">Generated on Wed May 2 2018 00:07:14 for Fluicell PPC1 API by
+    <li class="footer">Generated on Sun Sep 9 2018 16:40:45 for Fluicell PPC1 API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

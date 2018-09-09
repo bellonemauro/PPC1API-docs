@@ -24,6 +24,8 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Fluicell PPC1 API", "index.html", [
+    [ "Contributor Covenant Code of Conduct", "md__d_1_code__fluicell__git__labonatip2_80__c_o_d_e__o_f__c_o_n_d_u_c_t.html", null ],
+    [ "Contributing", "md__d_1_code__fluicell__git__labonatip2_80__c_o_n_t_r_i_b_u_t_i_n_g.html", null ],
     [ "LAB-ON-A-TIP 2.0   ---  PPC1 API documentation", "md__r_e_a_d_m_e.html", null ],
     [ "PCC1 API", "md__d_1_code__fluicell__git__labonatip2_80_libs_ppc1api__r_e_a_d_m_e.html", null ],
     [ "README", "md__d_1_code__fluicell__git__labonatip2_80_libs__r_e_a_d_m_e.html", null ],
@@ -53,7 +55,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"structfluicell_1_1command.html#ad8424a2bcbde2a04843798febff25433"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

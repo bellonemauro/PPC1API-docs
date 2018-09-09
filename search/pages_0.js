@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['lab_2don_2da_2dtip_202_2e0_20_20_20_2d_2d_2d_20_20ppc1_20api_20documentation',['LAB-ON-A-TIP 2.0   ---  PPC1 API documentation',['../md__r_e_a_d_m_e.html',1,'']]]
+  ['contributor_20covenant_20code_20of_20conduct',['Contributor Covenant Code of Conduct',['../md__d_1_code__fluicell__git__labonatip2_80__c_o_d_e__o_f__c_o_n_d_u_c_t.html',1,'']]],
+  ['contributing',['Contributing',['../md__d_1_code__fluicell__git__labonatip2_80__c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]]
 ];
