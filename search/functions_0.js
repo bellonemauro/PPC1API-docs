@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['changedropletsizeby',['changeDropletSizeBy',['../classfluicell_1_1_p_p_c1api.html#a91434eafa9f02d0716e3cb7bb496b74c',1,'fluicell::PPC1api']]],
-  ['changeflowspeedby',['changeFlowspeedBy',['../classfluicell_1_1_p_p_c1api.html#a5638b3e5c6ae187c2dbb1b2b281e8dfd',1,'fluicell::PPC1api']]],
-  ['changevacuumpercentageby',['changeVacuumPercentageBy',['../classfluicell_1_1_p_p_c1api.html#a0df9da70b194656dd14d77645e286eb4',1,'fluicell::PPC1api']]],
+  ['changeflowspeedpercby',['changeFlowSpeedPercBy',['../classfluicell_1_1_p_p_c1api.html#a6a18d30b16d655443a3d2ab3b8c8ae59',1,'fluicell::PPC1api']]],
+  ['changevacuumpercby',['changeVacuumPercBy',['../classfluicell_1_1_p_p_c1api.html#a800dcea164c16700ed5da2dba1387f23',1,'fluicell::PPC1api']]],
+  ['changezonesizepercby',['changeZoneSizePercBy',['../classfluicell_1_1_p_p_c1api.html#ae8489cd2d2b239081c893a42ace72f7a',1,'fluicell::PPC1api']]],
   ['channel',['channel',['../structfluicell_1_1_p_p_c1__data_1_1channel.html#a92fd87d690fd20d13fd161da09194ea5',1,'fluicell::PPC1_data::channel']]],
   ['checkvalidity',['checkValidity',['../structfluicell_1_1command.html#ae4fb5e88313c374b5acb4e7bd21e5e7e',1,'fluicell::command']]],
   ['checkvidpid',['checkVIDPID',['../classfluicell_1_1_p_p_c1api.html#a85e6c71aaa179056d8b76a99cfa88cdd',1,'fluicell::PPC1api']]],

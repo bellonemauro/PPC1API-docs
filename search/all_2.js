@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['changedropletsizeby',['changeDropletSizeBy',['../classfluicell_1_1_p_p_c1api.html#a91434eafa9f02d0716e3cb7bb496b74c',1,'fluicell::PPC1api']]],
-  ['changeflowspeedby',['changeFlowspeedBy',['../classfluicell_1_1_p_p_c1api.html#a5638b3e5c6ae187c2dbb1b2b281e8dfd',1,'fluicell::PPC1api']]],
-  ['changevacuumpercentageby',['changeVacuumPercentageBy',['../classfluicell_1_1_p_p_c1api.html#a0df9da70b194656dd14d77645e286eb4',1,'fluicell::PPC1api']]],
+  ['changeflowspeedby',['changeFlowSpeedBy',['../ppc1api__data__structures_8h.html#a899a065d8fa320fd5ccda2ac352c2c7d',1,'ppc1api_data_structures.h']]],
+  ['changeflowspeedpercby',['changeFlowSpeedPercBy',['../classfluicell_1_1_p_p_c1api.html#a6a18d30b16d655443a3d2ab3b8c8ae59',1,'fluicell::PPC1api']]],
+  ['changevacuumby',['changeVacuumBy',['../ppc1api__data__structures_8h.html#aba7292d5c315ba94c41968d6b347cbd9',1,'ppc1api_data_structures.h']]],
+  ['changevacuumpercby',['changeVacuumPercBy',['../classfluicell_1_1_p_p_c1api.html#a800dcea164c16700ed5da2dba1387f23',1,'fluicell::PPC1api']]],
+  ['changezonesizeby',['changeZoneSizeBy',['../ppc1api__data__structures_8h.html#aeae18d4125f55540de031a2fdf497c84',1,'ppc1api_data_structures.h']]],
+  ['changezonesizepercby',['changeZoneSizePercBy',['../classfluicell_1_1_p_p_c1api.html#ae8489cd2d2b239081c893a42ace72f7a',1,'fluicell::PPC1api']]],
   ['channel',['channel',['../structfluicell_1_1_p_p_c1__data_1_1channel.html',1,'fluicell::PPC1_data::channel'],['../structfluicell_1_1_p_p_c1__data_1_1channel.html#a92fd87d690fd20d13fd161da09194ea5',1,'fluicell::PPC1_data::channel::channel()']]],
   ['channel_5fa',['channel_A',['../structfluicell_1_1_p_p_c1__data.html#a4efc3530a07516cba0246b81a3bc4a4b',1,'fluicell::PPC1_data']]],
   ['channel_5fb',['channel_B',['../structfluicell_1_1_p_p_c1__data.html#a162f0f378273a9ebd19ab046276564a9',1,'fluicell::PPC1_data']]],

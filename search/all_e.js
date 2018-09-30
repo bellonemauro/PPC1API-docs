@@ -17,6 +17,7 @@ var searchData=
   ['ppc1api_5fdata_5fstructures_2eh',['ppc1api_data_structures.h',['../ppc1api__data__structures_8h.html',1,'']]],
   ['ppc1api_5fexport',['PPC1API_EXPORT',['../export_8h.html#a691d307dd3cf104704a0359721cdd820',1,'export.h']]],
   ['ppc1exception',['ppc1Exception',['../classfluicell_1_1ppc1_exception.html',1,'fluicell::ppc1Exception'],['../classfluicell_1_1ppc1_exception.html#ac4281fd79f463e8e0350697bea630a25',1,'fluicell::ppc1Exception::ppc1Exception(const char *description)'],['../classfluicell_1_1ppc1_exception.html#a521a3b0e8bf239d6f768b7e6ea13d42c',1,'fluicell::ppc1Exception::ppc1Exception(const ppc1Exception &amp;other)']]],
+  ['protocolduration',['protocolDuration',['../classfluicell_1_1_p_p_c1api.html#ad88159482709203a375bc5e30c6f2238',1,'fluicell::PPC1api']]],
   ['pumpingoff',['pumpingOff',['../classfluicell_1_1_p_p_c1api.html#a6ad966a6faafa30e4fb042ded8c32928',1,'fluicell::PPC1api']]],
   ['pumpsoff',['pumpsOff',['../ppc1api__data__structures_8h.html#a66dc63984787069afae502493d1cba05',1,'ppc1api_data_structures.h']]]
 ];
